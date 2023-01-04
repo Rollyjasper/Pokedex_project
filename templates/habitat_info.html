@@ -1,5 +1,14 @@
 <html>
   <body>
-    <h1>This is {{habitat}}</h1>
+    <h1>{{habitat}}</h1>
+    <p>Type: {{data['Type']}}</p>
+    {% for pokemon,info in data['Pokemon'].items() %}
+    <li>{{pokemon}}:</li>
+    <ul>
+      {% for attr,attr_data in info.items() %}
+      <li>{{attr}}: {{attr_data}}</li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
   </body>
 </html>

@@ -1,0 +1,27 @@
+{
+    "Route 1":{
+        "Type":"Route",
+        "Pokemon":{
+            "23":{
+                "Enviroment":["Grass","Dark Grass"],
+                "Season":["Spring","Summer","Autumn","Winter"],
+                "Rates":[50,39]
+            },
+            "11":{
+                "Enviroment":["Grass","Dark Grass"],
+                "Season":["Spring","Summer","Autumn","Winter"],
+                "Rates":[40,40]
+            },
+            "282":{
+                "Enviroment":["Grass","Dark Grass"],
+                "Season":["Spring","Summer","Autumn","Winter"],
+                "Rates":[10,10]
+            },
+            "118":{
+                "Enviroment":["Dark Grass"],
+                "Season":["Spring","Summer","Autumn","Winter"],
+                "Rates":[11]
+            }
+        }
+    }
+}

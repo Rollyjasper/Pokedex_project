@@ -14,11 +14,10 @@ Infomation on a habitat
 Contains:
 - habitat type (Route,town,city,other)
 - A list of pokemon catigorised by
-    - enviroment (grass, surf, fishing)
+    - enviroment (tall grass, dark grass, phenominon, surf, fishing)
     - season (spring,summer,etc.)
     with
     - rates (25%,5%,etc.)
-    - precice enviroment (tall grass, dark grass, phenominon)
 
 -- pokemon_list.html
 list of pokemon
