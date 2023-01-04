@@ -1,9 +1,7 @@
 <html>
   <body>
-    <ul>
-        {% for habitat in habitats %}
-        <li><a href="/habitats/{{habitat}}">{{habitat}}</a></li>
-        {% endfor %}
-    </ul>
+    {% for habitat in habitats %}
+    <li><a href="/habitats/{{habitat}}">{{habitat}}</a></li>
+    {% endfor %}
   </body>
 </html>

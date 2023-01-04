@@ -4,6 +4,8 @@ import json
 
 #Create flask object
 app = Flask('__name__')
+#load the data from json files
+#we do this here to prevent having to load the full json file on page loads
 with open('data/habitats.json','r') as file:
     habitat_data = json.load(file)
 with open('data/pokemon.json','r') as file:
@@ -22,12 +24,12 @@ def habitat_list():
 #route for displaying infomation on a habitat
 @app.route('/habitats/<string:habitat>')
 def habitat_info(habitat):
-    return render_template('habitat_info.html',habitat=habitat,data=habitat_data[habitat])
+    return render_template('habitat_info.html',habitat=habitat,data=habitat_data[habitat],pokemon_data=pokemon_data)
 
 #a route for showing a list of all pokemon
 @app.route('/pokemon/')
 def pokemon_list():
-    return render_template('pokemon_list.html')
+    return render_template('pokemon_list.html',pokemon_data=pokemon_data)
 
 #route for displaying infomation on a pokémon
 @app.route('/pokemon/<int:dex_num>')

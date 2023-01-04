@@ -1,6 +1,13 @@
 <html>
   <body>
-    <h1>#000 <a href="/pokemon/000">Victini</a></h1>
-    <h1>#001 <a href="/pokemon/001">Snivy</a></h1>
+    {% for pokemon in pokemon_data %}
+    {% if pokemon|int < 10  %}
+      <li><a href="/pokemon/{{pokemon}}">#00{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
+    {% elif pokemon|int < 100  %}
+      <li><a href="/pokemon/{{pokemon}}">#0{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
+    {% else %}
+      <li><a href="/pokemon/{{pokemon}}">#{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
+    {% endif %}
+    {% endfor %}
   </body>
 </html>
