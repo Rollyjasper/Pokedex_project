@@ -1,5 +1,16 @@
 <html>
   <body>
-    <h1>This is Pokemon #{{dex_num}}</h1>
+    {% if dex_num|int < 10  %}
+      <h1>#00{{dex_num}} - {{pokemon_data.Name}}:</h1>
+    {% elif dex_num|int < 100  %}
+      <h1>#0{{dex_num}} - {{pokemon_data.Name}}:</h1>
+    {% else %}
+      <h1>#{{dex_num}} - {{pokemon_data.Name}}:</h1>
+    {% endif %}
+    <ul>
+      {% for key,value in pokemon_data.items() %}
+      <li>{{key}}: {{value}}</li>
+      {% endfor %}
+    </ul>
   </body>
 </html>

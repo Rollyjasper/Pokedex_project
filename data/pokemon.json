@@ -1,6 +1,104 @@
 {
     "11":{
-        "Name":"Watchog"
+        "Name":"Watchog",
+        "Type":["Normal"],
+        "Ability":["Illuminate","Keen Eye","Analytic"],
+        "Height":1.1,
+        "Weight":27.0,
+        "Colour":"Brown",
+        "Egg Group":["Field"],
+        "Desc":[
+            "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents."
+        ],
+        "Habitats":[
+            "Route 1",
+            "Route 2",
+            "Route 3",
+            "Route 7",
+            "Route 18",
+            "Dreamyard",
+            "P2 Laboratory"
+        ],
+        "Stats":{
+            "HP":60,
+            "Attack":85,
+            "Defence":69,
+            "Special Attack":60,
+            "Special Defence":69,
+            "Speed":77,
+            "Total":420
+        },
+        "Learnset":{
+            "Level Up":[
+                ["Tackle",1],
+                ["Leer",1],
+                ["Bite",1],
+                ["Low Kick",1],
+                ["Leer",3],
+                ["Bite",6],
+                ["Bide",8],
+                ["Detect",11],
+                ["Sand-Attack",13],
+                ["Crunch",16],
+                ["Hypnosis",18],
+                ["Confuse Ray",20],
+                ["Super Fang",22],
+                ["After You",25],
+                ["Psych Up",29],
+                ["Hyper Fang",32],
+                ["Mean Look",36],
+                ["Baton Pass",39],
+                ["Slam",43]
+            ],
+            "TM":[
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM15",
+                "TM16",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM24",
+                "TM25",
+                "TM27",
+                "TM28",
+                "TM30",
+                "TM32",
+                "TM35",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM52",
+                "TM56",
+                "TM67",
+                "TM68",
+                "TM70",
+                "TM73",
+                "TM75",
+                "TM77",
+                "TM83",
+                "TM85",
+                "TM86",
+                "TM87",
+                "TM90",
+                "TM94",
+                "HM01",
+                "HM04"
+            ],
+            "Egg":[
+                ["Revenge",[7,8,9,269,253]]
+            ],
+            "Tutor":[
+                "Covet"
+            ]
+        },
+        "Forms":null,
+        "Evolution":{
+            "From":"10",
+            "To":null
+        }
     },
     "13":{
         "Name":"Liepard"

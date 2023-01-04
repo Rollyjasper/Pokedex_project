@@ -2,19 +2,21 @@
   <body>
     <h1>{{habitat}}</h1>
     <p>Type: {{data.Type}}</p>
-    {% for pokemon,info in data.Pokemon.items() %}
-    {% if pokemon|int < 10  %}
-      <li>#00{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
-    {% elif pokemon|int < 100  %}
-      <li>#0{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
-    {% else %}
-      <li>#{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
-    {% endif %}
     <ul>
-      {% for attr,attr_data in info.items() %}
-      <li>{{attr}}: {{attr_data}}</li>
+      {% for pokemon,info in data.Pokemon.items() %}
+      {% if pokemon|int < 10  %}
+        <li>#00{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
+      {% elif pokemon|int < 100  %}
+        <li>#0{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
+      {% else %}
+        <li>#{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
+      {% endif %}
+      <ul>
+        {% for attr,attr_data in info.items() %}
+        <li>{{attr}}: {{attr_data}}</li>
+        {% endfor %}
+      </ul>
       {% endfor %}
     </ul>
-    {% endfor %}
   </body>
 </html>

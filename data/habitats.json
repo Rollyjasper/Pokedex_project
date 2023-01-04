@@ -4,22 +4,22 @@
         "Pokemon":{
             "23":{
                 "Enviroment":["Grass","Dark Grass"],
-                "Rates":[50,39],
+                "Rates":[[50],[39]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             },
             "11":{
                 "Enviroment":["Grass","Dark Grass"],
-                "Rates":[40,40],
+                "Rates":[[40],[40]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             },
             "282":{
                 "Enviroment":["Grass","Dark Grass"],
-                "Rates":[10,10],
+                "Rates":[[10],[10]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             },
             "118":{
                 "Enviroment":["Dark Grass"],
-                "Rates":[11],
+                "Rates":[[11]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             }
         }
@@ -29,27 +29,27 @@
         "Pokemon":{
             "23":{
                 "Enviroment":["Grass"],
-                "Rates":[30],
+                "Rates":[[30]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             },
             "11":{
                 "Enviroment":["Grass"],
-                "Rates":[30],
+                "Rates":[[30]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             },
             "282":{
                 "Enviroment":["Grass"],
-                "Rates":[10],
+                "Rates":[[10]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             },
             "13":{
                 "Enviroment":["Grass"],
-                "Rates":[20],
+                "Rates":[[20]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             },
             "284":{
                 "Enviroment":["Grass"],
-                "Rates":[10],
+                "Rates":[[10]],
                 "Season":["Spring","Summer","Autumn","Winter"]
             }
         }
