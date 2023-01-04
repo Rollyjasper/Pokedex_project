@@ -26,6 +26,7 @@ links to each pokemon infomation
 
 -- pokemon_info.html
 Infomation of a pokemon
+links to pokemon it evolves into/from
 Contains:
 - characteristics (type,height,weight,ability(s),etc.)
 - description (Black2,white2)
@@ -33,3 +34,4 @@ Contains:
 - learnset (level-up,TM,tutor,egg)
 - Stats
 - forms (do forms as tabs?)
+- evolutions
