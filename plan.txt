@@ -1,0 +1,35 @@
+A planning doc to work out app structure and page infomation
+
+-- home.html
+Home page
+Links to full list of habitats & full list of pokemon
+caroseles of habitats and pokemon (random shortlist?)
+
+-- habitat_list.html
+List of habitats
+Links to each habitats
+
+-- habitat_info.html
+Infomation on a habitat
+Contains:
+- habitat type (Route,town,city,other)
+- A list of pokemon catigorised by
+    - enviroment (grass, surf, fishing)
+    - season (spring,summer,etc.)
+    with
+    - rates (25%,5%,etc.)
+    - precice enviroment (tall grass, dark grass, phenominon)
+
+-- pokemon_list.html
+list of pokemon
+links to each pokemon infomation
+
+-- pokemon_info.html
+Infomation of a pokemon
+Contains:
+- characteristics (type,height,weight,ability(s),etc.)
+- description (Black2,white2)
+- habitat
+- learnset (level-up,TM,tutor,egg)
+- Stats
+- forms (do forms as tabs?)
