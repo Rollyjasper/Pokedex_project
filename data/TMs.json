@@ -1,5 +1,305 @@
 {
+    "TM01":{
+        "Move":"Hone Claws"
+    },
+    "TM02":{
+        "Move":"Dragon Claw"
+    },
+    "TM03":{
+        "Move":"Psyshock"
+    },
+    "TM04":{
+        "Move":"Calm Mind"
+    },
+    "TM05":{
+        "Move":"Roar"
+    },
     "TM06":{
         "Move":"Toxic"
+    },
+    "TM07":{
+        "Move":"Hail"
+    },
+    "TM08":{
+        "Move":"Bulk Up"
+    },
+    "TM09":{
+        "Move":"Venoshock"
+    },
+    "TM10":{
+        "Move":"Hidden Power"
+    },
+    "TM11":{
+        "Move":"Sunny Day"
+    },
+    "TM12":{
+        "Move":"Taunt"
+    },
+    "TM13":{
+        "Move":"Ice Beam"
+    },
+    "TM14":{
+        "Move":"Blizzard"
+    },
+    "TM15":{
+        "Move":"Hyper Beam"
+    },
+    "TM16":{
+        "Move":"Light Screen"
+    },
+    "TM17":{
+        "Move":"Protect"
+    },
+    "TM18":{
+        "Move":"Rain Dance"
+    },
+    "TM19":{
+        "Move":"Telekinesis"
+    },
+    "TM20":{
+        "Move":"Safeguard"
+    },
+    "TM21":{
+        "Move":"Frustration"
+    },
+    "TM22":{
+        "Move":"Solar Beam"
+    },
+    "TM23":{
+        "Move":"Smack Down"
+    },
+    "TM24":{
+        "Move":"Thunderbolt"
+    },
+    "TM25":{
+        "Move":"Thunder"
+    },
+    "TM26":{
+        "Move":"Earthquake"
+    },
+    "TM27":{
+        "Move":"Return"
+    },
+    "TM28":{
+        "Move":"Dig"
+    },
+    "TM29":{
+        "Move":"Psychic"
+    },
+    "TM30":{
+        "Move":"Shadow Ball"
+    },
+    "TM31":{
+        "Move":"Brick Break"
+    },
+    "TM32":{
+        "Move":"Double Team"
+    },
+    "TM33":{
+        "Move":"Reflect"
+    },
+    "TM34":{
+        "Move":"Sludge Wave"
+    },
+    "TM35":{
+        "Move":"Flamethrower"
+    },
+    "TM36":{
+        "Move":"Sludge Bomb"
+    },
+    "TM37":{
+        "Move":"Sandstorm"
+    },
+    "TM38":{
+        "Move":"Fire Blast"
+    },
+    "TM39":{
+        "Move":"Rock Tomb"
+    },
+    "TM40":{
+        "Move":"Aerial Ace"
+    },
+    "TM41":{
+        "Move":"Torment"
+    },
+    "TM42":{
+        "Move":"Facade"
+    },
+    "TM43":{
+        "Move":"Flame Charge"
+    },
+    "TM44":{
+        "Move":"Rest"
+    },
+    "TM45":{
+        "Move":"Attract"
+    },
+    "TM46":{
+        "Move":"Theif"
+    },
+    "TM47":{
+        "Move":"Low Sweep"
+    },
+    "TM48":{
+        "Move":"Round"
+    },
+    "TM49":{
+        "Move":"Echoed Voice"
+    },
+    "TM50":{
+        "Move":"Overheat"
+    },
+    "TM51":{
+        "Move":"Ally Switch"
+    },
+    "TM52":{
+        "Move":"Focus Blast"
+    },
+    "TM53":{
+        "Move":"Energy Ball"
+    },
+    "TM54":{
+        "Move":"False Swipe"
+    },
+    "TM55":{
+        "Move":"Scald"
+    },
+    "TM56":{
+        "Move":"Fling"
+    },
+    "TM57":{
+        "Move":"Charge Beam"
+    },
+    "TM58":{
+        "Move":"Sky Drop"
+    },
+    "TM59":{
+        "Move":"Incinerate"
+    },
+    "TM60":{
+        "Move":"Quash"
+    },
+    "TM61":{
+        "Move":"Will-O-Wisp"
+    },
+    "TM62":{
+        "Move":"Acrobatics"
+    },
+    "TM63":{
+        "Move":"Embargo"
+    },
+    "TM64":{
+        "Move":"Explosion"
+    },
+    "TM65":{
+        "Move":"Shadow Claw"
+    },
+    "TM66":{
+        "Move":"Payback"
+    },
+    "TM67":{
+        "Move":"Retaliate"
+    },
+    "TM68":{
+        "Move":"Giga Impact"
+    },
+    "TM69":{
+        "Move":"Rock Polish"
+    },
+    "TM70":{
+        "Move":"Flash"
+    },
+    "TM71":{
+        "Move":"Stone Edge"
+    },
+    "TM72":{
+        "Move":"Volt Switch"
+    },
+    "TM73":{
+        "Move":"Thunder Wave"
+    },
+    "TM74":{
+        "Move":"Gyro Ball"
+    },
+    "TM75":{
+        "Move":"Swords Dance"
+    },
+    "TM76":{
+        "Move":"Struggle Bug"
+    },
+    "TM77":{
+        "Move":"Psych Up"
+    },
+    "TM78":{
+        "Move":"Bulldoze"
+    },
+    "TM79":{
+        "Move":"Frost Breath"
+    },
+    "TM80":{
+        "Move":"Rock Slide"
+    },
+    "TM81":{
+        "Move":"X-Scissor"
+    },
+    "TM82":{
+        "Move":"Dragon Tail"
+    },
+    "TM83":{
+        "Move":"Work Up"
+    },
+    "TM84":{
+        "Move":"Poison Jab"
+    },
+    "TM85":{
+        "Move":"Dream Eater"
+    },
+    "TM86":{
+        "Move":"Grass Knot"
+    },
+    "TM87":{
+        "Move":"Swagger"
+    },
+    "TM88":{
+        "Move":"Pluck"
+    },
+    "TM89":{
+        "Move":"U-turn"
+    },
+    "TM90":{
+        "Move":"Substitute"
+    },
+    "TM91":{
+        "Move":"Flash Cannon"
+    },
+    "TM92":{
+        "Move":"Trick Room"
+    },
+    "TM93":{
+        "Move":"Wild Charge"
+    },
+    "TM94":{
+        "Move":"Rock Smash"
+    },
+    "TM95":{
+        "Move":"Snarl"
+    },
+    "HM01":{
+        "Move":"Cut"
+    },
+    "HM02":{
+        "Move":"Fly"
+    },
+    "HM03":{
+        "Move":"Surf"
+    },
+    "HM04":{
+        "Move":"Strength"
+    },
+    "HM05":{
+        "Move":"Waterfall"
+    },
+    "HM06":{
+        "Move":"Dive"
     }
 }

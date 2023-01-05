@@ -10,6 +10,12 @@ with open('data/habitats.json','r') as file:
     habitat_data = json.load(file)
 with open('data/pokemon.json','r') as file:
     pokemon_data = json.load(file)
+with open('data/moves.json','r') as file:
+    move_data = json.load(file)
+with open('data/TMs.json','r') as file:
+    tm_data = json.load(file)
+with open('data/Tutors.json','r') as file:
+    tutor_data = json.load(file)
 
 #route for the homepage
 @app.route('/')
@@ -50,5 +56,8 @@ def pokemon_info(dex_num):
     return render_template(
         'pokemon_info.html',
         dex_num=dex_num,
-        pokemon_data=pokemon_data[str(dex_num)]
+        pokemon_data=pokemon_data[str(dex_num)],
+        moves=move_data,
+        tm_links=tm_data,
+        tutor_moves=tutor_data
     )

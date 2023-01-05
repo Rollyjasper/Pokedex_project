@@ -9,9 +9,78 @@
       <h1>#{{dex_num}} - {{pokemon_data.Name}}:</h1>
     {% endif %}
     <ul>
-      {% for key,value in pokemon_data.items() %}
-      <li>{{key}}: {{value}}</li>
+      <li>Name: {{pokemon_data["Name"]}}</li>
+      {% if pokemon_data["Type"]|length == 2 %}
+        <li>Type: {{pokemon_data["Type"][0]}}/{{pokemon_data["Type"][1]}}</li>
+      {% else %}
+        <li>Type: {{pokemon_data["Type"][0]}}</li>
+      {% endif %}
+      {% if pokemon_data["Ability"][1] == None %}
+        <li>Ability: {{pokemon_data["Ability"][0]}}</li>
+      {% else %}
+        <li>Abilities: {{pokemon_data["Ability"][0]}}/{{pokemon_data["Ability"][1]}}</li>
+      {% endif %}
+      <li>Hidden Ability: {{pokemon_data["Ability"][2]}}</li>
+      <li>Height: {{pokemon_data["Height"]}}m</li>
+      <li>Weight: {{pokemon_data["Weight"]}}Kg</li>
+      <li>Colour: {{pokemon_data["Colour"]}}</li>
+      {% if pokemon_data["Egg Group"]|length == 2 %}
+        <li>Egg Groups: {{pokemon_data["Egg Group"][0]}}/{{pokemon_data["Egg Group"][1]}}</li>
+      {% else %}
+        <li>Egg Group: {{pokemon_data["Egg Group"][0]}}</li>
+      {% endif %}
+      <li>Pokedex Entry:</li>
+      <ul>
+        {% if pokemon_data["Desc"]|length == 2 %}
+          <li>Black 2 Entry: {{pokemon_data["Desc"][0]}}</li>
+          <li>White 2 Entry: {{pokemon_data["Desc"][1]}}</li>
+        {% else %}
+          <li>Black 2/White 2 Entry: {{pokemon_data["Desc"][0]}}</li>
+        {% endif %}
+      </ul>
+      {% for habitat in pokemon_data["Habitats"] %}
+        <li><a href="/habitats/{{habitat}}">{{habitat}}</a></li>
       {% endfor %}
+      <li>Base Stats:</li>
+      <ul>
+        {% for stat,value in pokemon_data["Stats"].items() %}
+        <li>{{stat}}: {{value}}</li>
+        {% endfor %}
+      </ul>
+      <li>Learnset:</li>
+      <ul>
+        <li>Level Up:</li>
+        <ul>
+          <li>Lv/Move</li>
+          {% for move in pokemon_data["Learnset"]["Level Up"] %}
+          <li>{{move[1]}}/{{move[0]}}</li>
+          {% endfor %}
+        </ul>
+        <li>TM:</li>
+        <ul>
+          {% for tm in pokemon_data["Learnset"]["TM"] %}
+          <li>{{tm}}: {{tm_links[tm].Move}}</li>
+          {% endfor %}
+        </ul>
+        <li>Egg Moves:</li>
+        <ul>
+          {% for egg in pokemon_data["Learnset"]["Egg"] %}
+          <li>{{egg[0]}}/{{egg[1]|join(',')}}</li>
+          {% endfor %}
+        </ul>
+        <li>Tutor Moves:</li>
+        <ul>
+          {% for move in pokemon_data["Learnset"]["Tutor"] %}
+          {% if tutor_moves[move]["Cost"] != None %}
+            <li>{{move}}:{{tutor_moves[move]["Cost"]|join(' ')}} Shards</li>
+          {% else %}
+            <li>{{move}}:{{tutor_moves[move]["Cost"]}}</li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </ul>
+      <li>Evolutions:</li>
+      {% if  %}
     </ul>
   </body>
 </html>
