@@ -80,7 +80,19 @@
         </ul>
       </ul>
       <li>Evolutions:</li>
-      {% if  %}
+      <ul>
+        {% if pokemon_data["Evolution"]["From"] != None %}
+        <li>Evolves from: {{pokemon_data["Evolution"]["From"]}}</li>
+        {% endif %}
+        {% if pokemon_data["Evolution"]["To"] != None %}
+        <li>Evolves to:</li>
+        <ul>
+          {% for evo in pokemon_data["Evolution"]["To"] %}
+          <li>{{evo}}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </ul>
     </ul>
   </body>
 </html>
