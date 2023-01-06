@@ -1,7 +1,10 @@
-<!DOCTYPE HTML>
-<html>
-  <body>
-    <h1><a href="/habitats">Habitats</a></h1>
-    <h1><a href="/pokemon">Pokémon</a></h1>
-  </body>
-</html>
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Pokédex App{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <h2><a href="/habitats">Habitats</a></h2>
+  <h2><a href="/pokemon">Pokémon</a></h2>
+{% endblock %}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %} -- Pokédex</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>{% block header %}{% endblock %}</header>
+            <nav>
+
+            </nav>
+            <div id="main">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </body>
+</html>

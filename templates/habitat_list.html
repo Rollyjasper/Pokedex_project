@@ -1,8 +1,13 @@
-<!DOCTYPE HTML>
-<html>
-  <body>
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Habitat List{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <ul>
     {% for habitat in habitats %}
     <li><a href="/habitats/{{habitat}}">{{habitat}}</a></li>
     {% endfor %}
-  </body>
-</html>
+  </ul>
+{% endblock %}

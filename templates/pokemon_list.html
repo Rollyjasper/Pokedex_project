@@ -1,14 +1,17 @@
-<!DOCTYPE HTML>
-<html>
-  <body>
-    {% for pokemon in pokemon_data %}
-    {% if pokemon|int < 10  %}
-      <li><a href="/pokemon/{{pokemon}}">#00{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
-    {% elif pokemon|int < 100  %}
-      <li><a href="/pokemon/{{pokemon}}">#0{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
-    {% else %}
-      <li><a href="/pokemon/{{pokemon}}">#{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
-    {% endif %}
-    {% endfor %}
-  </body>
-</html>
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Pokemon List{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  {% for pokemon in pokemon_data %}
+  {% if pokemon|int < 10  %}
+    <li><a href="/pokemon/{{pokemon}}">#00{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
+  {% elif pokemon|int < 100  %}
+    <li><a href="/pokemon/{{pokemon}}">#0{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
+  {% else %}
+    <li><a href="/pokemon/{{pokemon}}">#{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
+  {% endif %}
+  {% endfor %}
+{% endblock %}
