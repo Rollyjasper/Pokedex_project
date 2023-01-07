@@ -2,15 +2,24 @@
 <html>
     <head>
         <title>{% block title %}{% endblock %} -- Pokédex</title>
+		<meta charset="utf-8" />
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
     </head>
     <body>
-        <div id="wrapper">
-            <header>{% block header %}{% endblock %}</header>
-            <nav>
+        <nav>
 
-            </nav>
+        </nav>
+        <div id="site_banner" class="site_banner">
+            <h1>Pokédex</h1>
+        </div>
+        <div id="wrapper">
             <div id="main">
-                {% block content %}{% endblock %}
+                <div id="main_header">
+                    <header>{% block header %}{% endblock %}</header>
+                </div>
+                <div id="main_content">
+                    {% block content %}{% endblock %}
+                </div>
             </div>
         </div>
     </body>

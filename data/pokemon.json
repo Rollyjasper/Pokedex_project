@@ -1,16 +1,57 @@
 {
-    "11":{
-        "Name":"Watchog",
-        "Type":["Normal"],
-        "Ability":["Illuminate","Keen Eye","Analytic"],
-        "Height":1.1,
-        "Weight":27.0,
-        "Colour":"Brown",
-        "Egg Group":["Field"],
-        "Desc":[
+    "0": {
+        "Name": "Victini"
+    },
+    "1": {
+        "Name": "Snivy"
+    },
+    "2": {
+        "Name": "Servine"
+    },
+    "3": {
+        "Name": "Serperior"
+    },
+    "4": {
+        "Name": "Tepig"
+    },
+    "5": {
+        "Name": "Pignite"
+    },
+    "6": {
+        "Name": "Emboar"
+    },
+    "7": {
+        "Name": "Oshawott"
+    },
+    "8": {
+        "Name": "Dewott"
+    },
+    "9": {
+        "Name": "Samurott"
+    },
+    "10": {
+        "Name": "Patrat"
+    },
+    "11": {
+        "Name": "Watchog",
+        "Type": [
+            "Normal"
+        ],
+        "Ability": [
+            "Illuminate",
+            "Keen Eye",
+            "Analytic"
+        ],
+        "Height": 1.1,
+        "Weight": 27.0,
+        "Colour": "Brown",
+        "Egg Group": [
+            "Field"
+        ],
+        "Desc": [
             "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents."
         ],
-        "Habitats":[
+        "Habitats": [
             "Route 1",
             "Route 2",
             "Route 3",
@@ -19,38 +60,95 @@
             "Dreamyard",
             "P2 Laboratory"
         ],
-        "Stats":{
-            "HP":60,
-            "Attack":85,
-            "Defence":69,
-            "Special Attack":60,
-            "Special Defence":69,
-            "Speed":77,
-            "Total":420
+        "Stats": {
+            "HP": 60,
+            "Attack": 85,
+            "Defence": 69,
+            "Special Attack": 60,
+            "Special Defence": 69,
+            "Speed": 77,
+            "Total": 420
         },
-        "Learnset":{
-            "Level Up":[
-                ["Tackle",1],
-                ["Leer",1],
-                ["Bite",1],
-                ["Low Kick",1],
-                ["Leer",3],
-                ["Bite",6],
-                ["Bide",8],
-                ["Detect",11],
-                ["Sand-Attack",13],
-                ["Crunch",16],
-                ["Hypnosis",18],
-                ["Confuse Ray",20],
-                ["Super Fang",22],
-                ["After You",25],
-                ["Psych Up",29],
-                ["Hyper Fang",32],
-                ["Mean Look",36],
-                ["Baton Pass",39],
-                ["Slam",43]
+        "Learnset": {
+            "Level Up": [
+                [
+                    "Tackle",
+                    1
+                ],
+                [
+                    "Leer",
+                    1
+                ],
+                [
+                    "Bite",
+                    1
+                ],
+                [
+                    "Low Kick",
+                    1
+                ],
+                [
+                    "Leer",
+                    3
+                ],
+                [
+                    "Bite",
+                    6
+                ],
+                [
+                    "Bide",
+                    8
+                ],
+                [
+                    "Detect",
+                    11
+                ],
+                [
+                    "Sand-Attack",
+                    13
+                ],
+                [
+                    "Crunch",
+                    16
+                ],
+                [
+                    "Hypnosis",
+                    18
+                ],
+                [
+                    "Confuse Ray",
+                    20
+                ],
+                [
+                    "Super Fang",
+                    22
+                ],
+                [
+                    "After You",
+                    25
+                ],
+                [
+                    "Psych Up",
+                    29
+                ],
+                [
+                    "Hyper Fang",
+                    32
+                ],
+                [
+                    "Mean Look",
+                    36
+                ],
+                [
+                    "Baton Pass",
+                    39
+                ],
+                [
+                    "Slam",
+                    43
+                ]
             ],
-            "TM":[
+            "TM": [
                 "TM06",
                 "TM10",
                 "TM11",
@@ -87,219 +185,1135 @@
                 "HM01",
                 "HM04"
             ],
-            "Egg":[
-                ["Revenge",[7,8,9,269,253]]
+            "Egg": [
+                [
+                    "Revenge",
+                    [
+                        7,
+                        8,
+                        9,
+                        269,
+                        253
+                    ]
+                ]
             ],
-            "Tutor":[
+            "Tutor": [
                 "Covet"
             ]
         },
-        "Forms":null,
-        "Evolution":{
-            "From":"10",
-            "To":null
+        "Forms": null,
+        "Evolution": {
+            "From": "10",
+            "To": null
         }
     },
-    "13":{
-        "Name":"Liepard",
-        "Type":["Normal"],
-        "Ability":["Illuminate",null,"Analytic"],
-        "Height":1.1,
-        "Weight":27.0,
-        "Colour":"Brown",
-        "Egg Group":["Field"],
-        "Desc":[
+    "12": {
+        "Name": "Purrloin"
+    },
+    "13": {
+        "Name": "Liepard",
+        "Type": [
+            "Normal"
+        ],
+        "Ability": [
+            "Illuminate",
+            null,
+            "Analytic"
+        ],
+        "Height": 1.1,
+        "Weight": 27.0,
+        "Colour": "Brown",
+        "Egg Group": [
+            "Field"
+        ],
+        "Desc": [
             "Black desc",
             "White desc"
         ],
-        "Habitats":[
+        "Habitats": [
             "Route 1",
             "Route 2"
         ],
-        "Stats":{
-            "HP":60,
-            "Attack":85,
-            "Defence":69,
-            "Special Attack":60,
-            "Special Defence":69,
-            "Speed":77,
-            "Total":420
+        "Stats": {
+            "HP": 60,
+            "Attack": 85,
+            "Defence": 69,
+            "Special Attack": 60,
+            "Special Defence": 69,
+            "Speed": 77,
+            "Total": 420
         },
-        "Learnset":{
-            "Level Up":[
-                ["Tackle",1],
-                ["Leer",1]
+        "Learnset": {
+            "Level Up": [
+                [
+                    "Tackle",
+                    1
+                ],
+                [
+                    "Leer",
+                    1
+                ]
             ],
-            "TM":[
+            "TM": [
                 "TM06",
                 "TM10"
             ],
-            "Egg":[
-                ["Revenge",[7,8,9,269,253]]
+            "Egg": [
+                [
+                    "Revenge",
+                    [
+                        7,
+                        8,
+                        9,
+                        269,
+                        253
+                    ]
+                ]
             ],
-            "Tutor":[
+            "Tutor": [
                 "Covet"
             ]
         },
-        "Forms":null,
-        "Evolution":{
-            "From":"10",
-            "To":null
+        "Forms": null,
+        "Evolution": {
+            "From": "10",
+            "To": null
         }
     },
-    "23":{
-        "Name":"Herdier",
-        "Type":["Normal"],
-        "Ability":["Illuminate",null,"Analytic"],
-        "Height":1.1,
-        "Weight":27.0,
-        "Colour":"Brown",
-        "Egg Group":["Field"],
-        "Desc":[
+    "14": {
+        "Name": "Pidove"
+    },
+    "15": {
+        "Name": "Tranquill"
+    },
+    "16": {
+        "Name": "Unfezant"
+    },
+    "17": {
+        "Name": "Sawaddle"
+    },
+    "18": {
+        "Name": "Swadloon"
+    },
+    "19": {
+        "Name": "Leavanny"
+    },
+    "20": {
+        "Name": "Sunkern"
+    },
+    "21": {
+        "Name": "Sunflora"
+    },
+    "22": {
+        "Name": "Lilipup"
+    },
+    "23": {
+        "Name": "Herdier",
+        "Type": [
+            "Normal"
+        ],
+        "Ability": [
+            "Illuminate",
+            null,
+            "Analytic"
+        ],
+        "Height": 1.1,
+        "Weight": 27.0,
+        "Colour": "Brown",
+        "Egg Group": [
+            "Field"
+        ],
+        "Desc": [
             "Black desc",
             "White desc"
         ],
-        "Habitats":[
+        "Habitats": [
             "Route 1",
             "Route 2"
         ],
-        "Stats":{
-            "HP":60,
-            "Attack":85,
-            "Defence":69,
-            "Special Attack":60,
-            "Special Defence":69,
-            "Speed":77,
-            "Total":420
+        "Stats": {
+            "HP": 60,
+            "Attack": 85,
+            "Defence": 69,
+            "Special Attack": 60,
+            "Special Defence": 69,
+            "Speed": 77,
+            "Total": 420
         },
-        "Learnset":{
-            "Level Up":[
-                ["Tackle",1],
-                ["Leer",1]
+        "Learnset": {
+            "Level Up": [
+                [
+                    "Tackle",
+                    1
+                ],
+                [
+                    "Leer",
+                    1
+                ]
             ],
-            "TM":[
+            "TM": [
                 "TM06",
                 "TM10"
             ],
-            "Egg":[
-                ["Revenge",[7,8,9,269,253]]
+            "Egg": [
+                [
+                    "Revenge",
+                    [
+                        7,
+                        8,
+                        9,
+                        269,
+                        253
+                    ]
+                ]
             ],
-            "Tutor":[
+            "Tutor": [
                 "Covet"
             ]
         },
-        "Forms":null,
-        "Evolution":{
-            "From":"10",
-            "To":null
+        "Forms": null,
+        "Evolution": {
+            "From": "10",
+            "To": null
         }
     },
-    "118":{
-        "Name":"Scrafty",
-        "Type":["Dark","Fighting"],
-        "Ability":["Illuminate",null,"Analytic"],
-        "Height":1.1,
-        "Weight":27.0,
-        "Colour":"Brown",
-        "Egg Group":["Field"],
-        "Desc":[
+    "24": {
+        "Name": "Stoutland"
+    },
+    "25": {
+        "Name": "Mareep"
+    },
+    "26": {
+        "Name": "Flaaffy"
+    },
+    "27": {
+        "Name": "Ampharos"
+    },
+    "28": {
+        "Name": "Psyduck"
+    },
+    "29": {
+        "Name": "Golduck"
+    },
+    "30": {
+        "Name": "Azurill"
+    },
+    "31": {
+        "Name": "Marill"
+    },
+    "32": {
+        "Name": "Azumarill"
+    },
+    "33": {
+        "Name": "Riolu"
+    },
+    "34": {
+        "Name": "Lucario"
+    },
+    "35": {
+        "Name": "Dunsparce"
+    },
+    "36": {
+        "Name": "Audino"
+    },
+    "37": {
+        "Name": "Pansage"
+    },
+    "38": {
+        "Name": "Simisage"
+    },
+    "39": {
+        "Name": "Pansear"
+    },
+    "40": {
+        "Name": "Simisear"
+    },
+    "41": {
+        "Name": "Panpour"
+    },
+    "42": {
+        "Name": "Simipour"
+    },
+    "43": {
+        "Name": "Venipede"
+    },
+    "44": {
+        "Name": "Whirlipede"
+    },
+    "45": {
+        "Name": "Scolipede"
+    },
+    "46": {
+        "Name": "Koffing"
+    },
+    "47": {
+        "Name": "Weezing"
+    },
+    "48": {
+        "Name": "Magnemite"
+    },
+    "49": {
+        "Name": "Magneton"
+    },
+    "50": {
+        "Name": "Magnezone"
+    },
+    "51": {
+        "Name": "Growlithe"
+    },
+    "52": {
+        "Name": "Arcanine"
+    },
+    "53": {
+        "Name": "Magby"
+    },
+    "54": {
+        "Name": "Magmar"
+    },
+    "55": {
+        "Name": "Magmortar"
+    },
+    "56": {
+        "Name": "Elekid"
+    },
+    "57": {
+        "Name": "Electabuzz"
+    },
+    "58": {
+        "Name": "Electivire"
+    },
+    "59": {
+        "Name": "Rattata"
+    },
+    "60": {
+        "Name": "Raticate"
+    },
+    "61": {
+        "Name": "Zubat"
+    },
+    "62": {
+        "Name": "Golbat"
+    },
+    "63": {
+        "Name": "Crobat"
+    },
+    "64": {
+        "Name": "Grimer"
+    },
+    "65": {
+        "Name": "Muk"
+    },
+    "66": {
+        "Name": "Woobat"
+    },
+    "67": {
+        "Name": "Swoobat"
+    },
+    "68": {
+        "Name": "Roggenrola"
+    },
+    "69": {
+        "Name": "Boldore"
+    },
+    "70": {
+        "Name": "Gigalith"
+    },
+    "71": {
+        "Name": "Onix"
+    },
+    "72": {
+        "Name": "Steelix"
+    },
+    "73": {
+        "Name": "Timburr"
+    },
+    "74": {
+        "Name": "Gurdurr"
+    },
+    "75": {
+        "Name": "Conkeldurr"
+    },
+    "76": {
+        "Name": "Drilbur"
+    },
+    "77": {
+        "Name": "Excadrill"
+    },
+    "78": {
+        "Name": "Skitty"
+    },
+    "79": {
+        "Name": "Delcatty"
+    },
+    "80": {
+        "Name": "Buneary"
+    },
+    "81": {
+        "Name": "Lopunny"
+    },
+    "82": {
+        "Name": "Cottonee"
+    },
+    "83": {
+        "Name": "Whimsicott"
+    },
+    "84": {
+        "Name": "Petilil"
+    },
+    "85": {
+        "Name": "Liligant"
+    },
+    "86": {
+        "Name": "Munna"
+    },
+    "87": {
+        "Name": "Musharna"
+    },
+    "88": {
+        "Name": "Cleffa"
+    },
+    "89": {
+        "Name": "Clefairy"
+    },
+    "90": {
+        "Name": "Clefable"
+    },
+    "91": {
+        "Name": "Eevee"
+    },
+    "92": {
+        "Name": "Vaporeon"
+    },
+    "93": {
+        "Name": "Jolteon"
+    },
+    "94": {
+        "Name": "Flareon"
+    },
+    "95": {
+        "Name": "Espeon"
+    },
+    "96": {
+        "Name": "Umbreon"
+    },
+    "97": {
+        "Name": "Leafeon"
+    },
+    "98": {
+        "Name": "Glaceon"
+    },
+    "99": {
+        "Name": "Sandile"
+    },
+    "100": {
+        "Name": "Krokorok"
+    },
+    "101": {
+        "Name": "Krookodile"
+    },
+    "102": {
+        "Name": "Darumaka"
+    },
+    "103": {
+        "Name": "Darmanitan"
+    },
+    "104": {
+        "Name": "Basculin"
+    },
+    "105": {
+        "Name": "Trubbish"
+    },
+    "106": {
+        "Name": "Grabodor"
+    },
+    "107": {
+        "Name": "Minccino"
+    },
+    "108": {
+        "Name": "Cinccino"
+    },
+    "109": {
+        "Name": "Rufflet"
+    },
+    "110": {
+        "Name": "Braviary"
+    },
+    "111": {
+        "Name": "Vullaby"
+    },
+    "112": {
+        "Name": "Mandibuzz"
+    },
+    "113": {
+        "Name": "Sandshrew"
+    },
+    "114": {
+        "Name": "Sandslash"
+    },
+    "115": {
+        "Name": "Dwebble"
+    },
+    "116": {
+        "Name": "Crustle"
+    },
+    "117": {
+        "Name": "Scraggy"
+    },
+    "118": {
+        "Name": "Scrafty",
+        "Type": [
+            "Dark",
+            "Fighting"
+        ],
+        "Ability": [
+            "Illuminate",
+            null,
+            "Analytic"
+        ],
+        "Height": 1.1,
+        "Weight": 27.0,
+        "Colour": "Brown",
+        "Egg Group": [
+            "Field"
+        ],
+        "Desc": [
             "Black desc",
             "White desc"
         ],
-        "Habitats":[
+        "Habitats": [
             "Route 1",
             "Route 2"
         ],
-        "Stats":{
-            "HP":60,
-            "Attack":85,
-            "Defence":69,
-            "Special Attack":60,
-            "Special Defence":69,
-            "Speed":77,
-            "Total":420
+        "Stats": {
+            "HP": 60,
+            "Attack": 85,
+            "Defence": 69,
+            "Special Attack": 60,
+            "Special Defence": 69,
+            "Speed": 77,
+            "Total": 420
         },
-        "Learnset":{
-            "Level Up":[
-                ["Tackle",1],
-                ["Leer",1]
+        "Learnset": {
+            "Level Up": [
+                [
+                    "Tackle",
+                    1
+                ],
+                [
+                    "Leer",
+                    1
+                ]
             ],
-            "TM":[
+            "TM": [
                 "TM06",
                 "TM10"
             ],
-            "Egg":[
-                ["Revenge",[7,8,9,269,253]]
+            "Egg": [
+                [
+                    "Revenge",
+                    [
+                        7,
+                        8,
+                        9,
+                        269,
+                        253
+                    ]
+                ]
             ],
-            "Tutor":[
+            "Tutor": [
                 "Covet"
             ]
         },
-        "Forms":null,
-        "Evolution":{
-            "From":"10",
-            "To":["19,18,16"]
+        "Forms": null,
+        "Evolution": {
+            "From": "10",
+            "To": [
+                "19,18,16"
+            ]
         }
     },
-    "282":{
-        "Name":"Jigglypuff",
-        "Type":["Normal"],
-        "Ability":["Illuminate",null,"Analytic"],
-        "Height":1.1,
-        "Weight":27.0,
-        "Colour":"Brown",
-        "Egg Group":["Field"],
-        "Desc":[
+    "119": {
+        "Name": "Maractus"
+    },
+    "120": {
+        "Name": "Sigilyph"
+    },
+    "121": {
+        "Name": "Trapinch"
+    },
+    "122": {
+        "Name": "Vibrava"
+    },
+    "123": {
+        "Name": "Flygon"
+    },
+    "124": {
+        "Name": "Yamask"
+    },
+    "125": {
+        "Name": "Cofagrigus"
+    },
+    "126": {
+        "Name": "Tirtouga"
+    },
+    "127": {
+        "Name": "Carracosta"
+    },
+    "128": {
+        "Name": "Archen"
+    },
+    "129": {
+        "Name": "Archeops"
+    },
+    "130": {
+        "Name": "Klink"
+    },
+    "131": {
+        "Name": "Klang"
+    },
+    "132": {
+        "Name": "Klinklang"
+    },
+    "133": {
+        "Name": "Budew"
+    },
+    "134": {
+        "Name": "Roselia"
+    },
+    "135": {
+        "Name": "Roserade"
+    },
+    "136": {
+        "Name": "Gothita"
+    },
+    "137": {
+        "Name": "Gothorita"
+    },
+    "138": {
+        "Name": "Gothitelle"
+    },
+    "139": {
+        "Name": "Solosis"
+    },
+    "140": {
+        "Name": "Duosion"
+    },
+    "141": {
+        "Name": "Reuniclus"
+    },
+    "142": {
+        "Name": "Combee"
+    },
+    "143": {
+        "Name": "Vespiquen"
+    },
+    "144": {
+        "Name": "Emolga"
+    },
+    "145": {
+        "Name": "Heracross"
+    },
+    "146": {
+        "Name": "Pinsir"
+    },
+    "147": {
+        "Name": "Blitzle"
+    },
+    "148": {
+        "Name": "Zebstrika"
+    },
+    "149": {
+        "Name": "Buizel"
+    },
+    "150": {
+        "Name": "Floatzel"
+    },
+    "151": {
+        "Name": "Zorua"
+    },
+    "152": {
+        "Name": "Zoroark"
+    },
+    "153": {
+        "Name": "Ducklett"
+    },
+    "154": {
+        "Name": "Swanna"
+    },
+    "155": {
+        "Name": "Karrablast"
+    },
+    "156": {
+        "Name": "Escavalier"
+    },
+    "157": {
+        "Name": "Shelmet"
+    },
+    "158": {
+        "Name": "Accelgor"
+    },
+    "159": {
+        "Name": "Deerling"
+    },
+    "160": {
+        "Name": "Sawsbuck"
+    },
+    "161": {
+        "Name": "Foongus"
+    },
+    "162": {
+        "Name": "Amoonguss"
+    },
+    "163": {
+        "Name": "Castform"
+    },
+    "164": {
+        "Name": "Nosepass"
+    },
+    "165": {
+        "Name": "Probopass"
+    },
+    "166": {
+        "Name": "Aron"
+    },
+    "167": {
+        "Name": "Lairon"
+    },
+    "168": {
+        "Name": "Aggron"
+    },
+    "169": {
+        "Name": "Baltoy"
+    },
+    "170": {
+        "Name": "Claydol"
+    },
+    "171": {
+        "Name": "Larvesta"
+    },
+    "172": {
+        "Name": "Volcarona"
+    },
+    "173": {
+        "Name": "Joltik"
+    },
+    "174": {
+        "Name": "Galvantula"
+    },
+    "175": {
+        "Name": "Ferroseed"
+    },
+    "176": {
+        "Name": "Ferrothorn"
+    },
+    "177": {
+        "Name": "Tynamo"
+    },
+    "178": {
+        "Name": "Eelektrik"
+    },
+    "179": {
+        "Name": "Eelektross"
+    },
+    "180": {
+        "Name": "Frillish"
+    },
+    "181": {
+        "Name": "Jellicent"
+    },
+    "182": {
+        "Name": "Alomomola"
+    },
+    "183": {
+        "Name": "Axew"
+    },
+    "184": {
+        "Name": "Fraxure"
+    },
+    "185": {
+        "Name": "Haxorus"
+    },
+    "186": {
+        "Name": "Zangoose"
+    },
+    "187": {
+        "Name": "Seviper"
+    },
+    "188": {
+        "Name": "Elgyem"
+    },
+    "189": {
+        "Name": "Beheeyem"
+    },
+    "190": {
+        "Name": "Litwick"
+    },
+    "191": {
+        "Name": "Lampent"
+    },
+    "192": {
+        "Name": "Chandelure"
+    },
+    "193": {
+        "Name": "Heatmor"
+    },
+    "194": {
+        "Name": "Durant"
+    },
+    "195": {
+        "Name": "Cubchoo"
+    },
+    "196": {
+        "Name": "Beartic"
+    },
+    "197": {
+        "Name": "Cryogonal"
+    },
+    "198": {
+        "Name": "Tornadus"
+    },
+    "199": {
+        "Name": "Thundurus"
+    },
+    "200": {
+        "Name": "Landorus"
+    },
+    "201": {
+        "Name": "Skorupi"
+    },
+    "202": {
+        "Name": "Drapion"
+    },
+    "203": {
+        "Name": "Skamory"
+    },
+    "204": {
+        "Name": "Numel"
+    },
+    "205": {
+        "Name": "Camerupt"
+    },
+    "206": {
+        "Name": "Spoink"
+    },
+    "207": {
+        "Name": "Grumpig"
+    },
+    "208": {
+        "Name": "Drifloon"
+    },
+    "209": {
+        "Name": "Drifblim"
+    },
+    "210": {
+        "Name": "Shuppet"
+    },
+    "211": {
+        "Name": "Banette"
+    },
+    "212": {
+        "Name": "Wingull"
+    },
+    "213": {
+        "Name": "Pelipper"
+    },
+    "214": {
+        "Name": "Lunatone"
+    },
+    "215": {
+        "Name": "Solrock"
+    },
+    "216": {
+        "Name": "Absol"
+    },
+    "217": {
+        "Name": "Tangela"
+    },
+    "218": {
+        "Name": "Tangrowth"
+    },
+    "219": {
+        "Name": "Mienfoo"
+    },
+    "220": {
+        "Name": "Mienshao"
+    },
+    "221": {
+        "Name": "Gligar"
+    },
+    "222": {
+        "Name": "Gliscor"
+    },
+    "223": {
+        "Name": "Pawniard"
+    },
+    "224": {
+        "Name": "Bisharp"
+    },
+    "225": {
+        "Name": "Cobalion"
+    },
+    "226": {
+        "Name": "Terrakion"
+    },
+    "227": {
+        "Name": "Virizion"
+    },
+    "228": {
+        "Name": "Tympole"
+    },
+    "229": {
+        "Name": "Palpitoad"
+    },
+    "230": {
+        "Name": "Seismitoad"
+    },
+    "231": {
+        "Name": "Stunfisk"
+    },
+    "232": {
+        "Name": "Shuckle"
+    },
+    "233": {
+        "Name": "Mantyke"
+    },
+    "234": {
+        "Name": "Mantine"
+    },
+    "235": {
+        "Name": "Remoraid"
+    },
+    "236": {
+        "Name": "Octillery"
+    },
+    "237": {
+        "Name": "Corsola"
+    },
+    "238": {
+        "Name": "Staryu"
+    },
+    "239": {
+        "Name": "Starmie"
+    },
+    "240": {
+        "Name": "Wailmer"
+    },
+    "241": {
+        "Name": "Mailord"
+    },
+    "242": {
+        "Name": "Lapras"
+    },
+    "243": {
+        "Name": "Spheal"
+    },
+    "244": {
+        "Name": "Sealeo"
+    },
+    "245": {
+        "Name": "Walrein"
+    },
+    "246": {
+        "Name": "Swablu"
+    },
+    "247": {
+        "Name": "Altaria"
+    },
+    "248": {
+        "Name": "Vulpix"
+    },
+    "249": {
+        "Name": "Ninetales"
+    },
+    "250": {
+        "Name": "Bronzor"
+    },
+    "251": {
+        "Name": "Bronzong"
+    },
+    "252": {
+        "Name": "Sneasel"
+    },
+    "253": {
+        "Name": "Weavile"
+    },
+    "254": {
+        "Name": "Delibird"
+    },
+    "255": {
+        "Name": "Vanillite"
+    },
+    "256": {
+        "Name": "Vanillish"
+    },
+    "257": {
+        "Name": "Vaniluxe"
+    },
+    "258": {
+        "Name": "Swinub"
+    },
+    "259": {
+        "Name": "Piloswine"
+    },
+    "260": {
+        "Name": "Mamoswine"
+    },
+    "261": {
+        "Name": "Ditto"
+    },
+    "262": {
+        "Name": "Beldum"
+    },
+    "263": {
+        "Name": "Metang"
+    },
+    "264": {
+        "Name": "Metagross"
+    },
+    "265": {
+        "Name": "Seel"
+    },
+    "266": {
+        "Name": "Dewgong"
+    },
+    "267": {
+        "Name": "Throh"
+    },
+    "268": {
+        "Name": "Sawk"
+    },
+    "269": {
+        "Name": "Bouffalant"
+    },
+    "270": {
+        "Name": "Druddigon"
+    },
+    "271": {
+        "Name": "Golett"
+    },
+    "272": {
+        "Name": "Golurk"
+    },
+    "273": {
+        "Name": "Deino"
+    },
+    "274": {
+        "Name": "Zweilous"
+    },
+    "275": {
+        "Name": "Hydreigon"
+    },
+    "276": {
+        "Name": "Slakoth"
+    },
+    "277": {
+        "Name": "Vigoroth"
+    },
+    "278": {
+        "Name": "Slaking"
+    },
+    "279": {
+        "Name": "Corphish"
+    },
+    "280": {
+        "Name": "Crawdaunt"
+    },
+    "281": {
+        "Name": "Igglybuff"
+    },
+    "282": {
+        "Name": "Jigglypuff",
+        "Type": [
+            "Normal"
+        ],
+        "Ability": [
+            "Illuminate",
+            null,
+            "Analytic"
+        ],
+        "Height": 1.1,
+        "Weight": 27.0,
+        "Colour": "Brown",
+        "Egg Group": [
+            "Field"
+        ],
+        "Desc": [
             "Black desc",
             "White desc"
         ],
-        "Habitats":[
+        "Habitats": [
             "Route 1",
             "Route 2"
         ],
-        "Stats":{
-            "HP":60,
-            "Attack":85,
-            "Defence":69,
-            "Special Attack":60,
-            "Special Defence":69,
-            "Speed":77,
-            "Total":420
+        "Stats": {
+            "HP": 60,
+            "Attack": 85,
+            "Defence": 69,
+            "Special Attack": 60,
+            "Special Defence": 69,
+            "Speed": 77,
+            "Total": 420
         },
-        "Learnset":{
-            "Level Up":[
-                ["Tackle",1],
-                ["Leer",1]
+        "Learnset": {
+            "Level Up": [
+                [
+                    "Tackle",
+                    1
+                ],
+                [
+                    "Leer",
+                    1
+                ]
             ],
-            "TM":[
+            "TM": [
                 "TM06",
                 "TM10"
             ],
-            "Egg":[
-                ["Revenge",[7,8,9,269,253]]
+            "Egg": [
+                [
+                    "Revenge",
+                    [
+                        7,
+                        8,
+                        9,
+                        269,
+                        253
+                    ]
+                ]
             ],
-            "Tutor":[
+            "Tutor": [
                 "Covet"
             ]
         },
-        "Forms":null,
-        "Evolution":{
-            "From":"10",
-            "To":null
+        "Forms": null,
+        "Evolution": {
+            "From": "10",
+            "To": null
         }
     },
-    "284":{
-        "Name":"Lickitung",
-        "Type":["Normal"],
-        "Ability":["Illuminate","Keen Eye","Analytic"],
-        "Height":1.1,
-        "Weight":27.0,
-        "Colour":"Brown",
-        "Egg Group":["Field"],
-        "Desc":[
+    "283": {
+        "Name": "Wigglytuff"
+    },
+    "284": {
+        "Name": "Lickitung",
+        "Type": [
+            "Normal"
+        ],
+        "Ability": [
+            "Illuminate",
+            "Keen Eye",
+            "Analytic"
+        ],
+        "Height": 1.1,
+        "Weight": 27.0,
+        "Colour": "Brown",
+        "Egg Group": [
+            "Field"
+        ],
+        "Desc": [
             "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents."
         ],
-        "Habitats":[
+        "Habitats": [
             "Route 1",
             "Route 2",
             "Route 3",
@@ -308,85 +1322,93 @@
             "Dreamyard",
             "P2 Laboratory"
         ],
-        "Stats":{
-            "HP":60,
-            "Attack":85,
-            "Defence":69,
-            "Special Attack":60,
-            "Special Defence":69,
-            "Speed":77,
-            "Total":420
+        "Stats": {
+            "HP": 60,
+            "Attack": 85,
+            "Defence": 69,
+            "Special Attack": 60,
+            "Special Defence": 69,
+            "Speed": 77,
+            "Total": 420
         },
-        "Learnset":{
-            "Level Up":[
-                ["Tackle",1],
-                ["Leer",1],
-                ["Bite",1],
-                ["Low Kick",1],
-                ["Leer",3],
-                ["Bite",6],
-                ["Bide",8],
-                ["Detect",11],
-                ["Sand-Attack",13],
-                ["Crunch",16],
-                ["Hypnosis",18],
-                ["Confuse Ray",20],
-                ["Super Fang",22],
-                ["After You",25],
-                ["Psych Up",29],
-                ["Hyper Fang",32],
-                ["Mean Look",36],
-                ["Baton Pass",39],
-                ["Slam",43]
+        "Learnset": {
+            "Level Up": [
+                [
+                    "Tackle",
+                    1
+                ]
             ],
-            "TM":[
-                "TM06",
-                "TM10",
-                "TM11",
-                "TM15",
-                "TM16",
-                "TM17",
-                "TM18",
-                "TM21",
-                "TM24",
-                "TM25",
-                "TM27",
-                "TM28",
-                "TM30",
-                "TM32",
-                "TM35",
-                "TM42",
-                "TM44",
-                "TM45",
-                "TM48",
-                "TM52",
-                "TM56",
-                "TM67",
-                "TM68",
-                "TM70",
-                "TM73",
-                "TM75",
-                "TM77",
-                "TM83",
-                "TM85",
-                "TM86",
-                "TM87",
-                "TM90",
-                "TM94",
-                "HM01",
-                "HM04"
+            "TM": [
+                "TM06"
             ],
-            "Egg":[
-                ["Revenge",[7,8,9,269,253]]
+            "Egg": [
+                [
+                    "Revenge",
+                    [
+                        7,
+                        8,
+                        9,
+                        269,
+                        253
+                    ]
+                ]
             ],
-            "Tutor":[
+            "Tutor": [
                 "Covet"
             ]
         },
-        "Forms":null,
-        "Evolution":{
-            "From":"10",
-            "To":null
+        "Forms": null,
+        "Evolution": {
+            "From": "10",
+            "To": null
         }
+    },
+    "285": {
+        "Name": "Lickilicky"
+    },
+    "286": {
+        "Name": "Yanma"
+    },
+    "287": {
+        "Name": "Yanmega"
+    },
+    "288": {
+        "Name": "Tropius"
+    },
+    "289": {
+        "Name": "Carnivine"
+    },
+    "290": {
+        "Name": "Croagunk"
+    },
+    "291": {
+        "Name": "Toxicroak"
+    },
+    "292": {
+        "Name": "Larvitar"
+    },
+    "293": {
+        "Name": "Pupitar"
+    },
+    "294": {
+        "Name": "Tyranitar"
+    },
+    "295": {
+        "Name": "Reshiram"
+    },
+    "296": {
+        "Name": "Zekrom"
+    },
+    "297": {
+        "Name": "Kyurem"
+    },
+    "298": {
+        "Name": "Keldeo"
+    },
+    "299": {
+        "Name": "Meloetta"
+    },
+    "300": {
+        "Name": "Genesect"
     }
 }

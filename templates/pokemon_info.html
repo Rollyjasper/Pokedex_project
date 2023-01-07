@@ -55,34 +55,64 @@
     <li>Learnset:</li>
     <ul>
       <li>Level Up:</li>
-      <ul>
-        <li>Lv/Move</li>
+      <table>
+        <tr>
+          <th>Level</th>
+          <th>Move</th>
+        </tr>
         {% for move in pokemon_data["Learnset"]["Level Up"] %}
-        <li>{{move[1]}}/{{move[0]}}</li>
+        <tr>
+          <td>{{move[1]}}</td>
+          <td>{{move[0]}}</td>
+        </tr>
         {% endfor %}
-      </ul>
+      </table>
       <li>TM:</li>
-      <ul>
+      <table>
+        <tr>
+          <th>TM/HM</th>
+          <th>Move</th>
+        </tr>
         {% for tm in pokemon_data["Learnset"]["TM"] %}
-        <li>{{tm}}: {{tm_links[tm].Move}}</li>
+        <tr>
+          <td>{{tm}}</td>
+          <td>{{tm_links[tm].Move}}</td>
+        </tr>
         {% endfor %}
-      </ul>
+      </table>
       <li>Egg Moves:</li>
-      <ul>
+      <table>
+        <tr>
+          <th>Parent</th>
+          <th>Move</th>
+        </tr>
         {% for egg in pokemon_data["Learnset"]["Egg"] %}
-        <li>{{egg[0]}}/{{egg[1]|join(',')}}</li>
+        <tr>
+          <td>{{egg[1]|join(',')}}</td>
+          <td>{{egg[0]}}</td>
+        </tr>
         {% endfor %}
-      </ul>
+      </table>
       <li>Tutor Moves:</li>
-      <ul>
+      <table>
+        <tr>
+          <th>Cost</th>
+          <th>Move</th>
+        </tr>
         {% for move in pokemon_data["Learnset"]["Tutor"] %}
         {% if tutor_moves[move]["Cost"] != None %}
-          <li>{{move}}:{{tutor_moves[move]["Cost"]|join(' ')}} Shards</li>
+          <tr>
+            <td>{{tutor_moves[move]["Cost"]|join(' ')}} Shards</td>
+            <td>{{move}}</td>
+          </tr>
         {% else %}
-          <li>{{move}}:{{tutor_moves[move]["Cost"]}}</li>
+          <tr>
+            <td>{{tutor_moves[move]["Cost"]}}</td>
+            <td>{{move}}</td>
+          </tr>
         {% endif %}
         {% endfor %}
-      </ul>
+      </table>
     </ul>
     <li>Evolutions:</li>
     <ul>

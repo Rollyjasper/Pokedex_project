@@ -5,7 +5,11 @@
 {% endblock %}
 
 {% block content %}
+<ul class="index_list">
   {% for pokemon in pokemon_data %}
+  {% if (pokemon|int % 50 == 1 and pokemon|int != 1) or pokemon|int == 0 %}
+    <li class="section_breaker">#{{pokemon}} - #{{((pokemon|int // 50) + 1) * 50}}</li>
+  {% endif %}
   {% if pokemon|int < 10  %}
     <li><a href="/pokemon/{{pokemon}}">#00{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
   {% elif pokemon|int < 100  %}
@@ -14,4 +18,5 @@
     <li><a href="/pokemon/{{pokemon}}">#{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:</li>
   {% endif %}
   {% endfor %}
+</ul>
 {% endblock %}
