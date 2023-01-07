@@ -59,11 +59,21 @@
         <tr>
           <th>Level</th>
           <th>Move</th>
+          <th>Type</th>
+          <th>Catagory</th>
+          <th>Power</th>
+          <th>Acc.</th>
+          <th>PP</th>
         </tr>
         {% for move in pokemon_data["Learnset"]["Level Up"] %}
         <tr>
           <td>{{move[1]}}</td>
           <td>{{move[0]}}</td>
+          <td>{{moves['Tackle'].Type}}</td>
+          <td>{{moves['Tackle'].Catagory}}</td>
+          <td>{{moves['Tackle'].Power}}</td>
+          <td>{{moves['Tackle'].Accuracy}}</td>
+          <td>{{moves['Tackle'].PP}}</td>
         </tr>
         {% endfor %}
       </table>
@@ -72,11 +82,21 @@
         <tr>
           <th>TM/HM</th>
           <th>Move</th>
+          <th>Type</th>
+          <th>Catagory</th>
+          <th>Power</th>
+          <th>Acc.</th>
+          <th>PP</th>
         </tr>
         {% for tm in pokemon_data["Learnset"]["TM"] %}
         <tr>
           <td>{{tm}}</td>
           <td>{{tm_links[tm].Move}}</td>
+          <td>{{moves['Tackle'].Type}}</td>
+          <td>{{moves['Tackle'].Catagory}}</td>
+          <td>{{moves['Tackle'].Power}}</td>
+          <td>{{moves['Tackle'].Accuracy}}</td>
+          <td>{{moves['Tackle'].PP}}</td>
         </tr>
         {% endfor %}
       </table>
@@ -85,11 +105,21 @@
         <tr>
           <th>Parent</th>
           <th>Move</th>
+          <th>Type</th>
+          <th>Catagory</th>
+          <th>Power</th>
+          <th>Acc.</th>
+          <th>PP</th>
         </tr>
         {% for egg in pokemon_data["Learnset"]["Egg"] %}
         <tr>
           <td>{{egg[1]|join(',')}}</td>
           <td>{{egg[0]}}</td>
+          <td>{{moves['Tackle'].Type}}</td>
+          <td>{{moves['Tackle'].Catagory}}</td>
+          <td>{{moves['Tackle'].Power}}</td>
+          <td>{{moves['Tackle'].Accuracy}}</td>
+          <td>{{moves['Tackle'].PP}}</td>
         </tr>
         {% endfor %}
       </table>
@@ -98,19 +128,26 @@
         <tr>
           <th>Cost</th>
           <th>Move</th>
+          <th>Type</th>
+          <th>Catagory</th>
+          <th>Power</th>
+          <th>Acc.</th>
+          <th>PP</th>
         </tr>
         {% for move in pokemon_data["Learnset"]["Tutor"] %}
+        <tr>
         {% if tutor_moves[move]["Cost"] != None %}
-          <tr>
-            <td>{{tutor_moves[move]["Cost"]|join(' ')}} Shards</td>
-            <td>{{move}}</td>
-          </tr>
+          <td>{{tutor_moves[move]["Cost"]|join(' ')}} Shards</td>
         {% else %}
-          <tr>
-            <td>{{tutor_moves[move]["Cost"]}}</td>
-            <td>{{move}}</td>
-          </tr>
+          <td>{{tutor_moves[move]["Cost"]}}</td>
         {% endif %}
+        <td>{{move}}</td>
+        <td>{{moves['Tackle'].Type}}</td>
+        <td>{{moves['Tackle'].Catagory}}</td>
+        <td>{{moves['Tackle'].Power}}</td>
+        <td>{{moves['Tackle'].Accuracy}}</td>
+        <td>{{moves['Tackle'].PP}}</td>
+        </tr>
         {% endfor %}
       </table>
     </ul>
