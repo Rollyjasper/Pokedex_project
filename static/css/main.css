@@ -22,6 +22,10 @@ body{
 	background-color: #b8b8b8;
 }
 
+b{
+	font-weight: bold
+}
+
 h1{
 	font-size: x-large;
 }
@@ -52,6 +56,11 @@ ul li.section_breaker{
 	margin-bottom: 10px;
 }
 
+ul ul{
+	margin:auto;
+	width: 87.5%;
+}
+
 table{
 	padding: 5px;
 	width: 60%;
@@ -64,6 +73,7 @@ table{
 
 th, td{
 	background-color: #ffffff;
+	padding: 2px;
 }
 
 th{

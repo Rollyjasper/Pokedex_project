@@ -13,6 +13,18 @@
 {% endblock %}
 
 {% block content %}
+  <style>
+    table{
+      background-color: {{seconday_colour}};
+      border-color: {{primary_colour}};
+    }
+    th,td{
+      border-color: {{seconday_colour}};
+    }
+    th{
+      background-color: {{background_colour}};
+    }
+  </style>
   <ul>
     <li>Name: {{pokemon_data["Name"]}}</li>
     {% if pokemon_data["Type"]|length == 2 %}
@@ -43,15 +55,24 @@
         <li>Black 2/White 2 Entry: {{pokemon_data["Desc"][0]}}</li>
       {% endif %}
     </ul>
-    {% for habitat in pokemon_data["Habitats"] %}
-      <li><a href="/habitats/{{habitat}}">{{habitat}}</a></li>
-    {% endfor %}
-    <li>Base Stats:</li>
+    <li>Habitats:</li>
     <ul>
-      {% for stat,value in pokemon_data["Stats"].items() %}
-      <li>{{stat}}: {{value}}</li>
+      {% for habitat in pokemon_data["Habitats"] %}
+        <li><a href="/habitats/{{habitat}}">{{habitat}}</a></li>
       {% endfor %}
     </ul>
+    <li>Base Stats:</li>
+    <table>
+      <tr>
+        <th colspan="2">Stat</th>
+      </tr>
+      {% for stat,value in pokemon_data["Stats"].items() %}
+      <tr>
+        <td style="background-color: {{stat_colours[loop.index0]}};">{{stat}}</td>
+        <td style="background-color: {{stat_colours[loop.index0]}};">{{value}}</td>
+      </tr>
+      {% endfor %}
+    </table>
     <li>Learnset:</li>
     <ul>
       <li>Level Up:</li>
@@ -68,12 +89,16 @@
         {% for move in pokemon_data["Learnset"]["Level Up"] %}
         <tr>
           <td>{{move[1]}}</td>
-          <td>{{move[0]}}</td>
-          <td>{{moves['Tackle'].Type}}</td>
-          <td>{{moves['Tackle'].Catagory}}</td>
-          <td>{{moves['Tackle'].Power}}</td>
-          <td>{{moves['Tackle'].Accuracy}}</td>
-          <td>{{moves['Tackle'].PP}}</td>
+          {% if (moves[move[0]].Catagory == 'Physical' or moves[move[0]].Catagory == 'Special') and moves[move[0]].Type in pokemon_data["Type"] %}
+            <td><b>{{move[0]}}</b></td>
+          {% else %}
+            <td>{{move[0]}}</td>
+          {% endif %}
+          <td style="background-color: {{type_colours[moves[move[0]].Type].Background}};">{{moves[move[0]].Type}}</td>
+          <td style="background-color: {{type_colours[moves[move[0]].Catagory].Background}};">{{moves[move[0]].Catagory}}</td>
+          <td>{{moves[move[0]].Power}}</td>
+          <td>{{moves[move[0]].Accuracy}}</td>
+          <td>{{moves[move[0]].PP}}</td>
         </tr>
         {% endfor %}
       </table>

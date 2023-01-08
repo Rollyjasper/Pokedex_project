@@ -14,5 +14,165 @@
         "Accuracy":100,
         "PP":30,
         "Desc":"Desc Here"
+    },
+    "Bite":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":60,
+        "Accuracy":100,
+        "PP":25,
+        "Desc":"Desc Here"
+    },
+    "Low Kick":{
+        "Type":"Fighting",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Bide":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Detect":{
+        "Type":"Fighting",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Sand-Attack":{
+        "Type":"Ground",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Crunch":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":80,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Hypnosis":{
+        "Type":"Psychic",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":60,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Confuse Ray":{
+        "Type":"Ghost",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Super Fang":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":90,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "After You":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Psych Up":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Hyper Fang":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":80,
+        "Accuracy":90,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Mean Look":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Baton Pass":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":40,
+        "Desc":"Desc Here"
+    },
+    "Slam":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":80,
+        "Accuracy":75,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Revenge":{
+        "Type":"Fighting",
+        "Catagory":"Physical",
+        "Power":60,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Toxic":{
+        "Type":"Poison",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":90,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Hidden Power":{
+        "Type":"Normal",
+        "Catagory":"Special",
+        "Power":null,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Sunny Day":{
+        "Type":"Fire",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Hyper Beam":{
+        "Type":"Normal",
+        "Catagory":"Special",
+        "Power":150,
+        "Accuracy":90,
+        "PP":5,
+        "Desc":"Desc Here"
     }
 }
