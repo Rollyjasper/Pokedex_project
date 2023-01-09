@@ -1,5 +1,209 @@
 {
     "Covet":{
         "Cost":[2,"Red"]
+    },
+    "Bug Bite":{
+        "Cost":[2,"Red"]
+    },
+    "Drill Run":{
+        "Cost":[4,"Red"]
+    },
+    "Bounce":{
+        "Cost":[4,"Red"]
+    },
+    "Signal Beam":{
+        "Cost":[4,"Red"]
+    },
+    "Iron Head":{
+        "Cost":[4,"Red"]
+    },
+    "Super Fang":{
+        "Cost":[6,"Red"]
+    },
+    "Uproar":{
+        "Cost":[6,"Red"]
+    },
+    "Seed Bomb":{
+        "Cost":[6,"Red"]
+    },
+    "Dual Chop":{
+        "Cost":[6,"Red"]
+    },
+    "Low Kick":{
+        "Cost":[8,"Red"]
+    },
+    "Gunk Shot":{
+        "Cost":[8,"Red"]
+    },
+    "Fire Punch":{
+        "Cost":[10,"Red"]
+    },
+    "Thunder Punch":{
+        "Cost":[10,"Red"]
+    },
+    "Ice Punch":{
+        "Cost":[10,"Red"]
+    },
+    "Last Resort":{
+        "Cost":[2,"Blue"]
+    },
+    "Iron Defence":{
+        "Cost":[2,"Blue"]
+    },
+    "Magnet Rise":{
+        "Cost":[4,"Blue"]
+    },
+    "Magic Coat":{
+        "Cost":[4,"Blue"]
+    },
+    "Block":{
+        "Cost":[6,"Blue"]
+    },
+    "Hyper Voice":{
+        "Cost":[6,"Blue"]
+    },
+    "Electroweb":{
+        "Cost":[6,"Blue"]
+    },
+    "Icy Wind":{
+        "Cost":[6,"Blue"]
+    },
+    "Iron Tail":{
+        "Cost":[6,"Blue"]
+    },
+    "Aqua Tail":{
+        "Cost":[8,"Blue"]
+    },
+    "Earth Power":{
+        "Cost":[8,"Blue"]
+    },
+    "Zen Headbutt":{
+        "Cost":[8,"Blue"]
+    },
+    "Foul Play":{
+        "Cost":[8,"Blue"]
+    },
+    "Superpower":{
+        "Cost":[10,"Blue"]
+    },
+    "Gravity":{
+        "Cost":[10,"Blue"]
+    },
+    "Dragon Pulse":{
+        "Cost":[10,"Blue"]
+    },
+    "Dark Pulse":{
+        "Cost":[10,"Blue"]
+    },
+    "Bind":{
+        "Cost":[2,"Yellow"]
+    },
+    "Snore":{
+        "Cost":[2,"Yellow"]
+    },
+    "Heal Bell":{
+        "Cost":[4,"Yellow"]
+    },
+    "Knock Off":{
+        "Cost":[4,"Yellow"]
+    },
+    "Synthesis":{
+        "Cost":[6,"Yellow"]
+    },
+    "Roost":{
+        "Cost":[6,"Yellow"]
+    },
+    "Sky Attack":{
+        "Cost":[8,"Yellow"]
+    },
+    "Role Play":{
+        "Cost":[8,"Yellow"]
+    },
+    "Heat Wave":{
+        "Cost":[10,"Yellow"]
+    },
+    "Giga Drain":{
+        "Cost":[10,"Yellow"]
+    },
+    "Drain Punch":{
+        "Cost":[10,"Yellow"]
+    },
+    "Pain Split":{
+        "Cost":[10,"Yellow"]
+    },
+    "Tailwind":{
+        "Cost":[10,"Yellow"]
+    },
+    "Worry Seed":{
+        "Cost":[6,"Green"]
+    },
+    "Gasto Acid":{
+        "Cost":[6,"Green"]
+    },
+    "Helping Hand":{
+        "Cost":[8,"Green"]
+    },
+    "After You":{
+        "Cost":[8,"Green"]
+    },
+    "Magic Room":{
+        "Cost":[8,"Green"]
+    },
+    "Wonder Room":{
+        "Cost":[8,"Green"]
+    },
+    "Spite":{
+        "Cost":[8,"Green"]
+    },
+    "Recycle":{
+        "Cost":[10,"Green"]
+    },
+    "Trick":{
+        "Cost":[10,"Green"]
+    },
+    "Stealth Rock":{
+        "Cost":[10,"Green"]
+    },
+    "Outrage":{
+        "Cost":[10,"Green"]
+    },
+    "Endeavor":{
+        "Cost":[12,"Green"]
+    },
+    "Sleep Talk":{
+        "Cost":[12,"Green"]
+    },
+    "Skill Swap":{
+        "Cost":[12,"Green"]
+    },
+    "Snatch":{
+        "Cost":[12,"Green"]
+    },
+    "Draco Meteor":{
+        "Cost":null
+    },
+    "Secret Sword":{
+        "Cost":null
+    },
+    "Relic Song":{
+        "Cost":null
+    },
+    "Blast Burn":{
+        "Cost":null
+    },
+    "Fire Pledge":{
+        "Cost":null
+    },
+    "Frenzy Plant":{
+        "Cost":null
+    },
+    "Grass Pledge":{
+        "Cost":null
+    },
+    "Hydro Cannon":{
+        "Cost":null
+    },
+    "Water Pledge":{
+        "Cost":null
     }
 }
