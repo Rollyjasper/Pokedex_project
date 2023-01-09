@@ -44,6 +44,27 @@ li{
 	padding: 15px;
 }
 
+a.List{
+	color: #ffffff;
+	margin-right: 15px;
+}
+
+a:link.List, a:visited.List{
+	text-decoration: none;
+}
+
+a:hover.List, a:active.List{
+	text-decoration: underline;
+	text-decoration-color: #640a0a;
+	text-decoration-thickness: 3px;
+}
+
+a.Home{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 2.5em;
+}
+
 ul.index_list li{
 	background: white;
 	width: 135px;
