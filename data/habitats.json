@@ -53,5 +53,229 @@
                 "Season":["Spring","Summer","Autumn","Winter"]
             }
         }
+    },
+    "Route 3":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 4":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 5":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 6":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 7":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 8":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 9":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 10":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 11":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 12":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 13":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 14":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 15":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 16":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 17":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 18":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 19":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 20":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 21":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 22":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Route 23":{
+        "Type":"Route",
+        "Pokemon":{}
+    },
+    "Aspertia City":{
+        "Type":"City",
+        "Pokemon":{}
+    },
+    "Virbank City":{
+        "Type":"City",
+        "Pokemon":{}
+    },
+    "Castelia City":{
+        "Type":"City",
+        "Pokemon":{}
+    },
+    "Humilau City":{
+        "Type":"City",
+        "Pokemon":{}
+    },
+    "Icirrus City":{
+        "Type":"City",
+        "Pokemon":{}
+    },
+    "Striation City":{
+        "Type":"City",
+        "Pokemon":{}
+    },
+    "Undella Town":{
+        "Type":"Town",
+        "Pokemon":{}
+    },
+    "Castelia Sewers":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Relic Castle":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Mistralton Cave":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Clay Tunnel":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Relic Passage":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Chargestone Cave":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Seaside Cave":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Victory Road":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Giant Chasm":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Twist Mountain":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Wellspring Cave":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Reversal Mountain":{
+        "Type":"Cave",
+        "Pokemon":{}
+    },
+    "Celestial Tower":{
+        "Type":"Tower",
+        "Pokemon":{}
+    },
+    "Stange House":{
+        "Type":"Tower",
+        "Pokemon":{}
+    },
+    "Dragonspiral Tower":{
+        "Type":"Tower",
+        "Pokemon":{}
+    },
+    "Driftveil Drawbridge":{
+        "Type":"Bridge",
+        "Pokemon":{}
+    },
+    "Village Bridge":{
+        "Type":"Bridge",
+        "Pokemon":{}
+    },
+    "Marvelous Bridge":{
+        "Type":"Bridge",
+        "Pokemon":{}
+    },
+    "Lostlorn Forest":{
+        "Type":"Forest",
+        "Pokemon":{}
+    },
+    "Pinwheel Forest":{
+        "Type":"Forest",
+        "Pokemon":{}
+    },
+    "Floccesy Ranch":{
+        "Type":"Other",
+        "Pokemon":{}
+    },
+    "Virbank Complex":{
+        "Type":"Other",
+        "Pokemon":{}
+    },
+    "Desert Resort":{
+        "Type":"Other",
+        "Pokemon":{}
+    },
+    "Abundant Shrine":{
+        "Type":"Other",
+        "Pokemon":{}
+    },
+    "Moor of Icirrus":{
+        "Type":"Other",
+        "Pokemon":{}
+    },
+    "Dreamyard":{
+        "Type":"Other",
+        "Pokemon":{}
+    },
+    "P2 Laboratory":{
+        "Type":"Other",
+        "Pokemon":{}
+    },
+    "Nature Preserve":{
+        "Type":"Other",
+        "Pokemon":{}
     }
 }
