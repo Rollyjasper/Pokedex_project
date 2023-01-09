@@ -30,7 +30,149 @@
         "Name": "Samurott"
     },
     "10": {
-        "Name": "Patrat"
+        "Name": "Patrat",
+        "Type": [
+            "Normal"
+        ],
+        "Ability": [
+            "Run Away",
+            "Keen Eye",
+            "Analytic"
+        ],
+        "Height": 0.5,
+        "Weight": 11.6,
+        "Colour": "Brown",
+        "Egg Group": [
+            "Field"
+        ],
+        "Desc": [
+            "Black desc",
+            "White desc"
+        ],
+        "Habitats": [
+            "Route 19",
+            "Route 20",
+            "Floccesy Ranch",
+            "Virbank Complex"
+        ],
+        "Stats": {
+            "HP": 45,
+            "Attack": 55,
+            "Defence": 39,
+            "Special Attack": 35,
+            "Special Defence": 39,
+            "Speed": 42,
+            "Total": 255
+        },
+        "Learnset": {
+            "Level Up": [
+                [
+                    "Tackle",
+                    1
+                ],
+                [
+                    "Leer",
+                    3
+                ],
+                [
+                    "Bite",
+                    6
+                ],
+                [
+                    "Bide",
+                    8
+                ],
+                [
+                    "Detect",
+                    11
+                ],
+                [
+                    "Sand-Attack",
+                    13
+                ],
+                [
+                    "Crunch",
+                    16
+                ],
+                [
+                    "Hypnosis",
+                    18
+                ],
+                [
+                    "Super Fang",
+                    21
+                ],
+                [
+                    "After You",
+                    23
+                ],
+                [
+                    "Work Up",
+                    26
+                ],
+                [
+                    "Hyper Fang",
+                    28
+                ],
+                [
+                    "Mean Look",
+                    31
+                ],
+                [
+                    "Baton Pass",
+                    33
+                ],
+                [
+                    "Slam",
+                    36
+                ]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM24",
+                "TM27",
+                "TM28",
+                "TM30",
+                "TM32",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM56",
+                "TM67",
+                "TM75",
+                "TM83",
+                "TM86",
+                "TM87",
+                "TM90",
+                "HM01"
+            ],
+            "Egg": [
+                [
+                    "Revenge",
+                    [
+                        7,
+                        8,
+                        9,
+                        269,
+                        253
+                    ]
+                ]
+            ],
+            "Tutor": [
+                "Covet"
+            ]
+        },
+        "Forms": null,
+        "Evolution": {
+            "From": null,
+            "To": ["11"]
+        }
     },
     "11": {
         "Name": "Watchog",

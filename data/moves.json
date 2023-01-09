@@ -174,5 +174,13 @@
         "Accuracy":90,
         "PP":5,
         "Desc":"Desc Here"
+    },
+    "Work Up":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":30,
+        "Desc":"Desc Here"
     }
 }
