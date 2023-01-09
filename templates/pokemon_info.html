@@ -116,12 +116,16 @@
         {% for tm in pokemon_data["Learnset"]["TM"] %}
         <tr>
           <td>{{tm}}</td>
-          <td>{{tm_links[tm].Move}}</td>
-          <td>{{moves['Tackle'].Type}}</td>
-          <td>{{moves['Tackle'].Catagory}}</td>
-          <td>{{moves['Tackle'].Power}}</td>
-          <td>{{moves['Tackle'].Accuracy}}</td>
-          <td>{{moves['Tackle'].PP}}</td>
+          {% if (moves[tm_links[tm].Move].Catagory == 'Physical' or moves[tm_links[tm].Move].Catagory == 'Special') and moves[tm_links[tm].Move].Type in pokemon_data["Type"] %}
+            <td><b>{{tm_links[tm].Move}}</b></td>
+          {% else %}
+            <td>{{tm_links[tm].Move}}</td>
+          {% endif %}
+          <td style="background-color: {{type_colours[moves[tm_links[tm].Move].Type].Background}};">{{moves[tm_links[tm].Move].Type}}</td>
+          <td style="background-color: {{type_colours[moves[tm_links[tm].Move].Catagory].Background}};">{{moves[tm_links[tm].Move].Catagory}}</td>
+          <td>{{moves[tm_links[tm].Move].Power}}</td>
+          <td>{{moves[tm_links[tm].Move].Accuracy}}</td>
+          <td>{{moves[tm_links[tm].Move].PP}}</td>
         </tr>
         {% endfor %}
       </table>
@@ -138,13 +142,21 @@
         </tr>
         {% for egg in pokemon_data["Learnset"]["Egg"] %}
         <tr>
-          <td>{{egg[1]|join(',')}}</td>
-          <td>{{egg[0]}}</td>
-          <td>{{moves['Tackle'].Type}}</td>
-          <td>{{moves['Tackle'].Catagory}}</td>
-          <td>{{moves['Tackle'].Power}}</td>
-          <td>{{moves['Tackle'].Accuracy}}</td>
-          <td>{{moves['Tackle'].PP}}</td>
+          <td>
+            {% for parent in egg[1] %}
+                <a href="/pokemon/{{parent}}">{{parent}}, </a>
+            {% endfor %}
+          </td>
+          {% if (moves[egg[0]].Catagory == 'Physical' or moves[egg[0]].Catagory == 'Special') and moves[egg[0]].Type in pokemon_data["Type"] %}
+            <td><b>{{egg[0]}}</b></td>
+          {% else %}
+            <td>{{egg[0]}}</td>
+          {% endif %}
+          <td style="background-color: {{type_colours[moves[egg[0]].Type].Background}};">{{moves[egg[0]].Type}}</td>
+          <td style="background-color: {{type_colours[moves[egg[0]].Catagory].Background}};">{{moves[egg[0]].Catagory}}</td>
+          <td>{{moves[egg[0]].Power}}</td>
+          <td>{{moves[egg[0]].Accuracy}}</td>
+          <td>{{moves[egg[0]].PP}}</td>
         </tr>
         {% endfor %}
       </table>
@@ -166,12 +178,16 @@
         {% else %}
           <td>{{tutor_moves[move]["Cost"]}}</td>
         {% endif %}
-        <td>{{move}}</td>
-        <td>{{moves['Tackle'].Type}}</td>
-        <td>{{moves['Tackle'].Catagory}}</td>
-        <td>{{moves['Tackle'].Power}}</td>
-        <td>{{moves['Tackle'].Accuracy}}</td>
-        <td>{{moves['Tackle'].PP}}</td>
+        {% if (moves[move].Catagory == 'Physical' or moves[move].Catagory == 'Special') and moves[move].Type in pokemon_data["Type"] %}
+          <td><b>{{move}}</b></td>
+        {% else %}
+          <td>{{move}}</td>
+        {% endif %}
+        <td style="background-color: {{type_colours[moves[move].Type].Background}};">{{moves[move].Type}}</td>
+        <td style="background-color: {{type_colours[moves[move].Catagory].Background}};">{{moves[move].Catagory}}</td>
+        <td>{{moves[move].Power}}</td>
+        <td>{{moves[move].Accuracy}}</td>
+        <td>{{moves[move].PP}}</td>
         </tr>
         {% endfor %}
       </table>

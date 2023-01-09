@@ -36,8 +36,8 @@
     },
     "Fire":{
         "Primary":"#F08030",
-        "Secondary":"A85921",
-        "Background":"F4A66E"
+        "Secondary":"#A85921",
+        "Background":"#F4A66E"
     },
     "Water":{
         "Primary":"#6890F0",
