@@ -5,9 +5,24 @@
 {% endblock %}
 
 {% block content %}
-  <ul>
-    {% for habitat in habitats %}
-    <li><a href="/habitats/{{habitat}}">{{habitat}}</a></li>
-    {% endfor %}
-  </ul>
+  {% for hab_type_i in range(0,habitats|length,3) %}
+    <div class="row">
+      {% for j in range(hab_type_i,hab_type_i+3) %}
+        <div class="column">
+          {% if habitat_types[j] == 'City' %}
+            <h2 id="sub_header">Cities</h2>
+          {% elif habitat_types[j] %}
+            <h2 id="sub_header">{{habitat_types[j]}}s</h2>
+          {% else %}
+            <h2></h2>
+          {% endif %}
+          <ul>
+          {% for hab in habitats[habitat_types[j]] %}
+            <li><a href="/habitats/{{hab}}">{{hab}}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
 {% endblock %}

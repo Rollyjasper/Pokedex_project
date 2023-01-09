@@ -30,9 +30,17 @@ def index():
 #a route for showing a list of all habitats
 @app.route('/habitats/')
 def habitat_list():
+    habitat_by_type = {}
+    for hab,data in habitat_data['Habitats'].items():
+            if data['Type'] in habitat_by_type:
+                habitat_by_type[data['Type']].append(hab)
+            else:
+                habitat_by_type[data['Type']] = [hab]
+
     return render_template(
         'habitat_list.html',
-        habitats=habitat_data.keys()
+        habitats=habitat_by_type,
+        habitat_types=habitat_data['Habitat Types']
     )
 
 #route for displaying infomation on a habitat
@@ -41,7 +49,7 @@ def habitat_info(habitat):
     return render_template(
         'habitat_info.html',
         habitat=habitat,
-        data=habitat_data[habitat],
+        data=habitat_data['Habitats'][habitat],
         pokemon_data=pokemon_data
     )
 

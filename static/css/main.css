@@ -122,6 +122,15 @@ table tr:first-child th:last-child {
     border-top-right-radius: 10px;
 }
 
+.row {
+	display: flex;
+	margin-bottom: 10px;
+  }
+  
+.column {
+	flex: 50%;
+  }
+
 #main{
 	margin-top: 5pt;
 	margin-left: 170px;
@@ -141,11 +150,17 @@ table tr:first-child th:last-child {
 
 #main_header{
 	padding: 5px;
-	border-bottom: 3px solid rgb(132, 75, 75);
+	border-bottom: 3px solid #844B4B;
 }
 
 #main_content{
 	padding: 5px;
 	width: 90%;
 	margin: auto;
+}
+
+#sub_header{
+	padding: 5px;
+	border-bottom: 4px double #5c3434;
+	width: max-content;
 }
