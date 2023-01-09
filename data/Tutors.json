@@ -1,183 +1,243 @@
 {
     "Covet":{
-        "Cost":[2,"Red"]
+        "Cost":[2,"Red"],
+        "Colour":"#FF7362"
     },
     "Bug Bite":{
-        "Cost":[2,"Red"]
+        "Cost":[2,"Red"],
+        "Colour":"#FF7362"
     },
     "Drill Run":{
-        "Cost":[4,"Red"]
+        "Cost":[4,"Red"],
+        "Colour":"#FF7362"
     },
     "Bounce":{
-        "Cost":[4,"Red"]
+        "Cost":[4,"Red"],
+        "Colour":"#FF7362"
     },
     "Signal Beam":{
-        "Cost":[4,"Red"]
+        "Cost":[4,"Red"],
+        "Colour":"#FF7362"
     },
     "Iron Head":{
-        "Cost":[4,"Red"]
+        "Cost":[4,"Red"],
+        "Colour":"#FF7362"
     },
     "Super Fang":{
-        "Cost":[6,"Red"]
+        "Cost":[6,"Red"],
+        "Colour":"#FF7362"
     },
     "Uproar":{
-        "Cost":[6,"Red"]
+        "Cost":[6,"Red"],
+        "Colour":"#FF7362"
     },
     "Seed Bomb":{
-        "Cost":[6,"Red"]
+        "Cost":[6,"Red"],
+        "Colour":"#FF7362"
     },
     "Dual Chop":{
-        "Cost":[6,"Red"]
+        "Cost":[6,"Red"],
+        "Colour":"#FF7362"
     },
     "Low Kick":{
-        "Cost":[8,"Red"]
+        "Cost":[8,"Red"],
+        "Colour":"#FF7362"
     },
     "Gunk Shot":{
-        "Cost":[8,"Red"]
+        "Cost":[8,"Red"],
+        "Colour":"#FF7362"
     },
     "Fire Punch":{
-        "Cost":[10,"Red"]
+        "Cost":[10,"Red"],
+        "Colour":"#FF7362"
     },
     "Thunder Punch":{
-        "Cost":[10,"Red"]
+        "Cost":[10,"Red"],
+        "Colour":"#FF7362"
     },
     "Ice Punch":{
-        "Cost":[10,"Red"]
+        "Cost":[10,"Red"],
+        "Colour":"#FF7362"
     },
     "Last Resort":{
-        "Cost":[2,"Blue"]
+        "Cost":[2,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Iron Defence":{
-        "Cost":[2,"Blue"]
+        "Cost":[2,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Magnet Rise":{
-        "Cost":[4,"Blue"]
+        "Cost":[4,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Magic Coat":{
-        "Cost":[4,"Blue"]
+        "Cost":[4,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Block":{
-        "Cost":[6,"Blue"]
+        "Cost":[6,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Hyper Voice":{
-        "Cost":[6,"Blue"]
+        "Cost":[6,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Electroweb":{
-        "Cost":[6,"Blue"]
+        "Cost":[6,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Icy Wind":{
-        "Cost":[6,"Blue"]
+        "Cost":[6,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Iron Tail":{
-        "Cost":[6,"Blue"]
+        "Cost":[6,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Aqua Tail":{
-        "Cost":[8,"Blue"]
+        "Cost":[8,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Earth Power":{
-        "Cost":[8,"Blue"]
+        "Cost":[8,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Zen Headbutt":{
-        "Cost":[8,"Blue"]
+        "Cost":[8,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Foul Play":{
-        "Cost":[8,"Blue"]
+        "Cost":[8,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Superpower":{
-        "Cost":[10,"Blue"]
+        "Cost":[10,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Gravity":{
-        "Cost":[10,"Blue"]
+        "Cost":[10,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Dragon Pulse":{
-        "Cost":[10,"Blue"]
+        "Cost":[10,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Dark Pulse":{
-        "Cost":[10,"Blue"]
+        "Cost":[10,"Blue"],
+        "Colour":"#6A94FF"
     },
     "Bind":{
-        "Cost":[2,"Yellow"]
+        "Cost":[2,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Snore":{
-        "Cost":[2,"Yellow"]
+        "Cost":[2,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Heal Bell":{
-        "Cost":[4,"Yellow"]
+        "Cost":[4,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Knock Off":{
-        "Cost":[4,"Yellow"]
+        "Cost":[4,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Synthesis":{
-        "Cost":[6,"Yellow"]
+        "Cost":[6,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Roost":{
-        "Cost":[6,"Yellow"]
+        "Cost":[6,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Sky Attack":{
-        "Cost":[8,"Yellow"]
+        "Cost":[8,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Role Play":{
-        "Cost":[8,"Yellow"]
+        "Cost":[8,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Heat Wave":{
-        "Cost":[10,"Yellow"]
+        "Cost":[10,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Giga Drain":{
-        "Cost":[10,"Yellow"]
+        "Cost":[10,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Drain Punch":{
-        "Cost":[10,"Yellow"]
+        "Cost":[10,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Pain Split":{
-        "Cost":[10,"Yellow"]
+        "Cost":[10,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Tailwind":{
-        "Cost":[10,"Yellow"]
+        "Cost":[10,"Yellow"],
+        "Colour":"#FFC562"
     },
     "Worry Seed":{
-        "Cost":[6,"Green"]
+        "Cost":[6,"Green"],
+        "Colour":"#7BE662"
     },
     "Gasto Acid":{
-        "Cost":[6,"Green"]
+        "Cost":[6,"Green"],
+        "Colour":"#7BE662"
     },
     "Helping Hand":{
-        "Cost":[8,"Green"]
+        "Cost":[8,"Green"],
+        "Colour":"#7BE662"
     },
     "After You":{
-        "Cost":[8,"Green"]
+        "Cost":[8,"Green"],
+        "Colour":"#7BE662"
     },
     "Magic Room":{
-        "Cost":[8,"Green"]
+        "Cost":[8,"Green"],
+        "Colour":"#7BE662"
     },
     "Wonder Room":{
-        "Cost":[8,"Green"]
+        "Cost":[8,"Green"],
+        "Colour":"#7BE662"
     },
     "Spite":{
-        "Cost":[8,"Green"]
+        "Cost":[8,"Green"],
+        "Colour":"#7BE662"
     },
     "Recycle":{
-        "Cost":[10,"Green"]
+        "Cost":[10,"Green"],
+        "Colour":"#7BE662"
     },
     "Trick":{
-        "Cost":[10,"Green"]
+        "Cost":[10,"Green"],
+        "Colour":"#7BE662"
     },
     "Stealth Rock":{
-        "Cost":[10,"Green"]
+        "Cost":[10,"Green"],
+        "Colour":"#7BE662"
     },
     "Outrage":{
-        "Cost":[10,"Green"]
+        "Cost":[10,"Green"],
+        "Colour":"#7BE662"
     },
     "Endeavor":{
-        "Cost":[12,"Green"]
+        "Cost":[12,"Green"],
+        "Colour":"#7BE662"
     },
     "Sleep Talk":{
-        "Cost":[12,"Green"]
+        "Cost":[12,"Green"],
+        "Colour":"#7BE662"
     },
     "Skill Swap":{
-        "Cost":[12,"Green"]
+        "Cost":[12,"Green"],
+        "Colour":"#7BE662"
     },
     "Snatch":{
-        "Cost":[12,"Green"]
+        "Cost":[12,"Green"],
+        "Colour":"#7BE662"
     },
     "Draco Meteor":{
         "Cost":null

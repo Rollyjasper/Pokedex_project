@@ -174,7 +174,7 @@
         {% for move in pokemon_data["Learnset"]["Tutor"] %}
         <tr>
         {% if tutor_moves[move]["Cost"] != None %}
-          <td>{{tutor_moves[move]["Cost"]|join(' ')}} Shards</td>
+          <td style="background-color: {{tutor_moves[move]['Colour']}};">{{tutor_moves[move]["Cost"]|join(' ')}} Shards</td>
         {% else %}
           <td>{{tutor_moves[move]["Cost"]}}</td>
         {% endif %}
