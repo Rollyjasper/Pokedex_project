@@ -958,5 +958,173 @@
         "Accuracy":100,
         "PP":40,
         "Desc":"Desc Here"
+    },
+    "Assurance":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":50,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Flail":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Foresight":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":40,
+        "Desc":"Desc Here"
+    },
+    "Iron Tail":{
+        "Type":"Steel",
+        "Catagory":"Physical",
+        "Power":100,
+        "Accuracy":75,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Pursuit":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":40,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Screech":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":85,
+        "PP":40,
+        "Desc":"Desc Here"
+    },
+    "Endeavor":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Aqua Tail":{
+        "Type":"Water",
+        "Catagory":"Physical",
+        "Power":90,
+        "Accuracy":90,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Fire Punch":{
+        "Type":"Fire",
+        "Catagory":"Physical",
+        "Power":75,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Thunder Punch":{
+        "Type":"Electric",
+        "Catagory":"Physical",
+        "Power":75,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Ice Punch":{
+        "Type":"Ice",
+        "Catagory":"Physical",
+        "Power":75,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Gunk Shot":{
+        "Type":"Poison",
+        "Catagory":"Physical",
+        "Power":120,
+        "Accuracy":70,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Helping Hand":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Knock Off":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":20,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Last Resort":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":140,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Seed Bomb":{
+        "Type":"Grass",
+        "Catagory":"Physical",
+        "Power":80,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Signal Beam":{
+        "Type":"Bug",
+        "Catagory":"Special",
+        "Power":75,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Sleep Talk":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Snore":{
+        "Type":"Normal",
+        "Catagory":"Special",
+        "Power":40,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Zen Headbutt":{
+        "Type":"Psychic",
+        "Catagory":"Physical",
+        "Power":80,
+        "Accuracy":90,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
     }
 }
