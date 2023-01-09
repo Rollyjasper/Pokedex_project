@@ -46,8 +46,7 @@
             "Field"
         ],
         "Desc": [
-            "Black desc",
-            "White desc"
+            "Extremely cautious, one of them will always be on the lookout, but it won't notice a foe coming from behind."
         ],
         "Habitats": [
             "Route 19",
@@ -162,10 +161,97 @@
                         269,
                         253
                     ]
+                ],
+                [
+                    "Assurance",
+                    [
+                        4,
+                        5,
+                        6,
+                        12,
+                        13,
+                        59,
+                        60,
+                        66,
+                        67,
+                        96,
+                        99,
+                        100,
+                        101,
+                        253
+                    ]
+                ],
+                [
+                    "Flail",
+                    [
+                        35,
+                        195,
+                        196,
+                        258
+                    ]
+                ],
+                [
+                    "Foresight",
+                    [   
+                        34,
+                        78,
+                        80,
+                        81
+                    ]
+                ],
+                [
+                    "Iron Tail",
+                    [
+                        25
+                    ]
+                ],
+                [
+                    "Pursuit",
+                    [
+                        12,
+                        13,
+                        35,
+                        59,
+                        60,
+                        96,
+                        144,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        186,
+                        216,
+                        269
+                    ]
+                ],
+                [
+                    "Screech",
+                    [
+                        35,
+                        96,
+                        187,
+                        252,
+                        253
+                    ]
                 ]
             ],
             "Tutor": [
-                "Covet"
+                "Covet",
+                "After You",
+                "Aqua Tail",
+                "Endeavor",
+                "Gunk Shot",
+                "Helping Hand",
+                "Iron Tail",
+                "Last Resort",
+                "Low Kick",
+                "Seed Bomb",
+                "Sleep Talk",
+                "Snore",
+                "Super Fang",
+                "Zen Headbutt"
             ]
         },
         "Forms": null,
@@ -337,10 +423,102 @@
                         269,
                         253
                     ]
+                ],
+                [
+                    "Assurance",
+                    [
+                        4,
+                        5,
+                        6,
+                        12,
+                        13,
+                        59,
+                        60,
+                        66,
+                        67,
+                        96,
+                        99,
+                        100,
+                        101,
+                        253
+                    ]
+                ],
+                [
+                    "Flail",
+                    [
+                        35,
+                        195,
+                        196,
+                        258
+                    ]
+                ],
+                [
+                    "Foresight",
+                    [   
+                        34,
+                        78,
+                        80,
+                        81
+                    ]
+                ],
+                [
+                    "Iron Tail",
+                    [
+                        25
+                    ]
+                ],
+                [
+                    "Pursuit",
+                    [
+                        12,
+                        13,
+                        35,
+                        59,
+                        60,
+                        96,
+                        144,
+                        147,
+                        148,
+                        149,
+                        150,
+                        151,
+                        152,
+                        186,
+                        216,
+                        269
+                    ]
+                ],
+                [
+                    "Screech",
+                    [
+                        35,
+                        96,
+                        187,
+                        252,
+                        253
+                    ]
                 ]
             ],
             "Tutor": [
-                "Covet"
+                "Covet",
+                "After You",
+                "Aqua Tail",
+                "Endeavor",
+                "Fire Punch",
+                "Gunk Shot",
+                "Helping Hand",
+                "Ice Punch",
+                "Iron Tail",
+                "Knock Off",
+                "Last Resort",
+                "Low Kick",
+                "Seed Bomb",
+                "Signal Beam",
+                "Sleep Talk",
+                "Snore",
+                "Super Fang",
+                "Thunder Punch",
+                "Zen Headbutt"
             ]
         },
         "Forms": null,
