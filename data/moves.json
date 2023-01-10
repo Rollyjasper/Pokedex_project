@@ -1263,6 +1263,214 @@
         "PP":10,
         "Desc":"Desc Here"
     },
+    "Searing Shot":{
+        "Type":"Fire",
+        "Catagory":"Special",
+        "Power":100,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Focus Energy":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":30,
+        "Desc":"Desc Here"
+    },
+    "Confusion":{
+        "Type":"Psychic",
+        "Catagory":"Special",
+        "Power":50,
+        "Accuracy":100,
+        "PP":25,
+        "Desc":"Desc Here"
+    },
+    "Quick Attack":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":40,
+        "Accuracy":100,
+        "PP":30,
+        "Desc":"Desc Here"
+    },
+    "Endure":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Headbutt":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":70,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Reversal":{
+        "Type":"Fighting",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Flame Burst":{
+        "Type":"Fire",
+        "Catagory":"Special",
+        "Power":70,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Inferno":{
+        "Type":"Fire",
+        "Catagory":"Special",
+        "Power":100,
+        "Accuracy":50,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Double-Edge":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":120,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Flare Blitz":{
+        "Type":"Fire",
+        "Catagory":"Physical",
+        "Power":120,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Final Gambit":{
+        "Type":"Fighting",
+        "Catagory":"Special",
+        "Power":null,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Stored Power":{
+        "Type":"Psychic",
+        "Catagory":"Special",
+        "Power":20,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Bounce":{
+        "Type":"Flying",
+        "Catagory":"Physical",
+        "Power":85,
+        "Accuracy":85,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Heat Wave":{
+        "Type":"Fire",
+        "Catagory":"Special",
+        "Power":100,
+        "Accuracy":90,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Magic Coat":{
+        "Type":"Psychic",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Role Play":{
+        "Type":"Psychic",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Skill Swap":{
+        "Type":"Psychic",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Uproar":{
+        "Type":"Normal",
+        "Catagory":"Special",
+        "Power":90,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Trick":{
+        "Type":"Psychic",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
     "":{
         "Type":"",
         "Catagory":"",
