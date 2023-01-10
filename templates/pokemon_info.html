@@ -12,6 +12,22 @@
   {% endif %}
 {% endblock %}
 
+{% block tabs %}
+  <ul class="tabs">
+    {% if pokemon_data["Forms"] %}
+        {% for form in pokemon_data["Forms"] %}
+          {% if form[0] == current_form|lower %}
+            <li id="Selected">{{form[1]}}</li>
+          {% else %}
+            <li><a href="/pokemon/{{dex_num}}/{{form[0][-1]|upper}}">{{form[1]}}</a></li>
+          {% endif %}
+        {% endfor %}
+    {% else %}
+        <li id="Selected">{{pokemon_data["Name"]}}</li>
+    {% endif %}
+  </ul>
+{% endblock %}
+
 {% block content %}
   <style>
     table{

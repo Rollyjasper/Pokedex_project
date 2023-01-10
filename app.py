@@ -1,5 +1,5 @@
 #imports
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 import json
 
 #Create flask object
@@ -11,6 +11,8 @@ with open('data/habitats.json','r') as file:
     habitat_data = json.load(file)
 with open('data/pokemon.json','r') as file:
     pokemon_data = json.load(file)
+with open('data/pokemon_forms.json','r') as file:
+    pokemon_form_data = json.load(file)
 with open('data/moves.json','r') as file:
     move_data = json.load(file)
 with open('data/TMs.json','r') as file:
@@ -67,6 +69,8 @@ def pokemon_list():
 @app.route('/pokemon/<int:dex_num>')
 def pokemon_info(dex_num):
     pkm = pokemon_data[str(dex_num)]
+    if pkm['Forms']:
+        return redirect(f'/pokemon/{dex_num}/A')
     pri_col = type_colours[pkm['Type'][0]]['Primary']
     bgd_col = type_colours[pkm['Type'][0]]['Background']
     if len(pkm['Type']) == 1:
@@ -93,5 +97,51 @@ def pokemon_info(dex_num):
             '#FA92B2',
             bgd_col
         ],
-        type_colours=type_colours
+        type_colours=type_colours,
+        current_form=None
+    )
+
+@app.route('/pokemon/<int:dex_num>/<form>')
+def pokemon_forms(dex_num,form):
+    pkm = pokemon_data[str(dex_num)]
+    #form info update
+    form = f'{dex_num}-{form}'
+    form_data = pokemon_form_data[form]
+    for key,value in form_data.items():
+        if key == 'Learnset':
+            for learn_sect,moves in value.items():
+                for move in moves:
+                    pkm['Learnset'][learn_sect].insert(move[0],move[1])
+        else:
+            pkm[key] = value
+
+    pri_col = type_colours[pkm['Type'][0]]['Primary']
+    bgd_col = type_colours[pkm['Type'][0]]['Background']
+    if len(pkm['Type']) == 1:
+        sec_col = type_colours[pkm['Type'][0]]['Secondary']
+    else:
+        sec_col = type_colours[pkm['Type'][1]]['Secondary']
+    
+
+    return render_template(
+        'pokemon_info.html',
+        dex_num=dex_num,
+        pokemon_data=pkm,
+        moves=move_data,
+        tm_links=tm_data,
+        tutor_moves=tutor_data,
+        primary_colour=pri_col,
+        seconday_colour=sec_col,
+        background_colour=bgd_col,
+        stat_colours=[
+            "#FF5959",
+            '#F5AC78',
+            '#FAE078',
+            '#9DB7F5',
+            '#A7DB8D',
+            '#FA92B2',
+            bgd_col
+        ],
+        type_colours=type_colours,
+        current_form=form
     )

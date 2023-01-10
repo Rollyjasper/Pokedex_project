@@ -26,8 +26,8 @@
     },
     "Rock":{
         "Primary":"#B8A038",
-        "Secondary":"93802C",
-        "Background":"C6B35F"
+        "Secondary":"#93802C",
+        "Background":"#C6B35F"
     },
     "Bug":{
         "Primary":"#A8B820",

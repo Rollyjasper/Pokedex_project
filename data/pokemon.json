@@ -12892,22 +12892,18 @@
     "297": {
         "Name": "Kyurem",
         "Type": [
-            "Normal"
+            "Dragon",
+            "Ice"
         ],
-        "Ability": [
-            "None",
-            null,
-            null
-        ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Ability": [],
+        "Height": 0.0,
+        "Weight": 325.0,
+        "Colour": "Gray",
         "Egg Group": [
-            ""
+            "Undiscovered"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "This legendary ice Pokemon waits for a hero to fill in the missing parts of its body with truth or ideals."
         ],
         "Habitats": [],
         "Stats": {
@@ -12920,12 +12916,84 @@
             "Total": 0
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
+            "Level Up": [
+                ["Icy Wind",1],
+                ["Dragon Rage",1],
+                ["Imprison",8],
+                ["Ancient Power",15],
+                ["Ice Beam",22],
+                ["Dragon Breath",29],
+                ["Slash",36],
+                ["Dragon Pulse", 57],
+                ["Imprison",64],
+                ["Endeavor",71],
+                ["Blizzard",78],
+                ["Outrage",85],
+                ["Hyper Voice",92]
+            ],
+            "TM": [
+                "TM01",
+                "TM02",
+                "TM06",
+                "TM07",
+                "TM10",
+                "TM11",
+                "TM13",
+                "TM14",
+                "TM15",
+                "TM16",
+                "TM17",
+                "TM18",
+                "TM20",
+                "TM21",
+                "TM27",
+                "TM29",
+                "TM30",
+                "TM32",
+                "TM33",
+                "TM39",
+                "TM42",
+                "TM44",
+                "TM48",
+                "TM49",
+                "TM52",
+                "TM56",
+                "TM65",
+                "TM66",
+                "TM68",
+                "TM71",
+                "TM80",
+                "TM82",
+                "TM87",
+                "TM90",
+                "TM91",
+                "TM94",
+                "HM01",
+                "HM02",
+                "HM04"
+            ],
             "Egg": [],
-            "Tutor": []
+            "Tutor": [
+                "Draco Meteor",
+                "Dragon Pulse",
+                "Earth Power",
+                "Endeavor",
+                "Hyper Voice",
+                "Icy Wind",
+                "Iron Head",
+                "Outrage",
+                "Roost",
+                "Signal Beam",
+                "Sleep Talk",
+                "Snore",
+                "Zen Headbutt"
+            ]
         },
-        "Forms": null,
+        "Forms": [
+            ["297-a","Kyurem"],
+            ["297-b","White Kyurem"],
+            ["297-c","Black Kyurem"]
+        ],
         "Evolution": {
             "From": null,
             "To": null

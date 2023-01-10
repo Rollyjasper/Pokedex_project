@@ -1119,6 +1119,206 @@
         "PP":15,
         "Desc":"Desc Here"
     },
+    "Icy Wind":{
+        "Type":"Ice",
+        "Catagory":"Special",
+        "Power":55,
+        "Accuracy":95,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Dragon Rage":{
+        "Type":"Dragon",
+        "Catagory":"Special",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Imprison":{
+        "Type":"Psychic",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Ancient Power":{
+        "Type":"Rock",
+        "Catagory":"Special",
+        "Power":60,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Dragon Breath":{
+        "Type":"Dragon",
+        "Catagory":"Special",
+        "Power":60,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Slash":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":70,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Scary Face":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":90,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Glaciate":{
+        "Type":"Ice",
+        "Catagory":"Special",
+        "Power":65,
+        "Accuracy":95,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Fusion Flare":{
+        "Type":"Fire",
+        "Catagory":"Special",
+        "Power":100,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Ice Burn":{
+        "Type":"Ice",
+        "Catagory":"Special",
+        "Power":140,
+        "Accuracy":90,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Fusion Bolt":{
+        "Type":"Electric",
+        "Catagory":"Physical",
+        "Power":100,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Freeze Shock":{
+        "Type":"Ice",
+        "Catagory":"Physical",
+        "Power":140,
+        "Accuracy":90,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Dragon Pulse":{
+        "Type":"Dragon",
+        "Catagory":"Special",
+        "Power":90,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Outrage":{
+        "Type":"Dragon",
+        "Catagory":"Physical",
+        "Power":120,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Hyper Voice":{
+        "Type":"Normal",
+        "Catagory":"Special",
+        "Power":90,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Earth Power":{
+        "Type":"Ground",
+        "Catagory":"Special",
+        "Power":90,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Iron Head":{
+        "Type":"Steel",
+        "Catagory":"Physical",
+        "Power":80,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Roost":{
+        "Type":"Flying",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
     "":{
         "Type":"",
         "Catagory":"",

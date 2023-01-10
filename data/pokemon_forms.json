@@ -1,0 +1,71 @@
+{
+    "297-A":{
+        "Ability":[
+            "Pressure",
+            null,
+            null
+        ],
+        "Height":3.0,
+        "Stats": {
+            "HP": 125,
+            "Attack": 130,
+            "Defence": 90,
+            "Special Attack": 130,
+            "Special Defence": 90,
+            "Speed": 95,
+            "Total": 660
+        },
+        "Learnset":{
+            "Level Up":[
+                [7,["Scary Face",43]],
+                [8,["Glaciate",50]]
+            ]
+        }
+    },
+    "297-B":{
+        "Ability":[
+            "Turboblaze",
+            null,
+            null
+        ],
+        "Height":3.6,
+        "Stats": {  
+            "HP": 125,
+            "Attack": 120,
+            "Defence": 100,
+            "Special Attack": 170,
+            "Special Defence": 100,
+            "Speed": 95,
+            "Total": 700
+        },
+        "Learnset":{
+            "Level Up":[
+                [7,["Fusion Flare",43]],
+                [8,["Ice Burn",50]]
+            ]
+        }
+    },
+    "297-C":{
+        "Ability":[
+            "Teravolt",
+            null,
+            null
+        ],
+        "Height":3.3,
+        "Stats": {
+            "HP": 125,
+            "Attack": 170,
+            "Defence": 100,
+            "Special Attack": 120,
+            "Special Defence": 100,
+            "Speed": 95,
+            "Total": 700
+        },
+        "Learnset":{
+            "Level Up":[
+                [7,["Fusion Bolt",43]],
+                [8,["Freeze Shock",50]]
+            ]
+        }
+    }
+}

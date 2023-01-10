@@ -104,6 +104,7 @@ th{
 
 td{
 	border: 1px solid #afafaf;
+	text-align: center;
 }
 
 table tr:last-child td:first-child {
@@ -131,15 +132,42 @@ table tr:first-child th:last-child {
 	flex: 50%;
   }
 
+ul.tabs li{
+	display: inline;
+	border: 2px solid #911207;
+	background: #640a0a;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+ul.tabs li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul.tabs li#Selected a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul.tabs li#Selected{
+	color: #000000;
+	border-bottom: #ffffff;
+	background-color: #ffffff;
+	position: relative;
+	z-index: 3;
+}
+
 #main{
-	margin-top: 5pt;
+	margin-top: 0pt;
 	margin-left: 170px;
 	margin-right: 410px;
 	background: white;
-	border: 1px solid #aaa;
-	border-top: 1px solid #911207;
-	border-left: 1px solid #911207;
-	border-bottom: 1px solid #911207;
+	border: 2px solid #911207;
+	border-radius: 5px;
 	padding: 30px;
 	max-width: 1070px;
 	box-sizing: border-box;
@@ -167,4 +195,16 @@ table tr:first-child th:last-child {
 
 #season_all{
 	text-align: center;
+}
+
+#page_tabs{
+	margin-top: 5pt;
+	margin-left: 170px;
+	margin-right: 410px;
+	margin-bottom: 3px;
+	padding-top: 30px;
+	padding-left: 10px;
+	max-width: 1070px;
+	position: relative;
+
 }
