@@ -2,282 +2,563 @@
     "Habitats":{
         "Route 1":{
             "Type":"Route",
-            "Pokemon":{
-                "23":{
-                    "Enviroment":["Grass","Dark Grass"],
-                    "Rates":[[50],[39]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
-                },
-                "11":{
-                    "Enviroment":["Grass","Dark Grass"],
-                    "Rates":[[40],[40]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
-                },
-                "282":{
-                    "Enviroment":["Grass","Dark Grass"],
-                    "Rates":[[10],[10]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
-                },
-                "118":{
-                    "Enviroment":["Dark Grass"],
-                    "Rates":[[11]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{
+                    "23":{
+                        "Enviroment":["Grass","Dark Grass"],
+                        "Rates":[[50],[39]],
+                        "Season":["All","All"]
+                    },
+                    "11":{
+                        "Enviroment":["Grass","Dark Grass"],
+                        "Rates":[[40],[40]],
+                        "Season":["All","All"]
+                    },
+                    "282":{
+                        "Enviroment":["Grass","Dark Grass"],
+                        "Rates":[[10],[10]],
+                        "Season":["All","All"]
+                    },
+                    "118":{
+                        "Enviroment":["Dark Grass"],
+                        "Rates":[[11]],
+                        "Season":["All"]
+                    }
                 }
             }
         },
         "Route 2":{
             "Type":"Route",
-            "Pokemon":{
-                "23":{
-                    "Enviroment":["Grass"],
-                    "Rates":[[30]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
-                },
-                "11":{
-                    "Enviroment":["Grass"],
-                    "Rates":[[30]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
-                },
-                "282":{
-                    "Enviroment":["Grass"],
-                    "Rates":[[10]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
-                },
-                "13":{
-                    "Enviroment":["Grass"],
-                    "Rates":[[20]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
-                },
-                "284":{
-                    "Enviroment":["Grass"],
-                    "Rates":[[10]],
-                    "Season":["Spring","Summer","Autumn","Winter"]
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{
+                    "23":{
+                        "Enviroment":["Grass"],
+                        "Rates":[[30]],
+                        "Season":["All"]
+                    },
+                    "11":{
+                        "Enviroment":["Grass"],
+                        "Rates":[[30]],
+                        "Season":["All"]
+                    },
+                    "282":{
+                        "Enviroment":["Grass"],
+                        "Rates":[[10]],
+                        "Season":["All"]
+                    },
+                    "13":{
+                        "Enviroment":["Grass"],
+                        "Rates":[[20]],
+                        "Season":["All"]
+                    },
+                    "284":{
+                        "Enviroment":["Grass"],
+                        "Rates":[[10]],
+                        "Season":["All"]
+                    }
                 }
             }
         },
         "Route 3":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 4":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 5":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 6":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 7":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 8":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 9":{
             "Type":"Route",
-            "Pokemon":{}
-        },
-        "Route 10":{
-            "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 11":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 12":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 13":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 14":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 15":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 16":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 17":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 18":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 19":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 20":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 21":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 22":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Route 23":{
             "Type":"Route",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Aspertia City":{
             "Type":"City",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Virbank City":{
             "Type":"City",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Castelia City":{
             "Type":"City",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Humilau City":{
             "Type":"City",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Icirrus City":{
             "Type":"City",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Striation City":{
             "Type":"City",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Undella Town":{
             "Type":"Town",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Castelia Sewers":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Relic Castle":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Mistralton Cave":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Clay Tunnel":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Relic Passage":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Chargestone Cave":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Seaside Cave":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Victory Road":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Giant Chasm":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Entrance"
+            ],
+            "Entrance":{
+                "Pokemon":{}
+            }
         },
         "Twist Mountain":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Wellspring Cave":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Reversal Mountain":{
             "Type":"Cave",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Celestial Tower":{
             "Type":"Tower",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Strange House":{
             "Type":"Tower",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Dragonspiral Tower":{
             "Type":"Tower",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Driftveil Drawbridge":{
             "Type":"Bridge",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Village Bridge":{
             "Type":"Bridge",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Marvelous Bridge":{
             "Type":"Bridge",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Lostlorn Forest":{
             "Type":"Forest",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Pinwheel Forest":{
             "Type":"Forest",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Floccesy Ranch":{
             "Type":"Other",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Virbank Complex":{
             "Type":"Other",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Desert Resort":{
             "Type":"Other",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Abundant Shrine":{
             "Type":"Other",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Moor of Icirrus":{
             "Type":"Other",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Dreamyard":{
             "Type":"Other",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "P2 Laboratory":{
             "Type":"Other",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         },
         "Nature Preserve":{
             "Type":"Other",
-            "Pokemon":{}
+            "Sections":[
+                "Main Section"
+            ],
+            "Main Section":{
+                "Pokemon":{}
+            }
         }
     },
     "Habitat Types":[

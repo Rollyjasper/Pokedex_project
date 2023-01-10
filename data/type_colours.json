@@ -103,5 +103,15 @@
         "Primary":"",
         "Secondary":"",
         "Background":"#D8D8D8"
+    },
+    "Eviroment":{
+        "Grass":["#A2E0A3","#000000"],
+        "Dark Grass":["#618661","#FFFFFF"]
+    },
+    "Season":{
+        "Spring":"#C7FA89",
+        "Summer":"#A0DEFA",
+        "Autumn":"#FAB189",
+        "Winter":"#F4E3FA"
     }
 }

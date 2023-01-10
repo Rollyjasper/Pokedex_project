@@ -5,21 +5,105 @@
 {% endblock %}
 
 {% block content %}
-  <p>Type: {{data.Type}}</p>
   <ul>
-    {% for pokemon,info in data.Pokemon.items() %}
-    {% if pokemon|int < 10  %}
-      <li>#00{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
-    {% elif pokemon|int < 100  %}
-      <li>#0{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
-    {% else %}
-      <li>#{{pokemon}} - {{pokemon_data[pokemon].Name}}:</li>
-    {% endif %}
-    <ul>
-      {% for attr,attr_data in info.items() %}
-      <li>{{attr}}: {{attr_data}}</li>
-      {% endfor %}
-    </ul>
+    <li>Type: {{habitat_data.Type}}</li>
+    {% for section in habitat_data.Sections %}
+      {% set data = habitat_data[section] %}
+      {% if section != 'Main Section' %}
+          <li id="sub_header">{{section}}</li>
+      {% endif %}
+      
+      <table>
+        <tr>
+          <th rowspan="2">Pokémon</th>
+          <th colspan="1" rowspan="2">Eviroment</th>
+          <th colspan="4" rowspan="2">Rates</th>
+          <th colspan="4" style="border-bottom-width: 1px;">Seasons</th>
+        </tr>
+        <tr>
+          {% for season in seasons %}
+              <th style="background-color: {{colours.Season[season]}};">{{season}}</th>
+          {% endfor %}
+        </tr>
+        {% for pokemon,info in data.Pokemon.items() %}
+        <tr>
+          <!--Pokemon Name-->
+          <td rowspan="{{info.Enviroment|length}}">
+          {% if pokemon|int < 10  %}
+            <a href="/pokemon/{{pokemon}}">#00{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:
+          {% elif pokemon|int < 100  %}
+            <a href="/pokemon/{{pokemon}}">#0{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:
+          {% else %}
+            <a href="/pokemon/{{pokemon}}">#{{pokemon}} - {{pokemon_data[pokemon].Name}}</a>:
+          {% endif %}
+          </td>
+          <!--Eviroment 0-->
+          <td style="color: {{colours.Eviroment[info.Enviroment[0]][1]}};
+          background-color: {{colours.Eviroment[info.Enviroment[0]][0]}};
+          ">{{info.Enviroment[0]}}</td>
+          <!--Rates 0-->
+          {% if info.Rates[0]|length > 1 %}
+              {% for rate in info.Rates[0] %}
+                  {% if rate == None %}
+                      <td>--</td>
+                  {% else %}
+                      <td>{{rate}}%</td>
+                  {% endif %}
+              {% endfor %}
+          {% else %}
+            <td colspan="4">{{info.Rates[0][0]}}%</td>
+          {% endif %}
+          <!--Seasons 0-->
+          {% if info.Season[0] == 'All' %}
+            <td colspan="4" id="season_all">{{info.Season[0]}}</td>
+          {% else %}
+            {% for season in seasons %}
+                {% if season in info.Season[0] %}
+                    <td style="background-color: {{colours.Season[season]}};">&check;</td>
+                {% else %}
+                    <td style="background-color: {{colours.Season[season]}};">--</td>
+                {% endif %}
+            {% endfor %}
+          {% endif %}
+        </tr>
+        <!--Enviroments 1+-->
+        {% if info.Enviroment|length > 1 %}
+            {% for i in range(1,info.Enviroment|length) %}
+                <tr>
+                <!--Eviroment i-->
+                <td style="color: {{colours.Eviroment[info.Enviroment[i]][1]}};
+                background-color: {{colours.Eviroment[info.Enviroment[i]][0]}};
+                ">{{info.Enviroment[i]}}</td>
+                <!--Rate i-->
+                {% if info.Rates[i]|length > 1 %}
+                    {% for rate in info.Rates[i] %}
+                        {% if rate == None %}
+                            <td>--</td>
+                        {% else %}
+                            <td>{{rate}}%</td>
+                        {% endif %}
+                    {% endfor %}
+                {% else %}
+                    <td colspan="4">{{info.Rates[i][0]}}%</td>
+                {% endif %}
+                <!--Seasons i-->
+                {% if info.Season[i] == 'All' %}
+                    <td colspan="4" id="season_all">{{info.Season[i]}}</td>
+                {% else %}
+                    {% for season in seasons %}
+                        {% if season in info.Season[i] %}
+                            <td style="background-color: {{colours.Season[season]}};">{{season}}</td>
+                        {% else %}
+                            <td style="background-color: {{colours.Season[season]}};">--</td>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                </tr>
+            {% endfor %}
+        {% endif %}
+        <!--End Enviroments 1+-->
+        {% endfor %}
+      </table>
     {% endfor %}
   </ul>
 {% endblock %}

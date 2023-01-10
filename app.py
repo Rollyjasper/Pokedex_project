@@ -49,8 +49,10 @@ def habitat_info(habitat):
     return render_template(
         'habitat_info.html',
         habitat=habitat,
-        data=habitat_data['Habitats'][habitat],
-        pokemon_data=pokemon_data
+        habitat_data=habitat_data['Habitats'][habitat],
+        pokemon_data=pokemon_data,
+        seasons=['Spring','Summer','Autumn','Winter'],
+        colours=type_colours
     )
 
 #a route for showing a list of all pokemon
