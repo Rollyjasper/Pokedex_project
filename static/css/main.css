@@ -170,6 +170,7 @@ ul.tabs li#Selected{
 	border-radius: 5px;
 	padding: 30px;
 	max-width: 1070px;
+	min-width: 550px;
 	box-sizing: border-box;
 	position: relative;
 	z-index: 2;

@@ -124,378 +124,1481 @@
     "1": {
         "Name": "Snivy",
         "Type": [
-            "Normal"
+            "Grass"
         ],
         "Ability": [
-            "None",
+            "Overgrow",
             null,
-            null
+            "Contary"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.6,
+        "Weight": 8.1,
+        "Colour": "Green",
         "Egg Group": [
-            ""
+            "Field",
+            "Grass"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 45,
+            "Attack": 45,
+            "Defence": 55,
+            "Special Attack": 45,
+            "Special Defence": 55,
+            "Speed": 63,
+            "Total": 308
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Leer",4],
+                ["Vine Whip",7],
+                ["Wrap",10],
+                ["Growth",13],
+                ["Leaf Tornado",16],
+                ["Leech Seed",19],
+                ["Mega Drain",22],
+                ["Slam",25],
+                ["Leaf Blade",28],
+                ["Coil",31],
+                ["Giga Drain",34],
+                ["Wring Out",37],
+                ["Gastro Acid",40],
+                ["Leaf Storm",43]
+            ],
+            "TM": [
+                "TM04",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM16",
+                "TM17",
+                "TM20",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM33",
+                "TM40",
+                "TM41",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM53",
+                "TM70",
+                "TM75",
+                "TM86",
+                "TM87",
+                "TM90",
+                "HM01"
+            ],
+            "Egg": [
+                ["Captivate",[
+                    12,
+                    78,
+                    107,
+                    248
+                ]],
+                ["Glare",[
+                    35,
+                    187
+                ]],
+                ["Iron Tail",[
+                    25
+                ]],
+                ["Magical Leaf",[
+                    97,
+                    134,
+                    135
+                ]],
+                ["Mean Look",[
+                    10,
+                    11,
+                    96
+                ]],
+                ["Mirror Coat",[
+                    81,
+                    98
+                ]],
+                ["Natural Gift",[
+                    20,
+                    21,
+                    37,
+                    39,
+                    41,
+                    217,
+                    218
+                ]],
+                ["Pursuit",[
+                    12,
+                    13,
+                    35,
+                    59,
+                    60,
+                    96,
+                    144,
+                    147,
+                    148,
+                    151,
+                    152,
+                    186,
+                    216,
+                    269
+                ]],
+                ["Sweet Scent",[
+                    119,
+                    134,
+                    135,
+                    161,
+                    162
+                ]]
+            ],
+            "Tutor": [
+                "Aqua Tail",
+                "Bind",
+                "Gastro Acid",
+                "Giga Drain",
+                "Grass Pledge",
+                "Iron Tail",
+                "Knock Off",
+                "Seed Bomb",
+                "Sleep Talk",
+                "Snatch",
+                "Snore",
+                "Synthesis",
+                "Worry Seed"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["2"]
         }
     },
     "2": {
         "Name": "Servine",
         "Type": [
-            "Normal"
+            "Grass"
         ],
         "Ability": [
-            "None",
+            "Overgrow",
             null,
-            null
+            "Contary"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.8,
+        "Weight": 16.0,
+        "Colour": "Green",
         "Egg Group": [
-            ""
+            "Field",
+            "Grass"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 60,
+            "Attack": 60,
+            "Defence": 75,
+            "Special Attack": 60,
+            "Special Defence": 75,
+            "Speed": 83,
+            "Total": 413
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Leer",1],
+                ["Vine Whip",1],
+                ["Wrap",1],
+                ["Leer",4],
+                ["Vine Whip",7],
+                ["Wrap",10],
+                ["Growth",13],
+                ["Leaf Tornado",16],
+                ["Leech Seed",20],
+                ["Mega Drain",24],
+                ["Slam",28],
+                ["Leaf Blade",32],
+                ["Coil",36],
+                ["Giga Drain",40],
+                ["Wring Out",44],
+                ["Gastro Acid",48],
+                ["Leaf Storm",52]
+            ],
+            "TM": [
+                "TM04",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM16",
+                "TM17",
+                "TM20",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM33",
+                "TM40",
+                "TM41",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM53",
+                "TM70",
+                "TM75",
+                "TM86",
+                "TM87",
+                "TM90",
+                "HM01"
+            ],
+            "Egg": [
+                ["Captivate",[
+                    12,
+                    78,
+                    107,
+                    248
+                ]],
+                ["Glare",[
+                    35,
+                    187
+                ]],
+                ["Iron Tail",[
+                    25
+                ]],
+                ["Magical Leaf",[
+                    97,
+                    134,
+                    135
+                ]],
+                ["Mean Look",[
+                    10,
+                    11,
+                    96
+                ]],
+                ["Mirror Coat",[
+                    81,
+                    98
+                ]],
+                ["Natural Gift",[
+                    20,
+                    21,
+                    37,
+                    39,
+                    41,
+                    217,
+                    218
+                ]],
+                ["Pursuit",[
+                    12,
+                    13,
+                    35,
+                    59,
+                    60,
+                    96,
+                    144,
+                    147,
+                    148,
+                    151,
+                    152,
+                    186,
+                    216,
+                    269
+                ]],
+                ["Sweet Scent",[
+                    119,
+                    134,
+                    135,
+                    161,
+                    162
+                ]]
+            ],
+            "Tutor": [
+                "Aqua Tail",
+                "Bind",
+                "Gastro Acid",
+                "Giga Drain",
+                "Grass Pledge",
+                "Iron Tail",
+                "Knock Off",
+                "Seed Bomb",
+                "Sleep Talk",
+                "Snatch",
+                "Snore",
+                "Synthesis",
+                "Worry Seed"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
-            "To": null
+            "From": "1",
+            "To": ["3"]
         }
     },
     "3": {
         "Name": "Serperior",
         "Type": [
-            "Normal"
+            "Grass"
         ],
         "Ability": [
-            "None",
+            "Overgrow",
             null,
-            null
+            "Contary"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 3.3,
+        "Weight": 63.0,
+        "Colour": "Green",
         "Egg Group": [
-            ""
+            "Field",
+            "Grass"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "It only gives its all against strong opponents who are not fazed by the glare from Serperior's noble eyes."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 75,
+            "Attack": 75,
+            "Defence": 95,
+            "Special Attack": 75,
+            "Special Defence": 95,
+            "Speed": 113,
+            "Total": 528
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Leer",1],
+                ["Vine Whip",1],
+                ["Wrap",1],
+                ["Leer",4],
+                ["Vine Whip",7],
+                ["Wrap",10],
+                ["Growth",13],
+                ["Leaf Tornado",16],
+                ["Leech Seed",20],
+                ["Mega Drain",24],
+                ["Slam",28],
+                ["Leaf Blade",32],
+                ["Coil",38],
+                ["Giga Drain",44],
+                ["Wring Out",50],
+                ["Gastro Acid",56],
+                ["Leaf Storm",62]
+            ],
+            "TM": [
+                "TM04",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM15",
+                "TM16",
+                "TM17",
+                "TM20",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM33",
+                "TM40",
+                "TM41",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM53",
+                "TM68",
+                "TM70",
+                "TM75",
+                "TM82",
+                "TM86",
+                "TM87",
+                "TM90",
+                "TM94",
+                "HM01",
+                "HM04"
+            ],
+            "Egg": [
+                ["Captivate",[
+                    12,
+                    78,
+                    107,
+                    248
+                ]],
+                ["Glare",[
+                    35,
+                    187
+                ]],
+                ["Iron Tail",[
+                    25
+                ]],
+                ["Magical Leaf",[
+                    97,
+                    134,
+                    135
+                ]],
+                ["Mean Look",[
+                    10,
+                    11,
+                    96
+                ]],
+                ["Mirror Coat",[
+                    81,
+                    98
+                ]],
+                ["Natural Gift",[
+                    20,
+                    21,
+                    37,
+                    39,
+                    41,
+                    217,
+                    218
+                ]],
+                ["Pursuit",[
+                    12,
+                    13,
+                    35,
+                    59,
+                    60,
+                    96,
+                    144,
+                    147,
+                    148,
+                    151,
+                    152,
+                    186,
+                    216,
+                    269
+                ]],
+                ["Sweet Scent",[
+                    119,
+                    134,
+                    135,
+                    161,
+                    162
+                ]]
+            ],
+            "Tutor": [
+                "Aqua Tail",
+                "Bind",
+                "Dragon Pulse",
+                "Frenzy Plant",
+                "Gastro Acid",
+                "Giga Drain",
+                "Grass Pledge",
+                "Iron Tail",
+                "Knock Off",
+                "Outrage",
+                "Seed Bomb",
+                "Sleep Talk",
+                "Snatch",
+                "Snore",
+                "Synthesis",
+                "Worry Seed"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "2",
             "To": null
         }
     },
     "4": {
         "Name": "Tepig",
         "Type": [
-            "Normal"
+            "Fire"
         ],
         "Ability": [
-            "None",
+            "Blaze",
             null,
-            null
+            "Thick Fat"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.5,
+        "Weight": 9.9,
+        "Colour": "Red",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp. "
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 65,
+            "Attack": 63,
+            "Defence": 45,
+            "Special Attack": 45,
+            "Special Defence": 45,
+            "Speed": 45,
+            "Total": 308
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Tail Whip",3],
+                ["Ember",7],
+                ["Odor Sleuth",9],
+                ["Defence Curl",13],
+                ["Flame Charge",15],
+                ["Smog",19],
+                ["Rollout",21],
+                ["Take Down",25],
+                ["Heat Crash",27],
+                ["Assurance",31],
+                ["Flamethrower",33],
+                ["Head Smash",37],
+                ["Roar",39],
+                ["Flare Blitz",43]
+            ],
+            "TM": [
+                "TM05",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM17",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM35",
+                "TM38",
+                "TM39",
+                "TM42",
+                "TM43",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM49",
+                "TM50",
+                "TM59",
+                "TM61",
+                "TM74",
+                "TM86",
+                "TM87",
+                "TM90",
+                "TM93",
+                "TM94",
+                "HM04"
+            ],
+            "Egg": [
+                ["Body Slam",[
+                    243,
+                    244,
+                    245
+                ]],
+                ["Covet",[
+                    78,
+                    91,
+                    276,
+                    278
+                ]],
+                ["Endeavor",[
+                    35,
+                    59,
+                    60,
+                    66,
+                    67
+                ]],
+                ["Heavy Slam",[
+                    240,
+                    241
+                ]],
+                ["Magnitude",[
+                    204,
+                    205
+                ]],
+                ["Superpower",[
+                    102,
+                    103,
+                    196
+                ]],
+                ["Thrash",[
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    147,
+                    148,
+                    195,
+                    196,
+                    259,
+                    260,
+                    269
+                ]],
+                ["Yawn",[
+                    35,
+                    39,
+                    86,
+                    204,
+                    205,
+                    276,
+                    278
+                ]]
+            ],
+            "Tutor": [
+                "Covet",
+                "Endeavor",
+                "Fire Pledge",
+                "Heat Wave",
+                "Helping Hand",
+                "Iron Tail",
+                "Sleep Talk",
+                "Snore",
+                "Superpower"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["5"]
         }
     },
     "5": {
         "Name": "Pignite",
         "Type": [
-            "Normal"
+            "Fire",
+            "Fighting"
         ],
         "Ability": [
-            "None",
+            "Blaze",
             null,
-            null
+            "Thick Fat"
         ],
         "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Weight": 55.5,
+        "Colour": "Red",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 90,
+            "Attack": 93,
+            "Defence": 55,
+            "Special Attack": 70,
+            "Special Defence": 55,
+            "Speed": 55,
+            "Total": 418
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Tail Whip",1],
+                ["Ember",1],
+                ["Odor Sleuth",1],
+                ["Tail Whip",3],
+                ["Ember",7],
+                ["Odor Sleuth",9],
+                ["Defence Curl",13],
+                ["Flame Charge",15],
+                ["Arm Thrust",17],
+                ["Smog",20],
+                ["Rollout",23],
+                ["Take Down",28],
+                ["Heat Crash",31],
+                ["Assurance",36],
+                ["Flamethrower",39],
+                ["Head Smash",44],
+                ["Roar",47],
+                ["Flare Blitz",52]
+            ],
+            "TM": [
+                "TM05",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM17",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM31",
+                "TM32",
+                "TM35",
+                "TM38",
+                "TM39",
+                "TM42",
+                "TM43",
+                "TM44",
+                "TM45",
+                "TM47",
+                "TM48",
+                "TM49",
+                "TM50",
+                "TM52",
+                "TM56",
+                "TM59",
+                "TM61",
+                "TM71",
+                "TM74",
+                "TM78",
+                "TM80",
+                "TM83",
+                "TM84",
+                "TM86",
+                "TM87",
+                "TM90",
+                "TM93",
+                "TM94",
+                "HM04"
+            ],
+            "Egg": [
+                ["Body Slam",[
+                    243,
+                    244,
+                    245
+                ]],
+                ["Covet",[
+                    78,
+                    91,
+                    276,
+                    278
+                ]],
+                ["Endeavor",[
+                    35,
+                    59,
+                    60,
+                    66,
+                    67
+                ]],
+                ["Heavy Slam",[
+                    240,
+                    241
+                ]],
+                ["Magnitude",[
+                    204,
+                    205
+                ]],
+                ["Superpower",[
+                    102,
+                    103,
+                    196
+                ]],
+                ["Thrash",[
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    147,
+                    148,
+                    195,
+                    196,
+                    259,
+                    260,
+                    269
+                ]],
+                ["Yawn",[
+                    35,
+                    39,
+                    86,
+                    204,
+                    205,
+                    276,
+                    278
+                ]]
+            ],
+            "Tutor": [
+                "Covet",
+                "Endeavor",
+                "Fire Pledge",
+                "Fire Punch",
+                "Heat Wave",
+                "Helping Hand",
+                "Iron Tail",
+                "Low Kick",
+                "Sleep Talk",
+                "Snore",
+                "Superpower",
+                "Thunder Punch"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
-            "To": null
+            "From": "4",
+            "To": ["6"]
         }
     },
     "6": {
         "Name": "Emboar",
         "Type": [
-            "Normal"
+            "Fire",
+            "Fighting"
         ],
         "Ability": [
-            "None",
+            "Blaze",
             null,
-            null
+            "Thick Fat"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 1.6,
+        "Weight": 150.0,
+        "Colour": "Red",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "A flaring beard of fire is proof that it is fired up. It is adept at using many different moves."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 110,
+            "Attack": 123,
+            "Defence": 65,
+            "Special Attack": 100,
+            "Special Defence": 65,
+            "Speed": 65,
+            "Total": 528
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Hammer Arm",1],
+                ["Tackle",1],
+                ["Tail Whip",1],
+                ["Ember",1],
+                ["Odor Sleuth",1],
+                ["Tail Whip",3],
+                ["Ember",7],
+                ["Odor Sleuth",9],
+                ["Defence Curl",13],
+                ["Flame Charge",15],
+                ["Arm Thrust",17],
+                ["Smog",20],
+                ["Rollout",23],
+                ["Take Down",28],
+                ["Heat Crash",31],
+                ["Assurance",38],
+                ["Flamethrower",43],
+                ["Head Smash",50],
+                ["Roar",55],
+                ["Flare Blitz",62]
+            ],
+            "TM": [
+                "TM05",
+                "TM06",
+                "TM08",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM15",
+                "TM17",
+                "TM21",
+                "TM22",
+                "TM23",
+                "TM26",
+                "TM27",
+                "TM31",
+                "TM32",
+                "TM35",
+                "TM38",
+                "TM39",
+                "TM42",
+                "TM43",
+                "TM44",
+                "TM45",
+                "TM47",
+                "TM48",
+                "TM49",
+                "TM50",
+                "TM52",
+                "TM55",
+                "TM56",
+                "TM59",
+                "TM61",
+                "TM68",
+                "TM71",
+                "TM74",
+                "TM78",
+                "TM80",
+                "TM83",
+                "TM84",
+                "TM86",
+                "TM87",
+                "TM90",
+                "TM93",
+                "TM94",
+                "HM04"
+            ],
+            "Egg": [
+                ["Body Slam",[
+                    243,
+                    244,
+                    245
+                ]],
+                ["Covet",[
+                    78,
+                    91,
+                    276,
+                    278
+                ]],
+                ["Endeavor",[
+                    35,
+                    59,
+                    60,
+                    66,
+                    67
+                ]],
+                ["Heavy Slam",[
+                    240,
+                    241
+                ]],
+                ["Magnitude",[
+                    204,
+                    205
+                ]],
+                ["Superpower",[
+                    102,
+                    103,
+                    196
+                ]],
+                ["Thrash",[
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    147,
+                    148,
+                    195,
+                    196,
+                    259,
+                    260,
+                    269
+                ]],
+                ["Yawn",[
+                    35,
+                    39,
+                    86,
+                    204,
+                    205,
+                    276,
+                    278
+                ]]
+            ],
+            "Tutor": [
+                "Blast Burn",
+                "Block",
+                "Covet",
+                "Endeavor",
+                "Fire Pledge",
+                "Fire Punch",
+                "Heat Wave",
+                "Helping Hand",
+                "Iron Head",
+                "Iron Tail",
+                "Low Kick",
+                "Sleep Talk",
+                "Snore",
+                "Superpower",
+                "Thunder Punch"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "5",
             "To": null
         }
     },
     "7": {
         "Name": "Oshawott",
         "Type": [
-            "Normal"
+            "Water"
         ],
         "Ability": [
-            "None",
+            "Torrent",
             null,
-            null
+            "Shell Armour"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.5,
+        "Weight": 5.9,
+        "Colour": "Blue",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "The scalchop on its stomach isn't just used for battle--it can be used to break open hard berries as well."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 55,
+            "Attack": 55,
+            "Defence": 45,
+            "Special Attack": 63,
+            "Special Defence": 45,
+            "Speed": 45,
+            "Total": 308
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Tail Whip",5],
+                ["Water Gun",7],
+                ["Water Sport",11],
+                ["Focus Energy",13],
+                ["Razor Shell",17],
+                ["Fury Cutter",19],
+                ["Water Pulse",23],
+                ["Revenge",25],
+                ["Aqua Jet",29],
+                ["Encore",31],
+                ["Aqua Tail",35],
+                ["Retaliate",37],
+                ["Swords Dance",41],
+                ["Hydro Pump",43]
+            ],
+            "TM": [
+                "TM06",
+                "TM07",
+                "TM10",
+                "TM12",
+                "TM13",
+                "TM14",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM27",
+                "TM28",
+                "TM32",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM54",
+                "TM55",
+                "TM56",
+                "TM67",
+                "TM75",
+                "TM81",
+                "TM86",
+                "TM87",
+                "TM90",
+                "TM94",
+                "HM01",
+                "HM03",
+                "HM05",
+                "HM06"
+            ],
+            "Egg": [
+                ["Air Slash",[
+                    66,
+                    67
+                ]],
+                ["Assurance",[
+                    4,
+                    5,
+                    6,
+                    12,
+                    13,
+                    59,
+                    60,
+                    66,
+                    67,
+                    96,
+                    99,
+                    100,
+                    101,
+                    253
+                ]],
+                ["Brine",[
+                    41,
+                    195,
+                    196,
+                    240,
+                    241,
+                    265,
+                    266
+                ]],
+                ["Copycat",[
+                    78
+                ]],
+                ["Detect",[
+                    10,
+                    11,
+                    34,
+                    186,
+                    216,
+                    219,
+                    220
+                ]],
+                ["Night Slash",[
+                    12,
+                    13,
+                    187,
+                    216,
+                    253
+                ]],
+                ["Screech",[
+                    35,
+                    96,
+                    152,
+                    187,
+                    252,
+                    253
+                ]],
+                ["Trump Card",[
+                    91
+                ]]
+            ],
+            "Tutor": [
+                "Aqua Tail",
+                "Covet",
+                "Helping Hand",
+                "Icy Wind",
+                "Iron Tail",
+                "Sleep Talk",
+                "Snore",
+                "Water Pledge"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["8"]
         }
     },
     "8": {
         "Name": "Dewott",
         "Type": [
-            "Normal"
+            "Water"
         ],
         "Ability": [
-            "None",
+            "Torrent",
             null,
-            null
+            "Shell Armour"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.8,
+        "Weight": 24.5,
+        "Colour": "Blue",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "As a result of strict training, each Dewott learns different forms for using the scalchops."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 75,
+            "Attack": 75,
+            "Defence": 60,
+            "Special Attack": 83,
+            "Special Defence": 60,
+            "Speed": 60,
+            "Total": 413
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Tail Whip",1],
+                ["Water Gun",1],
+                ["Water Sport",1],
+                ["Tail Whip",5],
+                ["Water Gun",7],
+                ["Water Sport",11],
+                ["Focus Energy",13],
+                ["Razor Shell",17],
+                ["Fury Cutter",20],
+                ["Water Pulse",25],
+                ["Revenge",28],
+                ["Aqua Jet",33],
+                ["Encore",36],
+                ["Aqua Tail",41],
+                ["Retaliate",44],
+                ["Swords Dance",49],
+                ["Hydro Pump",52]
+            ],
+            "TM": [
+                "TM06",
+                "TM07",
+                "TM10",
+                "TM12",
+                "TM13",
+                "TM14",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM27",
+                "TM28",
+                "TM32",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM54",
+                "TM55",
+                "TM56",
+                "TM67",
+                "TM75",
+                "TM81",
+                "TM86",
+                "TM87",
+                "TM90",
+                "TM94",
+                "HM01",
+                "HM03",
+                "HM05",
+                "HM06"
+            ],
+            "Egg": [
+                ["Air Slash",[
+                    66,
+                    67
+                ]],
+                ["Assurance",[
+                    4,
+                    5,
+                    6,
+                    12,
+                    13,
+                    59,
+                    60,
+                    66,
+                    67,
+                    96,
+                    99,
+                    100,
+                    101,
+                    253
+                ]],
+                ["Brine",[
+                    41,
+                    195,
+                    196,
+                    240,
+                    241,
+                    265,
+                    266
+                ]],
+                ["Copycat",[
+                    78
+                ]],
+                ["Detect",[
+                    10,
+                    11,
+                    34,
+                    186,
+                    216,
+                    219,
+                    220
+                ]],
+                ["Night Slash",[
+                    12,
+                    13,
+                    187,
+                    216,
+                    253
+                ]],
+                ["Screech",[
+                    35,
+                    96,
+                    152,
+                    187,
+                    252,
+                    253
+                ]],
+                ["Trump Card",[
+                    91
+                ]]
+            ],
+            "Tutor": [
+                "Aqua Tail",
+                "Covet",
+                "Helping Hand",
+                "Icy Wind",
+                "Iron Tail",
+                "Sleep Talk",
+                "Snore",
+                "Water Pledge"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
-            "To": null
+            "From": "7",
+            "To": ["9"]
         }
     },
     "9": {
         "Name": "Samurott",
         "Type": [
-            "Normal"
+            "Water"
         ],
         "Ability": [
-            "None",
+            "Torrent",
             null,
-            null
+            "Shell Armour"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 1.5,
+        "Weight": 94.6,
+        "Colour": "Blue",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "In the time it takes a foe to blink, it can draw and sheathe the seamitars attached to its front legs."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 95,
+            "Attack": 100,
+            "Defence": 85,
+            "Special Attack": 108,
+            "Special Defence": 70,
+            "Speed": 70,
+            "Total": 528
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Megahorn",1],
+                ["Tackle",1],
+                ["Tail Whip",1],
+                ["Water Gun",1],
+                ["Water Sport",1],
+                ["Tail Whip",5],
+                ["Water Gun",7],
+                ["Water Sport",11],
+                ["Focus Energy",13],
+                ["Razor Shell",17],
+                ["Fury Cutter",20],
+                ["Water Pulse",25],
+                ["Revenge",28],
+                ["Aqua Jet",33],
+                ["Slash",36],
+                ["Encore",38],
+                ["Aqua Tail",45],
+                ["Retaliate",50],
+                ["Swords Dance",57],
+                ["Hydro Pump",62]
+            ],
+            "TM": [
+                "TM06",
+                "TM07",
+                "TM10",
+                "TM12",
+                "TM13",
+                "TM14",
+                "TM15",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM27",
+                "TM28",
+                "TM32",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM54",
+                "TM55",
+                "TM56",
+                "TM67",
+                "TM68",
+                "TM75",
+                "TM81",
+                "TM82",
+                "TM86",
+                "TM87",
+                "TM90",
+                "TM94",
+                "HM01",
+                "HM03",
+                "HM04",
+                "HM05",
+                "HM06"
+            ],
+            "Egg": [
+                ["Air Slash",[
+                    66,
+                    67
+                ]],
+                ["Assurance",[
+                    4,
+                    5,
+                    6,
+                    12,
+                    13,
+                    59,
+                    60,
+                    66,
+                    67,
+                    96,
+                    99,
+                    100,
+                    101,
+                    253
+                ]],
+                ["Brine",[
+                    41,
+                    195,
+                    196,
+                    240,
+                    241,
+                    265,
+                    266
+                ]],
+                ["Copycat",[
+                    78
+                ]],
+                ["Detect",[
+                    10,
+                    11,
+                    34,
+                    186,
+                    216,
+                    219,
+                    220
+                ]],
+                ["Night Slash",[
+                    12,
+                    13,
+                    187,
+                    216,
+                    253
+                ]],
+                ["Screech",[
+                    35,
+                    96,
+                    152,
+                    187,
+                    252,
+                    253
+                ]],
+                ["Trump Card",[
+                    91
+                ]]
+            ],
+            "Tutor": [
+                "Aqua Tail",
+                "Block",
+                "Covet",
+                "Helping Hand",
+                "Hydro Cannon",
+                "Icy Wind",
+                "Iron Tail",
+                "Knock Off",
+                "Sleep Talk",
+                "Snore",
+                "Superpower",
+                "Water Pledge"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "8",
             "To": null
         }
     },

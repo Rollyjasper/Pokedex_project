@@ -174,6 +174,10 @@
           <td>{{moves[egg[0]].Accuracy}}</td>
           <td>{{moves[egg[0]].PP}}</td>
         </tr>
+        {% else %}
+        <tr>
+          <td colspan="7">This pokémon has no egg moves</td>
+        </tr>
         {% endfor %}
       </table>
       <li>Tutor Moves:</li>
@@ -208,19 +212,21 @@
         {% endfor %}
       </table>
     </ul>
-    <li>Evolutions:</li>
-    <ul>
-      {% if pokemon_data["Evolution"]["From"] != None %}
-      <li>Evolves from: <a href="/pokemon/{{pokemon_data['Evolution']['From']}}">{{pokemon_data["Evolution"]["From"]}}</a></li>
-      {% endif %}
-      {% if pokemon_data["Evolution"]["To"] != None %}
-      <li>Evolves to:</li>
+    {% if pokemon_data["Evolution"]["From"] != None or pokemon_data["Evolution"]["To"] != None %}
+      <li>Evolutions:</li>
       <ul>
-        {% for evo in pokemon_data["Evolution"]["To"] %}
-        <li><a href="/pokemon/{{evo}}">{{evo}}</a></li>
-        {% endfor %}
+        {% if pokemon_data["Evolution"]["From"] != None %}
+        <li>Evolves from: <a href="/pokemon/{{pokemon_data['Evolution']['From']}}">{{pokemon_data["Evolution"]["From"]}}</a></li>
+        {% endif %}
+        {% if pokemon_data["Evolution"]["To"] != None %}
+        <li>Evolves to:</li>
+        <ul>
+          {% for evo in pokemon_data["Evolution"]["To"] %}
+          <li><a href="/pokemon/{{evo}}">{{evo}}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
       </ul>
-      {% endif %}
-    </ul>
+    {% endif %}
   </ul>
 {% endblock %}

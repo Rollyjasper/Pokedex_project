@@ -1423,6 +1423,1174 @@
         "PP":10,
         "Desc":"Desc Here"
     },
+    "Vine Whip":{
+        "Type":"Grass",
+        "Catagory":"Physical",
+        "Power":35,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Wrap":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":15,
+        "Accuracy":90,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Growth":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":40,
+        "Desc":"Desc Here"
+    },
+    "Leaf Tornado":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":65,
+        "Accuracy":90,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Leech Seed":{
+        "Type":"Grass",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":90,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Mega Drain":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":40,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Leaf Blade":{
+        "Type":"Grass",
+        "Catagory":"Physical",
+        "Power":90,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Coil":{
+        "Type":"Poison",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Giga Drain":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":75,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Wring Out":{
+        "Type":"Normal",
+        "Catagory":"Special",
+        "Power":null,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Gastro Acid":{
+        "Type":"Poison",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Leaf Storm":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":140,
+        "Accuracy":90,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Captivate":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Glare":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":90,
+        "PP":30,
+        "Desc":"Desc Here"
+    },
+    "Magical Leaf":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":60,
+        "Accuracy":null,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Mirror Coat":{
+        "Type":"Psychic",
+        "Catagory":"Special",
+        "Power":null,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Sweet Scent":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Twister":{
+        "Type":"Dragon",
+        "Catagory":"Special",
+        "Power":40,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Natural Gift":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Bind":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":15,
+        "Accuracy":85,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Grass Pledge":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":50,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Fire Pledge":{
+        "Type":"Fire",
+        "Catagory":"Special",
+        "Power":50,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Water Pledge":{
+        "Type":"Water",
+        "Catagory":"Special",
+        "Power":50,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Snatch":{
+        "Type":"Dark",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Synthesis":{
+        "Type":"Grass",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Worry Seed":{
+        "Type":"Grass",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Frenzy Plant":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":150,
+        "Accuracy":90,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Blast Burn":{
+        "Type":"Fire",
+        "Catagory":"Special",
+        "Power":150,
+        "Accuracy":90,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Hydro Cannon":{
+        "Type":"Water",
+        "Catagory":"Special",
+        "Power":150,
+        "Accuracy":90,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Tail Whip":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":30,
+        "Desc":"Desc Here"
+    },
+    "Ember":{
+        "Type":"Fire",
+        "Catagory":"Special",
+        "Power":40,
+        "Accuracy":100,
+        "PP":25,
+        "Desc":"Desc Here"
+    },
+    "Odor Sleuth":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power": null,
+        "Accuracy":null,
+        "PP":40,
+        "Desc":"Desc Here"
+    },
+    "Defence Curl":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":40,
+        "Desc":"Desc Here"
+    },
+    "Smog":{
+        "Type":"Poison",
+        "Catagory":"Special",
+        "Power":20,
+        "Accuracy":70,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Rollout":{
+        "Type":"Rock",
+        "Catagory":"Physical",
+        "Power":30,
+        "Accuracy":90,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Take Down":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":90,
+        "Accuracy":85,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Heat Crash":{
+        "Type":"Fire",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Head Smash":{
+        "Type":"Rock",
+        "Catagory":"Physical",
+        "Power":150,
+        "Accuracy":80,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Body Slam":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":85,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Curse":{
+        "Type":"Ghost",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Heavy Slam":{
+        "Type":"Steel",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Superpower":{
+        "Type":"Fighting",
+        "Catagory":"Physical",
+        "Power":120,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Magnitude":{
+        "Type":"Ground",
+        "Catagory":"Physical",
+        "Power":null,
+        "Accuracy":100,
+        "PP":30,
+        "Desc":"Desc Here"
+    },
+    "Thrash":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":120,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Yawn":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Arm Thrust":{
+        "Type":"Fighting",
+        "Catagory":"Physical",
+        "Power":15,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Hammer Arm":{
+        "Type":"Fighting",
+        "Catagory":"Physical",
+        "Power":100,
+        "Accuracy":90,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Block":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Water Gun":{
+        "Type":"Water",
+        "Catagory":"Special",
+        "Power":40,
+        "Accuracy":100,
+        "PP":25,
+        "Desc":"Desc Here"
+    },
+    "Water Sport":{
+        "Type":"Water",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Razor Shell":{
+        "Type":"Water",
+        "Catagory":"Physical",
+        "Power":75,
+        "Accuracy":95,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Fury Cutter":{
+        "Type":"Bug",
+        "Catagory":"Physical",
+        "Power":20,
+        "Accuracy":95,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Water Pulse":{
+        "Type":"Water",
+        "Catagory":"Special",
+        "Power":60,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Aqua Jet":{
+        "Type":"Water",
+        "Catagory":"Physical",
+        "Power":40,
+        "Accuracy":100,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Encore":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Hydro Pump":{
+        "Type":"Water",
+        "Catagory":"Special",
+        "Power":120,
+        "Accuracy":80,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Air Slash":{
+        "Type":"Flying",
+        "Catagory":"Special",
+        "Power":75,
+        "Accuracy":95,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Brine":{
+        "Type":"Water",
+        "Catagory":"Special",
+        "Power":65,
+        "Accuracy":100,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "Copycat":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":20,
+        "Desc":"Desc Here"
+    },
+    "Night Slash":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":70,
+        "Accuracy":100,
+        "PP":15,
+        "Desc":"Desc Here"
+    },
+    "Trump Card":{
+        "Type":"Normal",
+        "Catagory":"Special",
+        "Power":null,
+        "Accuracy":null,
+        "PP":5,
+        "Desc":"Desc Here"
+    },
+    "Megahorn":{
+        "Type":"Bug",
+        "Catagory":"Physical",
+        "Power":120,
+        "Accuracy":85,
+        "PP":10,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
+    "":{
+        "Type":"",
+        "Catagory":"",
+        "Power":0,
+        "Accuracy":0,
+        "PP":0,
+        "Desc":"Desc Here"
+    },
     "":{
         "Type":"",
         "Catagory":"",
