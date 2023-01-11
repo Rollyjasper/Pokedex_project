@@ -2105,84 +2105,351 @@
     "12": {
         "Name": "Purrloin",
         "Type": [
-            "Normal"
+            "Dark"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Limber",
+            "Unburden",
+            "Prankster"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.4,
+        "Weight": 10.1,
+        "Colour": "Purple",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 3",
+            "Route 19",
+            "Route 20"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 47,
+            "Attack": 50,
+            "Defence": 37,
+            "Special Attack": 50,
+            "Special Defence": 37,
+            "Speed": 66,
+            "Total": 281
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Scratch",1],
+                ["Growl",3],
+                ["Assist",6],
+                ["Sand-Attack",10],
+                ["Fury Swipes",12],
+                ["Pursuit",15],
+                ["Torment",19],
+                ["Fake Out",21],
+                ["Hone Claws",24],
+                ["Assurance",28],
+                ["Slash",30],
+                ["Captivate",33],
+                ["Night Slash",37],
+                ["Snatch",39],
+                ["Nasty Plot",42],
+                ["Sucker Punch",46]
+            ],
+            "TM": [
+                "TM01",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM27",
+                "TM30",
+                "TM32",
+                "TM40",
+                "TM41",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM46",
+                "TM48",
+                "TM49",
+                "TM63",
+                "TM65",
+                "TM66",
+                "TM73",
+                "TM77",
+                "TM85",
+                "TM87",
+                "TM89",
+                "TM90",
+                "TM95",
+                "HM01"
+            ],
+            "Egg": [
+                ["Charm",[
+                    78,
+                    80,
+                    81,
+                    91,
+                    107,
+                    159,
+                    160,
+                    195
+                ]],
+                ["Covet",[
+                    78,
+                    276,
+                    278
+                ]],
+                ["Encore",[
+                    7,
+                    8,
+                    9,
+                    107,
+                    144,
+                    243,
+                    244,
+                    245,
+                    265,
+                    266,
+                    276,
+                    277,
+                    278
+                ]],
+                ["Faint Attack",[
+                    78,
+                    96,
+                    117,
+                    118,
+                    151,
+                    152,
+                    159,
+                    160,
+                    248,
+                    252,
+                    253,
+                    276,
+                    278
+                ]],
+                ["Fake Tears",[
+                    151
+                ]],
+                ["Foul Play",[
+                    99,
+                    100,
+                    101,
+                    151,
+                    152
+                ]],
+                ["Yawn",[
+                    35,
+                    39,
+                    86,
+                    276,
+                    278
+                ]]
+            ],
+            "Tutor": [
+                "Covet",
+                "Dark Pulse",
+                "Foul Play",
+                "Gunk Shot",
+                "Hyper Voice",
+                "Iron Tail",
+                "Knock Off",
+                "Role Play",
+                "Seed Bomb",
+                "Sleep Talk",
+                "Snatch",
+                "Snore",
+                "Spite",
+                "Trick"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["13"]
         }
     },
     "13": {
         "Name": "Liepard",
         "Type": [
-            "Normal"
+            "Dark"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Limber",
+            "Unburden",
+            "Prankster"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 1.1,
+        "Weight": 37.5,
+        "Colour": "Purple",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Their beautiful form comes from the muscles they have developed. They run silently in the night."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 2",
+            "Route 5",
+            "Route 9",
+            "Route 16",
+            "Dreamyard"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 64,
+            "Attack": 88,
+            "Defence": 50,
+            "Special Attack": 88,
+            "Special Defence": 50,
+            "Speed": 106,
+            "Total": 446
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Scratch",1],
+                ["Growl",1],
+                ["Assist",1],
+                ["Sand-Attack",1],
+                ["Growl",3],
+                ["Assist",6],
+                ["Sand-Attack",10],
+                ["Fury Swipes",12],
+                ["Pursuit",15],
+                ["Torment",19],
+                ["Fake Out",22],
+                ["Hone Claws",26],
+                ["Assurance",31],
+                ["Slash",34],
+                ["Taunt",38],
+                ["Night Slash",43],
+                ["Snatch",47],
+                ["Nasty Plot",50],
+                ["Sucker Punch",55]
+            ],
+            "TM": [
+                "TM01",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM15",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM27",
+                "TM30",
+                "TM32",
+                "TM40",
+                "TM41",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM46",
+                "TM48",
+                "TM49",
+                "TM63",
+                "TM65",
+                "TM66",
+                "TM68",
+                "TM73",
+                "TM77",
+                "TM85",
+                "TM86",
+                "TM87",
+                "TM89",
+                "TM90",
+                "TM94",
+                "TM95",
+                "HM01"
+            ],
+            "Egg": [
+                ["Charm",[
+                    78,
+                    80,
+                    81,
+                    91,
+                    107,
+                    159,
+                    160,
+                    195
+                ]],
+                ["Covet",[
+                    78,
+                    276,
+                    278
+                ]],
+                ["Encore",[
+                    7,
+                    8,
+                    9,
+                    107,
+                    144,
+                    243,
+                    244,
+                    245,
+                    265,
+                    266,
+                    276,
+                    277,
+                    278
+                ]],
+                ["Faint Attack",[
+                    78,
+                    96,
+                    117,
+                    118,
+                    151,
+                    152,
+                    159,
+                    160,
+                    248,
+                    252,
+                    253,
+                    276,
+                    278
+                ]],
+                ["Fake Tears",[
+                    151
+                ]],
+                ["Foul Play",[
+                    99,
+                    100,
+                    101,
+                    151,
+                    152
+                ]],
+                ["Yawn",[
+                    35,
+                    39,
+                    86,
+                    276,
+                    278
+                ]]
+            ],
+            "Tutor": [
+                "Covet",
+                "Dark Pulse",
+                "Foul Play",
+                "Gunk Shot",
+                "Hyper Voice",
+                "Iron Tail",
+                "Knock Off",
+                "Role Play",
+                "Seed Bomb",
+                "Sleep Talk",
+                "Snatch",
+                "Snore",
+                "Spite",
+                "Trick"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "12",
             "To": null
         }
     },

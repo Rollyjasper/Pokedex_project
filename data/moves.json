@@ -1919,108 +1919,108 @@
         "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Dark Pulse":{
+        "Type":"Dark",
+        "Catagory":"Special",
+        "Power":80,
+        "Accuracy":100,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Spite":{
+        "Type":"Ghost",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Foul Play":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":95,
+        "Accuracy":100,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Charm":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Faint Attack":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":60,
+        "Accuracy":null,
+        "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Fake Tears":{
+        "Type":"Dark",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Growl":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":40,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Scratch":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":40,
+        "Accuracy":100,
+        "PP":35,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Assist":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Fury Swipes":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":18,
+        "Accuracy":80,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Fake Out":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":40,
+        "Accuracy":100,
+        "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Nasty Plot":{
+        "Type":"Dark",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Sucker Punch":{
+        "Type":"Dark",
+        "Catagory":"Physical",
+        "Power":80,
+        "Accuracy":100,
+        "PP":5,
         "Desc":"Desc Here"
     },
     "":{
