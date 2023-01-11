@@ -76,7 +76,7 @@ def pokemon_info(dex_num):
     if len(pkm['Type']) == 1:
         sec_col = type_colours[pkm['Type'][0]]['Secondary']
     else:
-        sec_col = type_colours[pkm['Type'][1]]['Secondary']
+        sec_col = type_colours[pkm['Type'][1]]['Primary']
 
     return render_template(
         'pokemon_info.html',
