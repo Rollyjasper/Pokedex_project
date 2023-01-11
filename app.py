@@ -98,7 +98,8 @@ def pokemon_info(dex_num):
             bgd_col
         ],
         type_colours=type_colours,
-        current_form=None
+        current_form=None,
+        dex=pokemon_data
     )
 
 @app.route('/pokemon/<int:dex_num>/<form>')
@@ -143,5 +144,6 @@ def pokemon_forms(dex_num,form):
             bgd_col
         ],
         type_colours=type_colours,
-        current_form=form
+        current_form=form,
+        dex=pokemon_data
     )
