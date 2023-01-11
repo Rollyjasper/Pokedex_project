@@ -2023,60 +2023,60 @@
         "PP":5,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Gust":{
+        "Type":"Flying",
+        "Catagory":"Special",
+        "Power":40,
+        "Accuracy":100,
+        "PP":35,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Air Cutter":{
+        "Type":"Flying",
+        "Catagory":"Special",
+        "Power":55,
+        "Accuracy":95,
+        "PP":25,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Feather Dance":{
+        "Type":"Flying",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Tailwind":{
+        "Type":"Flying",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":30,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Sky Attack":{
+        "Type":"Flying",
+        "Catagory":"Physical",
+        "Power":140,
+        "Accuracy":90,
+        "PP":5,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Razor Wind":{
+        "Type":"Normal",
+        "Catagory":"Special",
+        "Power":80,
+        "Accuracy":100,
+        "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Steel Wing":{
+        "Type":"Steel",
+        "Catagory":"Physical",
+        "Power":70,
+        "Accuracy":90,
+        "PP":25,
         "Desc":"Desc Here"
     },
     "":{

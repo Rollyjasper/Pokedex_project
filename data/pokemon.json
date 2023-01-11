@@ -2456,126 +2456,313 @@
     "14": {
         "Name": "Pidove",
         "Type": [
-            "Normal"
+            "Normal",
+            "Flying"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Big Pecks",
+            "Super Luck",
+            "Rivalry"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.3,
+        "Weight": 2.1,
+        "Colour": "Gray",
         "Egg Group": [
-            ""
+            "Flying"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 20",
+            "Floccesy Ranch",
+            "Virbank Complex",
+            "Castelia City"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 50,
+            "Attack": 55,
+            "Defence": 50,
+            "Special Attack": 36,
+            "Special Defence": 30,
+            "Speed": 43,
+            "Total": 264
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Gust",1],
+                ["Growl",4],
+                ["Leer",8],
+                ["Quick Attack",11],
+                ["Air Cutter",15],
+                ["Roost",18],
+                ["Detect",22],
+                ["Taunt",25],
+                ["Air Slash",29],
+                ["Razor Wind",32],
+                ["Feather Dance",36],
+                ["Swagger",39],
+                ["Facade",43],
+                ["Tailwind",46],
+                ["Sky Attack",50]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM27",
+                "TM32",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM49",
+                "TM83",
+                "TM87",
+                "TM88",
+                "TM89",
+                "TM90",
+                "HM02"
+            ],
+            "Egg": [
+                ["Hypnosis",[
+                    120
+                ]],
+                ["Steel Wing",[
+                    203
+                ]]
+            ],
+            "Tutor": [
+                "Heat Wave",
+                "Roost",
+                "Sky Attack",
+                "Sleep Talk",
+                "Snore",
+                "Tailwind",
+                "Uproar"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["15"]
         }
     },
     "15": {
         "Name": "Tranquill",
         "Type": [
-            "Normal"
+            "Normal",
+            "Flying"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Big Pecks",
+            "Super Luck",
+            "Rivalry"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.6,
+        "Weight": 15.0,
+        "Colour": "Gray",
         "Egg Group": [
-            ""
+            "Flying"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "No matter where in the world it goes, it knows where its nest is, so it never gets separated from its Trainer."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 3",
+            "Route 6",
+            "Route 7",
+            "Route 12",
+            "Victory Road",
+            "Dragonspiral Tower"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 62,
+            "Attack": 77,
+            "Defence": 62,
+            "Special Attack": 50,
+            "Special Defence": 42,
+            "Speed": 65,
+            "Total": 358
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Gust",1],
+                ["Growl",1],
+                ["Leer",1],
+                ["Quick Attack",1],
+                ["Growl",4],
+                ["Leer",8],
+                ["Quick Attack",11],
+                ["Air Cutter",15],
+                ["Roost",18],
+                ["Detect",23],
+                ["Taunt",27],
+                ["Air Slash",32],
+                ["Razor Wind",36],
+                ["Feather Dance",41],
+                ["Swagger",45],
+                ["Facade",50],
+                ["Tailwind",54],
+                ["Sky Attack",59]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM27",
+                "TM32",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM49",
+                "TM83",
+                "TM87",
+                "TM88",
+                "TM89",
+                "TM90",
+                "HM02"
+            ],
+            "Egg": [
+                ["Hypnosis",[
+                    120
+                ]],
+                ["Steel Wing",[
+                    203
+                ]]
+            ],
+            "Tutor": [
+                "Heat Wave",
+                "Roost",
+                "Sky Attack",
+                "Sleep Talk",
+                "Snore",
+                "Tailwind",
+                "Uproar"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
-            "To": null
+            "From": "14",
+            "To": ["16"]
         }
     },
     "16": {
         "Name": "Unfezant",
         "Type": [
-            "Normal"
+            "Normal",
+            "Flying"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Big Pecks",
+            "Super Luck",
+            "Rivalry"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 1.2,
+        "Weight": 29.0,
+        "Colour": "Gray",
         "Egg Group": [
-            ""
+            "Flying"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Males swing the plumage on their heads to threaten others, but females are better at flying."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 3",
+            "Route 6",
+            "Route 7",
+            "Route 12",
+            "Victory Road",
+            "Dragonspiral Tower"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 80,
+            "Attack": 105,
+            "Defence": 80,
+            "Special Attack": 65,
+            "Special Defence": 55,
+            "Speed": 93,
+            "Total": 478
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Gust",1],
+                ["Growl",1],
+                ["Leer",1],
+                ["Quick Attack",1],
+                ["Growl",4],
+                ["Leer",8],
+                ["Quick Attack",11],
+                ["Air Cutter",15],
+                ["Roost",18],
+                ["Detect",23],
+                ["Taunt",27],
+                ["Air Slash",33],
+                ["Razor Wind",38],
+                ["Feather Dance",44],
+                ["Swagger",49],
+                ["Facade",55],
+                ["Tailwind",60],
+                ["Sky Attack",66]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM12",
+                "TM15",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM27",
+                "TM32",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM49",
+                "TM68",
+                "TM77",
+                "TM83",
+                "TM87",
+                "TM88",
+                "TM89",
+                "TM90",
+                "HM02"
+            ],
+            "Egg": [
+                ["Hypnosis",[
+                    120
+                ]],
+                ["Steel Wing",[
+                    203
+                ]]
+            ],
+            "Tutor": [
+                "Heat Wave",
+                "Roost",
+                "Sky Attack",
+                "Sleep Talk",
+                "Snore",
+                "Tailwind",
+                "Uproar"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "15",
             "To": null
         }
     },
