@@ -3471,40 +3471,197 @@
             "Normal"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Vital Spirit",
+            "Pickup",
+            "Run Away"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.4,
+        "Weight": 4.1,
+        "Colour": "Brown",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Though it is a very brave Pokemon, it's also smart enough to check its foe's strength and avoid battle."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Floccesy Ranch"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 45,
+            "Attack": 60,
+            "Defence": 45,
+            "Special Attack": 25,
+            "Special Defence": 45,
+            "Speed": 55,
+            "Total": 275
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Leer",1],
+                ["Tackle",1],
+                ["Odor Sleuth",5],
+                ["Bite",8],
+                ["Helping Hand",12],
+                ["Take Down",15],
+                ["Work Up",19],
+                ["Crunch",22],
+                ["Roar",26],
+                ["Retaliate",29],
+                ["Reversal",33],
+                ["Last Resort",36],
+                ["Giga Impact",40]
+            ],
+            "TM": [
+                "TM05",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM24",
+                "TM27",
+                "TM28",
+                "TM30",
+                "TM32",
+                "TM39",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM67",
+                "TM68",
+                "TM73",
+                "TM83",
+                "TM87",
+                "TM90",
+                "TM93",
+                "TM94",
+                "TM95"
+            ],
+            "Egg": [
+                ["Endure",[
+                    80,
+                    81,
+                    195,
+                    196,
+                    258,
+                    259,
+                    260,
+                    277
+                ]],
+                ["Charm",[
+                    78,
+                    80,
+                    81,
+                    107,
+                    159,
+                    160,
+                    195
+                ]],
+                ["Ice Fang",[
+                    24,
+                    98,
+                    150,
+                    245,
+                    259,
+                    260
+                ]],
+                ["Fire Fang",[
+                    24,
+                    51,
+                    52,
+                    94,
+                    102,
+                    103
+                ]],
+                ["Lick",[
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    187,
+                    193
+                ]],
+                ["Mud-Slap",[
+                    76,
+                    77,
+                    99,
+                    100,
+                    101,
+                    258,
+                    259,
+                    260
+                ]],
+                ["Pursuit",[
+                    12,
+                    13,
+                    35,
+                    59,
+                    60,
+                    96,
+                    144,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    186,
+                    269
+                ]],
+                ["Sand-Attack",[
+                    10,
+                    11,
+                    12,
+                    13,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    117,
+                    118,
+                    159,
+                    160
+                ]],
+                ["Thunder Fang",[
+                    24,
+                    52,
+                    93
+                ]],
+                ["Yawn",[
+                    35,
+                    39,
+                    86,
+                    276,
+                    278
+                ]]
+            ],
+            "Tutor": [
+                "Covet",
+                "Helping Hand",
+                "Hyper Voice",
+                "Last Resort",
+                "Sleep Talk",
+                "Snore",
+                "Uproar"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["23"]
         }
     },
     "23": {
@@ -3513,40 +3670,204 @@
             "Normal"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Intimidate",
+            "Sand Rush",
+            "Scrappy"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.9,
+        "Weight": 14.7,
+        "Colour": "Gray",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "This very loyal Pokemon helps Trainers, and it also takes care of other Pokemon."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 1",
+            "Route 2",
+            "Route 3",
+            "P2 Laboratory"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 65,
+            "Attack": 80,
+            "Defence": 65,
+            "Special Attack": 35,
+            "Special Defence": 65,
+            "Speed": 60,
+            "Total": 370
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Leer",1],
+                ["Tackle",1],
+                ["Odor Sleuth",1],
+                ["Bite",1],
+                ["Odor Sleuth",5],
+                ["Bite",8],
+                ["Helping Hand",12],
+                ["Take Down",15],
+                ["Work Up",20],
+                ["Crunch",24],
+                ["Roar",29],
+                ["Retaliate",33],
+                ["Reversal",38],
+                ["Last Resort",42],
+                ["Giga Impact",47]
+            ],
+            "TM": [
+                "TM05",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM24",
+                "TM27",
+                "TM28",
+                "TM30",
+                "TM32",
+                "TM39",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM67",
+                "TM68",
+                "TM73",
+                "TM83",
+                "TM87",
+                "TM90",
+                "TM93",
+                "TM94",
+                "TM95",
+                "HM03",
+                "HM04"
+            ],
+            "Egg": [
+                ["Endure",[
+                    80,
+                    81,
+                    195,
+                    196,
+                    258,
+                    259,
+                    260,
+                    277
+                ]],
+                ["Charm",[
+                    78,
+                    80,
+                    81,
+                    107,
+                    159,
+                    160,
+                    195
+                ]],
+                ["Ice Fang",[
+                    24,
+                    98,
+                    150,
+                    245,
+                    259,
+                    260
+                ]],
+                ["Fire Fang",[
+                    24,
+                    51,
+                    52,
+                    94,
+                    102,
+                    103
+                ]],
+                ["Lick",[
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    187,
+                    193
+                ]],
+                ["Mud-Slap",[
+                    76,
+                    77,
+                    99,
+                    100,
+                    101,
+                    258,
+                    259,
+                    260
+                ]],
+                ["Pursuit",[
+                    12,
+                    13,
+                    35,
+                    59,
+                    60,
+                    96,
+                    144,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    186,
+                    269
+                ]],
+                ["Sand-Attack",[
+                    10,
+                    11,
+                    12,
+                    13,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    117,
+                    118,
+                    159,
+                    160
+                ]],
+                ["Thunder Fang",[
+                    24,
+                    52,
+                    93
+                ]],
+                ["Yawn",[
+                    35,
+                    39,
+                    86,
+                    276,
+                    278
+                ]]
+            ],
+            "Tutor": [
+                "Covet",
+                "Helping Hand",
+                "Hyper Voice",
+                "Last Resort",
+                "Sleep Talk",
+                "Snore",
+                "Uproar"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
-            "To": null
+            "From": "22",
+            "To": ["24"]
         }
     },
     "24": {
@@ -3555,39 +3876,211 @@
             "Normal"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Intimidate",
+            "Sand Rush",
+            "Scrappy"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 1.2,
+        "Weight": 61.0,
+        "Colour": "Gray",
         "Egg Group": [
-            ""
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain"
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 1",
+            "Route 2",
+            "Route 3",
+            "P2 Laboratory"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 85,
+            "Attack": 100,
+            "Defence": 90,
+            "Special Attack": 45,
+            "Special Defence": 90,
+            "Speed": 80,
+            "Total": 490
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Ice Fang",1],
+                ["Fire Fang",1],
+                ["Thunder Fang",1],
+                ["Leer",1],
+                ["Tackle",1],
+                ["Odor Sleuth",1],
+                ["Bite",1],
+                ["Odor Sleuth",5],
+                ["Bite",8],
+                ["Helping Hand",12],
+                ["Take Down",15],
+                ["Work Up",20],
+                ["Crunch",24],
+                ["Roar",29],
+                ["Retaliate",36],
+                ["Reversal",42],
+                ["Last Resort",51],
+                ["Giga Impact",59]
+            ],
+            "TM": [
+                "TM05",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM15",
+                "TM17",
+                "TM18",
+                "TM21",
+                "TM24",
+                "TM25",
+                "TM27",
+                "TM28",
+                "TM30",
+                "TM32",
+                "TM39",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM66",
+                "TM67",
+                "TM68",
+                "TM73",
+                "TM83",
+                "TM87",
+                "TM90",
+                "TM93",
+                "TM94",
+                "TM95",
+                "HM03",
+                "HM04"
+            ],
+            "Egg": [
+                ["Endure",[
+                    80,
+                    81,
+                    195,
+                    196,
+                    258,
+                    259,
+                    260,
+                    277
+                ]],
+                ["Charm",[
+                    78,
+                    80,
+                    81,
+                    107,
+                    159,
+                    160,
+                    195
+                ]],
+                ["Ice Fang",[
+                    24,
+                    98,
+                    150,
+                    245,
+                    259,
+                    260
+                ]],
+                ["Fire Fang",[
+                    24,
+                    51,
+                    52,
+                    94,
+                    102,
+                    103
+                ]],
+                ["Lick",[
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    187,
+                    193
+                ]],
+                ["Mud-Slap",[
+                    76,
+                    77,
+                    99,
+                    100,
+                    101,
+                    258,
+                    259,
+                    260
+                ]],
+                ["Pursuit",[
+                    12,
+                    13,
+                    35,
+                    59,
+                    60,
+                    96,
+                    144,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    186,
+                    269
+                ]],
+                ["Sand-Attack",[
+                    10,
+                    11,
+                    12,
+                    13,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    117,
+                    118,
+                    159,
+                    160
+                ]],
+                ["Thunder Fang",[
+                    24,
+                    52,
+                    93
+                ]],
+                ["Yawn",[
+                    35,
+                    39,
+                    86,
+                    276,
+                    278
+                ]]
+            ],
+            "Tutor": [
+                "Covet",
+                "Helping Hand",
+                "Hyper Voice",
+                "Iron Head",
+                "Last Resort",
+                "Sleep Talk",
+                "Snore",
+                "Superpower",
+                "Uproar"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "23",
             "To": null
         }
     },

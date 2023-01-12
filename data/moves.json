@@ -688,7 +688,7 @@
         "Desc":"Desc Here"
     },
     "Giga Impact":{
-        "Type":"Grass",
+        "Type":"Normal",
         "Catagory":"Physical",
         "Power":150,
         "Accuracy":90,
@@ -2215,44 +2215,44 @@
         "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Fire Fang":{
+        "Type":"Fire",
+        "Catagory":"Physical",
+        "Power":65,
+        "Accuracy":95,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Ice Fang":{
+        "Type":"Ice",
+        "Catagory":"Physical",
+        "Power":65,
+        "Accuracy":95,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Thunder Fang":{
+        "Type":"Electric",
+        "Catagory":"Physical",
+        "Power":65,
+        "Accuracy":95,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Lick":{
+        "Type":"Ghost",
+        "Catagory":"Physical",
+        "Power":20,
+        "Accuracy":100,
+        "PP":30,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Mud-Slap":{
+        "Type":"Ground",
+        "Catagory":"Special",
+        "Power":20,
+        "Accuracy":100,
+        "PP":10,
         "Desc":"Desc Here"
     },
     "":{
