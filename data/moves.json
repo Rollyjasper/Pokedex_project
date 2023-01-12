@@ -2255,68 +2255,68 @@
         "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Magnet Rise":{
+        "Type":"Electric",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Thunder Shock":{
+        "Type":"Electric",
+        "Catagory":"Special",
+        "Power":40,
+        "Accuracy":100,
+        "PP":30,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Cotton Spore":{
+        "Type":"Grass",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":40,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Cotton Guard":{
+        "Type":"Grass",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Discharge":{
+        "Type":"Electric",
+        "Catagory":"Special",
+        "Power":80,
+        "Accuracy":100,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Power Gem":{
+        "Type":"Rock",
+        "Catagory":"Special",
+        "Power":70,
+        "Accuracy":100,
+        "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Elecro Ball":{
+        "Type":"Electric",
+        "Catagory":"Special",
+        "Power":null,
+        "Accuracy":100,
+        "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Charge":{
+        "Type":"Electric",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":20,
         "Desc":"Desc Here"
     },
     "":{

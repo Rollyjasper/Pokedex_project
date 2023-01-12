@@ -4087,126 +4087,665 @@
     "25": {
         "Name": "Mareep",
         "Type": [
-            "Normal"
+            "Electric"
         ],
         "Ability": [
-            "None",
+            "Static",
             null,
-            null
+            "Plus"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.6,
+        "Weight": 7.8,
+        "Colour": "White",
         "Egg Group": [
-            ""
+            "Monster",
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "When cold weather increases static electricity, its wool doubles in size and the tip of its tail glows slightly."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Floccesy Ranch"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 55,
+            "Attack": 40,
+            "Defence": 40,
+            "Special Attack": 65,
+            "Special Defence": 45,
+            "Speed": 35,
+            "Total": 280
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Growl",1],
+                ["Thunder Wave",4],
+                ["Thunder Shock",8],
+                ["Cotton Spore",11],
+                ["Charge",15],
+                ["Take Down",18],
+                ["Elecro Ball",22],
+                ["Confuse Ray",25],
+                ["Power Gem",29],
+                ["Discharge",32],
+                ["Cotton Guard",36],
+                ["Light Screen",43],
+                ["Thunder",46]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM16",
+                "TM17",
+                "TM18",
+                "TM20",
+                "TM21",
+                "TM24",
+                "TM25",
+                "TM27",
+                "TM32",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM49",
+                "TM57",
+                "TM70",
+                "TM73",
+                "TM87",
+                "TM90",
+                "TM93"
+            ],
+            "Egg": [
+                ["After You",[
+                    10,
+                    11,
+                    80,
+                    81,
+                    107,
+                    108
+                ]],
+                ["Agility",[
+                    51,
+                    52,
+                    80,
+                    81,
+                    93,
+                    144,
+                    147,
+                    148,
+                    151,
+                    152
+                ]],
+                ["Body Slam",[
+                    242,
+                    243,
+                    244,
+                    245
+                ]],
+                ["Charge",[
+                    25,
+                    26,
+                    27,
+                    144,
+                    147,
+                    148
+                ]],
+                ["Iron Tail",[
+                    166,
+                    167,
+                    168
+                ]],
+                ["Odor Sleuth",[
+                    4,
+                    5,
+                    6,
+                    22,
+                    23,
+                    24,
+                    51,
+                    52,
+                    66,
+                    67,
+                    193,
+                    206,
+                    207,
+                    258,
+                    259,
+                    260
+                ]],
+                ["Sand-Attack",[
+                    10,
+                    11,
+                    12,
+                    13,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    117,
+                    118,
+                    159,
+                    160
+                ]],
+                ["Screech",[
+                    28,
+                    29,
+                    35,
+                    96,
+                    187,
+                    252,
+                    253,
+                    284,
+                    285,
+                    292,
+                    293,
+                    294
+                ]],
+                ["Take Down",[
+                    4,
+                    5,
+                    6,
+                    22,
+                    23,
+                    24,
+                    35,
+                    51,
+                    52,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    159,
+                    160,
+                    166,
+                    167,
+                    168,
+                    204,
+                    205,
+                    258,
+                    259,
+                    260,
+                    265,
+                    266
+                ]]
+            ],
+            "Tutor": [
+                "After You",
+                "Heal Bell",
+                "Iron Tail",
+                "Magnet Rise",
+                "Signal Beam",
+                "Sleep Talk",
+                "Snore"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["26"]
         }
     },
     "26": {
         "Name": "Flaaffy",
         "Type": [
-            "Normal"
+            "Electric"
         ],
         "Ability": [
-            "None",
+            "Static",
             null,
-            null
+            "Plus"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.8,
+        "Weight": 13.3,
+        "Colour": "Pink",
         "Egg Group": [
-            ""
+            "Monster",
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Not even downy wool will grow on its rubbery, nonconductive patches of skin that prevent electrical shock."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 70,
+            "Attack": 55,
+            "Defence": 55,
+            "Special Attack": 80,
+            "Special Defence": 60,
+            "Speed": 45,
+            "Total": 365
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["Growl",1],
+                ["Thunder Wave",1],
+                ["Thunder Shock",1],
+                ["Thunder Wave",4],
+                ["Thunder Shock",8],
+                ["Cotton Spore",11],
+                ["Charge",16],
+                ["Take Down",20],
+                ["Elecro Ball",25],
+                ["Confuse Ray",29],
+                ["Power Gem",34],
+                ["Discharge",38],
+                ["Cotton Guard",43],
+                ["Signal Beam",47],
+                ["Light Screen",52],
+                ["Thunder",56]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM16",
+                "TM17",
+                "TM18",
+                "TM20",
+                "TM21",
+                "TM24",
+                "TM25",
+                "TM27",
+                "TM31",
+                "TM32",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM49",
+                "TM56",
+                "TM57",
+                "TM70",
+                "TM72",
+                "TM73",
+                "TM87",
+                "TM90",
+                "TM93",
+                "TM94",
+                "HM04"
+            ],
+            "Egg": [
+                ["After You",[
+                    10,
+                    11,
+                    80,
+                    81,
+                    107,
+                    108
+                ]],
+                ["Agility",[
+                    51,
+                    52,
+                    80,
+                    81,
+                    93,
+                    144,
+                    147,
+                    148,
+                    151,
+                    152
+                ]],
+                ["Body Slam",[
+                    242,
+                    243,
+                    244,
+                    245
+                ]],
+                ["Charge",[
+                    25,
+                    26,
+                    27,
+                    144,
+                    147,
+                    148
+                ]],
+                ["Iron Tail",[
+                    166,
+                    167,
+                    168
+                ]],
+                ["Odor Sleuth",[
+                    4,
+                    5,
+                    6,
+                    22,
+                    23,
+                    24,
+                    51,
+                    52,
+                    66,
+                    67,
+                    193,
+                    206,
+                    207,
+                    258,
+                    259,
+                    260
+                ]],
+                ["Sand-Attack",[
+                    10,
+                    11,
+                    12,
+                    13,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    117,
+                    118,
+                    159,
+                    160
+                ]],
+                ["Screech",[
+                    28,
+                    29,
+                    35,
+                    96,
+                    187,
+                    252,
+                    253,
+                    284,
+                    285,
+                    292,
+                    293,
+                    294
+                ]],
+                ["Take Down",[
+                    4,
+                    5,
+                    6,
+                    22,
+                    23,
+                    24,
+                    35,
+                    51,
+                    52,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    159,
+                    160,
+                    166,
+                    167,
+                    168,
+                    204,
+                    205,
+                    258,
+                    259,
+                    260,
+                    265,
+                    266
+                ]]
+            ],
+            "Tutor": [
+                "After You",
+                "Fire Punch",
+                "Heal Bell",
+                "Iron Tail",
+                "Magnet Rise",
+                "Signal Beam",
+                "Sleep Talk",
+                "Snore",
+                "Thunder Punch"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
-            "To": null
+            "From": "25",
+            "To": ["27"]
         }
     },
     "27": {
         "Name": "Ampharos",
         "Type": [
-            "Normal"
+            "Electric"
         ],
         "Ability": [
-            "None",
+            "Static",
             null,
-            null
+            "Plus"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 1.4,
+        "Weight": 61.5,
+        "Colour": "Yellow",
         "Egg Group": [
-            ""
+            "Monster",
+            "Field"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "The tip of its tail shines so brightly it can be used to send sea-navigation beacons to distinct foreign shores."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 90,
+            "Attack": 75,
+            "Defence": 75,
+            "Special Attack": 115,
+            "Special Defence": 90,
+            "Speed": 55,
+            "Total": 500
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Fire Punch",1],
+                ["Tackle",1],
+                ["Growl",1],
+                ["Thunder Wave",1],
+                ["Thunder Shock",1],
+                ["Thunder Wave",4],
+                ["Thunder Shock",8],
+                ["Cotton Spore",11],
+                ["Charge",16],
+                ["Take Down",20],
+                ["Elecro Ball",25],
+                ["Confuse Ray",29],
+                ["Thunder Punch",30],
+                ["Power Gem",35],
+                ["Discharge",40],
+                ["Cotton Guard",46],
+                ["Signal Beam",51],
+                ["Light Screen",57],
+                ["Thunder",62]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM15",
+                "TM16",
+                "TM17",
+                "TM18",
+                "TM20",
+                "TM21",
+                "TM24",
+                "TM25",
+                "TM27",
+                "TM31",
+                "TM32",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM49",
+                "TM52",
+                "TM56",
+                "TM57",
+                "TM68",
+                "TM70",
+                "TM72",
+                "TM73",
+                "TM78",
+                "TM87",
+                "TM90",
+                "TM93",
+                "TM94",
+                "HM04"
+            ],
+            "Egg": [
+                ["After You",[
+                    10,
+                    11,
+                    80,
+                    81,
+                    107,
+                    108
+                ]],
+                ["Agility",[
+                    51,
+                    52,
+                    80,
+                    81,
+                    93,
+                    144,
+                    147,
+                    148,
+                    151,
+                    152
+                ]],
+                ["Body Slam",[
+                    242,
+                    243,
+                    244,
+                    245
+                ]],
+                ["Charge",[
+                    25,
+                    26,
+                    27,
+                    144,
+                    147,
+                    148
+                ]],
+                ["Iron Tail",[
+                    166,
+                    167,
+                    168
+                ]],
+                ["Odor Sleuth",[
+                    4,
+                    5,
+                    6,
+                    22,
+                    23,
+                    24,
+                    51,
+                    52,
+                    66,
+                    67,
+                    193,
+                    206,
+                    207,
+                    258,
+                    259,
+                    260
+                ]],
+                ["Sand-Attack",[
+                    10,
+                    11,
+                    12,
+                    13,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    117,
+                    118,
+                    159,
+                    160
+                ]],
+                ["Screech",[
+                    28,
+                    29,
+                    35,
+                    96,
+                    187,
+                    252,
+                    253,
+                    284,
+                    285,
+                    292,
+                    293,
+                    294
+                ]],
+                ["Take Down",[
+                    4,
+                    5,
+                    6,
+                    22,
+                    23,
+                    24,
+                    35,
+                    51,
+                    52,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    159,
+                    160,
+                    166,
+                    167,
+                    168,
+                    204,
+                    205,
+                    258,
+                    259,
+                    260,
+                    265,
+                    266
+                ]]
+            ],
+            "Tutor": [
+                "After You",
+                "Fire Punch",
+                "Heal Bell",
+                "Iron Tail",
+                "Magnet Rise",
+                "Outrage",
+                "Signal Beam",
+                "Sleep Talk",
+                "Snore",
+                "Thunder Punch"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "26",
             "To": null
         }
     },
