@@ -2769,210 +2769,699 @@
     "17": {
         "Name": "Sawaddle",
         "Type": [
-            "Normal"
+            "Bug",
+            "Grass"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Swarm",
+            "Chlororphyll",
+            "Overcoat"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.3,
+        "Weight": 2.5,
+        "Colour": "Yellow",
         "Egg Group": [
-            ""
+            "Bug"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 12",
+            "Route 20"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 45,
+            "Attack": 53,
+            "Defence": 70,
+            "Special Attack": 40,
+            "Special Defence": 60,
+            "Speed": 42,
+            "Total": 310
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Tackle",1],
+                ["String Shot",1],
+                ["Bug Bite",8],
+                ["Razor Leaf",15],
+                ["Struggle Bug",22],
+                ["Endure",29],
+                ["Bug Buzz",36],
+                ["Flail",43]
+            ],
+            "TM": [
+                "TM04",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM16",
+                "TM17",
+                "TM20",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM53",
+                "TM66",
+                "TM70",
+                "TM76",
+                "TM85",
+                "TM86",
+                "TM87",
+                "TM90",
+                "HM01"
+            ],
+            "Egg": [
+                ["Agility",[
+                    43,
+                    44,
+                    45,
+                    158,
+                    173,
+                    174,
+                    194
+                ]],
+                ["Air Slash",[
+                    286,
+                    287
+                ]],
+                ["Me First",[
+                    158
+                ]],
+                ["Screech",[
+                    43,
+                    44,
+                    45,
+                    122,
+                    123,
+                    173,
+                    174,
+                    221,
+                    222,
+                    286,
+                    287
+                ]],
+                ["Baton Pass",[
+                    45
+                ]],
+                ["Silver Wind",[
+                    172
+                ]]
+            ],
+            "Tutor": [
+                "Bug Bite",
+                "Electroweb",
+                "Giga Drain",
+                "Iron Defence",
+                "Magic Coat",
+                "Seed Bomb",
+                "Signal Beam",
+                "Sleep Talk",
+                "Snore",
+                "Synthesis",
+                "Worry Seed"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["18"]
         }
     },
     "18": {
         "Name": "Swadloon",
         "Type": [
-            "Normal"
+            "Bug",
+            "Grass"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Swarm",
+            "Chlororphyll",
+            "Overcoat"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.5,
+        "Weight": 7.3,
+        "Colour": "Green",
         "Egg Group": [
-            ""
+            "Bug"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Preferring dark, damp places, it spends the entire day eating fallen leaves that lie around it."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 6",
+            "Pinwheel Forest",
+            "Lostlorn Forest"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 55,
+            "Attack": 63,
+            "Defence": 90,
+            "Special Attack": 50,
+            "Special Defence": 80,
+            "Speed": 42,
+            "Total": 380
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Grass Whistle",1],
+                ["Tackle",1],
+                ["String Shot",1],
+                ["Bug Bite",1],
+                ["Razor Leaf",1],
+                ["Protect",20]
+            ],
+            "TM": [
+                "TM04",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM16",
+                "TM17",
+                "TM20",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM53",
+                "TM66",
+                "TM70",
+                "TM76",
+                "TM85",
+                "TM86",
+                "TM87",
+                "TM90",
+                "HM01"
+            ],
+            "Egg": [
+                ["Agility",[
+                    43,
+                    44,
+                    45,
+                    158,
+                    173,
+                    174,
+                    194
+                ]],
+                ["Air Slash",[
+                    286,
+                    287
+                ]],
+                ["Me First",[
+                    158
+                ]],
+                ["Screech",[
+                    43,
+                    44,
+                    45,
+                    122,
+                    123,
+                    173,
+                    174,
+                    221,
+                    222,
+                    286,
+                    287
+                ]],
+                ["Baton Pass",[
+                    45
+                ]],
+                ["Silver Wind",[
+                    172
+                ]]
+            ],
+            "Tutor": [
+                "Bug Bite",
+                "Electroweb",
+                "Giga Drain",
+                "Iron Defence",
+                "Magic Coat",
+                "Seed Bomb",
+                "Signal Beam",
+                "Sleep Talk",
+                "Snore",
+                "Synthesis",
+                "Worry Seed"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
-            "To": null
+            "From": "17",
+            "To": ["19"]
         }
     },
     "19": {
         "Name": "Leavanny",
         "Type": [
-            "Normal"
+            "Bug",
+            "Grass"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Swarm",
+            "Chlororphyll",
+            "Overcoat"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 1.2,
+        "Weight": 20.5,
+        "Colour": "Yellow",
         "Egg Group": [
-            ""
+            "Bug"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 6",
+            "Route 12",
+            "Lostlorn Forest"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 75,
+            "Attack": 103,
+            "Defence": 80,
+            "Special Attack": 70,
+            "Special Defence": 70,
+            "Speed": 92,
+            "Total": 490
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["False Swipe",1],
+                ["Tackle",1],
+                ["String Shot",1],
+                ["Bug Bite",1],
+                ["Razor Leaf",1],
+                ["Bug Bite",8],
+                ["Razor Leaf",15],
+                ["Struggle Bug",22],
+                ["Slash",29],
+                ["Helping Hand",32],
+                ["Leaf Blade",36],
+                ["X-Scissor",39],
+                ["Entrainment",43],
+                ["Swords Dance",46],
+                ["Leaf Storm",50]
+            ],
+            "TM": [
+                "TM01",
+                "TM04",
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM15",
+                "TM16",
+                "TM17",
+                "TM20",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM33",
+                "TM40",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM53",
+                "TM54",
+                "TM65",
+                "TM66",
+                "TM67",
+                "TM68",
+                "TM70",
+                "TM75",
+                "TM76",
+                "TM81",
+                "TM84",
+                "TM85",
+                "TM86",
+                "TM87",
+                "TM90",
+                "HM01"
+            ],
+            "Egg": [
+                ["Agility",[
+                    43,
+                    44,
+                    45,
+                    158,
+                    173,
+                    174,
+                    194
+                ]],
+                ["Air Slash",[
+                    286,
+                    287
+                ]],
+                ["Me First",[
+                    158
+                ]],
+                ["Screech",[
+                    43,
+                    44,
+                    45,
+                    122,
+                    123,
+                    173,
+                    174,
+                    221,
+                    222,
+                    286,
+                    287
+                ]],
+                ["Baton Pass",[
+                    45
+                ]],
+                ["Silver Wind",[
+                    172
+                ]]
+            ],
+            "Tutor": [
+                "Bug Bite",
+                "Electroweb",
+                "Giga Drain",
+                "Heal Bell",
+                "Helping Hand",
+                "Iron Defence",
+                "Knock Off",
+                "Magic Coat",
+                "Seed Bomb",
+                "Signal Beam",
+                "Sleep Talk",
+                "Snore",
+                "Synthesis",
+                "Worry Seed"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "18",
             "To": null
         }
     },
     "20": {
         "Name": "Sunkern",
         "Type": [
-            "Normal"
+            "Grass"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Chlororphyll",
+            "Solar Power",
+            "Early Bird"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.3,
+        "Weight": 1.8,
+        "Colour": "Yellow",
         "Egg Group": [
-            ""
+            "Grass"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "It suddenly falls out of the sky in the morning. Knowing it's weak, it simply feeds until it evolves."
         ],
-        "Habitats": [],
+        "Habitats": [
+            "Route 20"
+        ],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 30,
+            "Attack": 30,
+            "Defence": 30,
+            "Special Attack": 30,
+            "Special Defence": 30,
+            "Speed": 30,
+            "Total": 180
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Absorb",1],
+                ["Growth",1],
+                ["Ingrain",4],
+                ["Grass Whistle",7],
+                ["Mega Drain",10],
+                ["Leech Seed",13],
+                ["Razor Leaf",16],
+                ["Worry Seed",19],
+                ["Giga Drain",22],
+                ["Endeavor",25],
+                ["Synthesis",28],
+                ["Natural Gift",31],
+                ["Solar Beam",34],
+                ["Double-Edge",37],
+                ["Sunny Day",40],
+                ["Seed Bomb",43]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM16",
+                "TM17",
+                "TM20",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM36",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM53",
+                "TM70",
+                "TM75",
+                "TM86",
+                "TM87",
+                "TM90",
+                "HM01"
+            ],
+            "Egg": [
+                ["Bide",[
+                    161,
+                    162
+                ]],
+                ["Curse",[
+                    175,
+                    176
+                ]],
+                ["Encore",[
+                    82
+                ]],
+                ["Grass Whistle",[
+                    20,
+                    21,
+                    134
+                ]],
+                ["Helping Hand",[
+                    82
+                ]],
+                ["Ingrain",[
+                    20,
+                    21,
+                    119,
+                    134,
+                    161,
+                    162,
+                    175,
+                    176,
+                    217,
+                    218
+                ]],
+                ["Leech Seed",[
+                    1,
+                    2,
+                    3,
+                    20,
+                    21,
+                    82,
+                    83,
+                    134
+                ]],
+                ["Natural Gift",[
+                    217,
+                    218
+                ]],
+                ["Sweet Scent",[
+                    119,
+                    134,
+                    135,
+                    161,
+                    162
+                ]]
+            ],
+            "Tutor": [
+                "After You",
+                "Earth Power",
+                "Endeavor",
+                "Giga Drain",
+                "Helping Hand",
+                "Seed Bomb",
+                "Sleep Talk",
+                "Snore",
+                "Synthesis",
+                "Uproar",
+                "Worry Seed"
+            ]
         },
         "Forms": null,
         "Evolution": {
             "From": null,
-            "To": null
+            "To": ["21"]
         }
     },
     "21": {
         "Name": "Sunflora",
         "Type": [
-            "Normal"
+            "Grass"
         ],
         "Ability": [
-            "None",
-            null,
-            null
+            "Chlororphyll",
+            "Solar Power",
+            "Early Bird"
         ],
-        "Height": 1.0,
-        "Weight": 1.0,
-        "Colour": "",
+        "Height": 0.8,
+        "Weight": 8.5,
+        "Colour": "Yellow",
         "Egg Group": [
-            ""
+            "Grass"
         ],
         "Desc": [
-            "desc1",
-            "desc2"
+            "Since it converts sunlight into energy, it is always looking in the direction of the sun."
         ],
         "Habitats": [],
         "Stats": {
-            "HP": 0,
-            "Attack": 0,
-            "Defence": 0,
-            "Special Attack": 0,
-            "Special Defence": 0,
-            "Speed": 0,
-            "Total": 0
+            "HP": 75,
+            "Attack": 75,
+            "Defence": 55,
+            "Special Attack": 105,
+            "Special Defence": 85,
+            "Speed": 30,
+            "Total": 425
         },
         "Learnset": {
-            "Level Up": [],
-            "TM": [],
-            "Egg": [],
-            "Tutor": []
+            "Level Up": [
+                ["Absorb",1],
+                ["Pound",1],
+                ["Growth",1],
+                ["Ingrain",4],
+                ["Grass Whistle",7],
+                ["Mega Drain",10],
+                ["Leech Seed",13],
+                ["Razor Leaf",16],
+                ["Worry Seed",19],
+                ["Giga Drain",22],
+                ["Bullet Seed",25],
+                ["Petal Dance",28],
+                ["Natural Gift",31],
+                ["Solar Beam",34],
+                ["Double-Edge",37],
+                ["Sunny Day",40],
+                ["Seed Bomb",43]
+            ],
+            "TM": [
+                "TM06",
+                "TM10",
+                "TM11",
+                "TM15",
+                "TM16",
+                "TM17",
+                "TM20",
+                "TM21",
+                "TM22",
+                "TM27",
+                "TM32",
+                "TM36",
+                "TM42",
+                "TM44",
+                "TM45",
+                "TM48",
+                "TM53",
+                "TM68",
+                "TM70",
+                "TM75",
+                "TM86",
+                "TM87",
+                "TM90",
+                "HM01"
+            ],
+            "Egg": [
+                ["Bide",[
+                    161,
+                    162
+                ]],
+                ["Curse",[
+                    175,
+                    176
+                ]],
+                ["Encore",[
+                    82
+                ]],
+                ["Grass Whistle",[
+                    20,
+                    21,
+                    134
+                ]],
+                ["Helping Hand",[
+                    82
+                ]],
+                ["Ingrain",[
+                    20,
+                    21,
+                    119,
+                    134,
+                    161,
+                    162,
+                    175,
+                    176,
+                    217,
+                    218
+                ]],
+                ["Leech Seed",[
+                    1,
+                    2,
+                    3,
+                    20,
+                    21,
+                    82,
+                    83,
+                    134
+                ]],
+                ["Natural Gift",[
+                    217,
+                    218
+                ]],
+                ["Sweet Scent",[
+                    119,
+                    134,
+                    135,
+                    161,
+                    162
+                ]]
+            ],
+            "Tutor": [
+                "After You",
+                "Earth Power",
+                "Endeavor",
+                "Giga Drain",
+                "Helping Hand",
+                "Seed Bomb",
+                "Sleep Talk",
+                "Snore",
+                "Synthesis",
+                "Uproar",
+                "Worry Seed"
+            ]
         },
         "Forms": null,
         "Evolution": {
-            "From": null,
+            "From": "20",
             "To": null
         }
     },

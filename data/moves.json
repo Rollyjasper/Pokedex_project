@@ -2079,140 +2079,140 @@
         "PP":25,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "String Shot":{
+        "Type":"Bug",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":95,
+        "PP":40,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Bug Bite":{
+        "Type":"Bug",
+        "Catagory":"Physical",
+        "Power":60,
+        "Accuracy":100,
+        "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Bug Buzz":{
+        "Type":"Bug",
+        "Catagory":"Special",
+        "Power":90,
+        "Accuracy":100,
+        "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Agility":{
+        "Type":"Psychic",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":30,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Me First":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":20,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Silver Wind":{
+        "Type":"Bug",
+        "Catagory":"Special",
+        "Power":60,
+        "Accuracy":100,
+        "PP":5,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Electroweb":{
+        "Type":"Electric",
+        "Catagory":"Special",
+        "Power":55,
+        "Accuracy":95,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Iron Defence":{
+        "Type":"Steel",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Razor Leaf":{
+        "Type":"Grass",
+        "Catagory":"Physical",
+        "Power":55,
+        "Accuracy":95,
+        "PP":25,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Grass Whistle":{
+        "Type":"Grass",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":55,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Heal Bell":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":5,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Entrainment":{
+        "Type":"Normal",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":100,
+        "PP":15,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Absorb":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":20,
+        "Accuracy":100,
+        "PP":25,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Pound":{
+        "Type":"Normal",
+        "Catagory":"Physical",
+        "Power":40,
+        "Accuracy":100,
+        "PP":35,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Bullet Seed":{
+        "Type":"Grass",
+        "Catagory":"Physical",
+        "Power":25,
+        "Accuracy":100,
+        "PP":30,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Petal Dance":{
+        "Type":"Grass",
+        "Catagory":"Special",
+        "Power":120,
+        "Accuracy":100,
+        "PP":10,
         "Desc":"Desc Here"
     },
-    "":{
-        "Type":"",
-        "Catagory":"",
-        "Power":0,
-        "Accuracy":0,
-        "PP":0,
+    "Ingrain":{
+        "Type":"Grass",
+        "Catagory":"Status",
+        "Power":null,
+        "Accuracy":null,
+        "PP":20,
         "Desc":"Desc Here"
     },
     "":{
