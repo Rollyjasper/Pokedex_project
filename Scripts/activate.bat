@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Will Serby\Documents\Pokedex_Project
+set VIRTUAL_ENV=C:\Users\Will\Documents\Pokedex_project\Pokedex_Project
 
 if not defined PROMPT set PROMPT=$P$G
 

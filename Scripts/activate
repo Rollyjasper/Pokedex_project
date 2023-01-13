@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Will Serby\Documents\Pokedex_Project"
+VIRTUAL_ENV="C:\Users\Will\Documents\Pokedex_project\Pokedex_Project"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
